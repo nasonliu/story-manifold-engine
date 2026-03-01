@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """
 Story Engine Gist 任务队列 - 双向通信协议 v2
@@ -20,7 +21,7 @@ import json
 import urllib.request
 from datetime import datetime, timezone
 
-GITHUB_TOKEN = "REDACTED"
+GITHUB_TOKEN = "os.environ.get("GITHUB_TOKEN", "")"
 GIST_ID      = "0e141c269ffe02b16db6e10385aded9e"
 GIST_API     = f"https://api.github.com/gists/{GIST_ID}"
 HEADERS      = {

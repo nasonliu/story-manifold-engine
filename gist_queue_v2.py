@@ -1,7 +1,8 @@
+import os
 import json, urllib.request, subprocess, platform
 from datetime import datetime, timezone
 
-GITHUB_TOKEN = "REDACTED"
+GITHUB_TOKEN = "os.environ.get("GITHUB_TOKEN", "")"
 GIST_ID      = "0e141c269ffe02b16db6e10385aded9e"
 GIST_API     = f"https://api.github.com/gists/{GIST_ID}"
 HEADERS      = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github+json", "Content-Type": "application/json"}
