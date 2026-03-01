@@ -1,0 +1,14 @@
+[
+  {
+    "ts": "2026-03-01T13:15:27.293471Z",
+    "local_ts": "2026-03-01T13:07:04Z",
+    "hostname": "nason4090",
+    "task_id": "t003",
+    "task_status": "pending",
+    "note": "v2 upgrade task in progress"
+  },
+  {
+    "ts": "2026-03-01T13:27:56.714033Z",
+    "event": "heartbeat alive - nason4090 RTX4090D, t004 pending"
+  }
+]

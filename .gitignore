@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+story-encoder-zh/
+*.egg-info/
+.env
+*.log
