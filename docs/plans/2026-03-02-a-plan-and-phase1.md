@@ -488,3 +488,9 @@
 
 解读：synthetic 与 real 在当前 embedding 空间仍明显分岛，domain mismatch 仍显著，需继续 anchor 对齐与质量修复。
 
+### 14.3 分布距离（新增）
+- `MMD^2 (RBF, subsample)=0.1059`
+- `Fréchet distance=1.0745`
+
+解读：与 UMAP 分岛结论一致，synthetic / real 仍存在可测分布间隔；后续需继续依赖 anchor 对齐，而非直接混训替换。
+

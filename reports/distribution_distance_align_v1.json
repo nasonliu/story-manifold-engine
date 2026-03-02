@@ -1,0 +1,10 @@
+{
+  "model": "story-encoder-zh-v2-time-10k-align-v1",
+  "n_synth_full": 7260,
+  "n_real_full": 100,
+  "mmd2_rbf_subsample": 0.10585441190999334,
+  "mmd_subsample_n": 1200,
+  "mmd_subsample_m": 100,
+  "frechet_distance_full": 1.0745447478304668,
+  "rbf_sigma2": 1.7888357639312744
+}
