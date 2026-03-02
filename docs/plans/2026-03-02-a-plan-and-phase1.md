@@ -290,3 +290,20 @@
 - 去敏增强必须保证替换一致性，避免噪声。
 - 检索指标提升需配套可解释分析（聚类与语义轴）共同验证。
 
+
+---
+
+## 8. 新增：Known Works 零语料直抽 Pilot（100）
+
+目标：不保存原文、不过外部语料，直接让大模型基于其已知作品知识抽取骨架。
+
+实现：
+- 脚本：`scripts/generate_known_works_pilot.py`
+- 输出目录：`data/raw_skeletons_known/pilot_100/`
+- 过程：
+  1) 先让模型生成平衡作品清单（国别/时代/风格）`works_list.json`
+  2) 对每部作品生成骨架 JSON（9 beats + tension + confidence）
+
+注意：
+- 仅保存结构化骨架与元信息，不保存作品原文。
+- 后续将对结果跑 clean_v2 分层与一致性校验。
