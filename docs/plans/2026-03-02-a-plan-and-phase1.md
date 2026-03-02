@@ -473,3 +473,18 @@
 ### 13.3 并行风险（未解决）
 - `known_works_1k` 仍为“进程存活但不产出（0/1000）”，日志停留 `JSONDecodeError`，需优先修复生成链路可用性后再引入新 anchor 数据。
 
+## 14. 新增实验（2026-03-02 22:10）
+
+### 14.1 Intrinsic Dimension（align_v1）
+- PCA 方差维度：`dim@90%=190`, `dim@95%=296`
+- TwoNN 估计：`ID≈7.71`
+
+解读：空间呈“局部低维 + 全局高维”形态，支持叙事自由度可压缩的假设，但不等于全局 10~20 维可完整表达。
+
+### 14.2 Synthetic vs Real Cluster（UMAP）
+- synthetic(main)=7260, real(pilot100)=100
+- `cross_domain_nn_ratio=0.0042`
+- `island_hint=true`
+
+解读：synthetic 与 real 在当前 embedding 空间仍明显分岛，domain mismatch 仍显著，需继续 anchor 对齐与质量修复。
+
