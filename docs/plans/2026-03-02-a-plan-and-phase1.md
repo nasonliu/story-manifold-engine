@@ -307,3 +307,46 @@
 注意：
 - 仅保存结构化骨架与元信息，不保存作品原文。
 - 后续将对结果跑 clean_v2 分层与一致性校验。
+
+---
+
+## 9. Anchor 计划（高质量骨架先行）
+
+目标：在大规模扩充前，先构建高质量“叙事锚点”数据，用于校准潜空间品味与结构边界。
+
+### 9.1 分阶段目标
+
+- **Phase A（立即）**：100 anchors（高质量人工/LLM复核）
+- **Phase B（通过后）**：500 anchors（覆盖核心题材与结局类型）
+- **Phase C（联动10k）**：用 anchors 做重加权/蒸馏校准
+
+### 9.2 Anchor 数据标准
+
+每条 anchor 必须满足：
+1. schema 完整（含 9 beats + tension_curve + ending + stakes）
+2. 结构逻辑通过（因果、冲突升级、收束一致）
+3. 模板化低（重复句式受限）
+4. 题材与结局覆盖均衡
+
+### 9.3 训练联动策略
+
+1. 对比学习主干继续使用 main 数据集
+2. anchors 在训练中提高采样权重（例如 2x-4x）
+3. 增加辅助头：ending/archetype 预测
+4. 评估时单独报告 anchor 子集检索指标
+
+### 9.4 与外部建议的落地映射
+
+- Dramatic Arc Vector -> tension_curve 数值标准化
+- 多任务 embedding -> 对比学习 + 分类辅助头
+- Mix consistency -> 线性插值后 LLM 结构一致性检查
+- Graph 化 -> 中长期 Narrative Graph 方向，不阻塞当前里程碑
+
+### 9.5 执行顺序（更新）
+
+1. 完成当前 10k 生成 + pilot 验证
+2. 启动 100 anchors 构建与复核
+3. 跑小规模训练（含时间维 + anchors重权）
+4. 评估通过后扩到 500 anchors
+5. 再进入全量训练与 taxonomy v2 反推
+
