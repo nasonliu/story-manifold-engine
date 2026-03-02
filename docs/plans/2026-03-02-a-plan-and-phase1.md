@@ -241,3 +241,52 @@
 - **P1**：时间维建模 + 语义轴验证 + 解码自检回路
 - **P2**：分形扩展 + teacher偏好学习微调
 
+
+---
+
+## 7. EMNLP 2024 Story Embeddings 论文对齐建议（已讨论确认）
+
+参考论文：Story Embeddings — Narrative-Focused Representations of Fictional Stories（EMNLP 2024 main 339）
+参考仓库：`uhh-lt/story-emb`
+
+### 7.1 可直接迁移的方法
+
+1. **目标保持 narrative similarity**
+   - 训练目标聚焦“发生了什么”，弱化表面措辞、命名与风格差异。
+
+2. **对比学习 + in-batch negatives**
+   - 沿用对比学习框架，利用 batch 内自然负样本提升区分度。
+
+3. **实体去敏增强（pseudonymization）**
+   - 对文本中的实体名做一致替换（如主角A/反派B），作为训练增强视图。
+   - 原始文本保留，不做覆盖。
+
+4. **统一 query prefix**
+   - 训练与检索阶段统一输入前缀模板，减少训练/推理分布偏差。
+
+5. **检索指标作为主 KPI**
+   - 保持 Recall@k / MRR，并补充 MAP / nDCG 作为标准化评估。
+
+### 7.2 数据策略（训练 vs 验证）
+
+1. **主训练集**：`skeletons_v2_main`
+2. **鲁棒样本混入**：`skeletons_v2_secondary`（低权重）
+3. **外部验证集（优先用于评估，不直接并入主训练）**：
+   - Retellings（优先）
+   - Movie Remake（次优先）
+
+### 7.3 执行顺序（更新）
+
+1. 跑满 10k 生成
+2. 维持 clean v2 分层产物
+3. 训练配置：方案1 + 时间维 + 去敏增强视图
+4. 小规模正式训练（1k~2k）
+5. secondary + external eval（retellings/remake）出 benchmark
+6. 再决策全量训练
+
+### 7.4 风险控制
+
+- 不提前将外部数据并入主训练，避免分布漂移。
+- 去敏增强必须保证替换一致性，避免噪声。
+- 检索指标提升需配套可解释分析（聚类与语义轴）共同验证。
+
