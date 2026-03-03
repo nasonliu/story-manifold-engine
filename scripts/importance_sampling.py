@@ -10,7 +10,7 @@ from sklearn.neighbors import KernelDensity, NearestNeighbors
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 from sentence_transformers import SentenceTransformer
-from encoder.text_utils import skeleton_to_dsl
+from encoder.representation import to_dsl
 from collections import Counter
 
 
@@ -97,10 +97,10 @@ def main():
     print("\n=== Encoding ===")
     model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
     
-    sk_texts = [skeleton_to_dsl(s) for s in skeletons]
+    sk_texts = [to_dsl(s) for s in skeletons]
     sk_embs = model.encode(sk_texts, show_progress_bar=True)
     
-    kw_texts = [skeleton_to_dsl(s) for s in known_works]
+    kw_texts = [to_dsl(s) for s in known_works]
     kw_embs = model.encode(kw_texts, show_progress_bar=True)
     
     # 计算 known_works 中心
