@@ -136,18 +136,49 @@ def skeleton_to_dsl_v2(sk: dict) -> str:
     
     # Extract key structural parameters
     L = params.get('L', len(beats))  # beats count
-    C = params.get('C', sk.get('climax_position', 0.5))  # climax position
+    
+    # Extract C (climax position) - try multiple sources
+    C = None
+    if 'C' in params:
+        C = params.get('C')
+    elif 'climax_position' in sk:
+        C = sk.get('climax_position')
+    elif sk.get('tension_curve'):
+        # Infer from tension_curve
+        tc = sk.get('tension_curve')
+        max_idx = tc.index(max(tc))
+        C = max_idx / len(tc) if tc else 0.5
+    else:
+        C = 0.5
+    
     R = params.get('R', len(sk.get('turning_points', [])))  # reversals
     T = params.get('Tshape', 'na')  # tension shape
     E = sk.get('ending', 'open')  # ending
     N = len(beats)  # actual beats count
     
+    # Get tension values - try multiple sources
+    # 1. For NP: beats have 'tension' field
+    # 2. For known_works: use 'tension_curve' field
+    tension_curve = sk.get('tension_curve', [])
+    
     # Build beat sequence (compact)
     beat_roles = []
-    for b in beats:
+    for i, b in enumerate(beats):
         if isinstance(b, dict):
             role = b.get('role', 'progress')[:3]  # short role
-            tension = b.get('tension', 0.5)
+            
+            # Try to get tension from multiple sources
+            tension = None
+            if 'tension' in b:
+                # NP format: beats have 'tension' field
+                tension = b.get('tension', 0.5)
+            elif tension_curve and i < len(tension_curve):
+                # known_works format: use tension_curve
+                tension = tension_curve[i]
+            
+            if tension is None:
+                tension = 0.5
+            
             beat_roles.append(f"{role}:{tension:.1f}")
     
     # Construct DSL
