@@ -1,20 +1,15 @@
-# Cleaning Report v2
+# cleaning_report_v2
 
-- time: 2026-03-02 15:55:03.045711
-- total: 8072
-- main: 6020
-- secondary: 2052
-- main_pct: 74.6%
+- total_files: 10000
+- kept: 9991
+- rejected: 9
+- keep_rate: 99.91%
+- schema_pass_rate: 99.94%
 
-## Params
-- title_trigger: 20
-- title_keep: 12
-- logline_sim: 0.95
-- score_threshold: 65
-
-## Top reasons
-- title_over_cap: 1941
-- near_dup_logline: 198
-- beat_empty: 3
-- template_heavy: 2
-- beats_len: 1
+## top reject reasons
+- missing:tension_curve: 3
+- beat_missing_name_desc:6: 2
+- beat_missing_name_desc:5: 1
+- low_score:54.42: 1
+- low_score:51.21: 1
+- low_score:50.58: 1
