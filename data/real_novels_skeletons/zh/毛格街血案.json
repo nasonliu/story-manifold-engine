@@ -1,6 +1,6 @@
 {
   "title": "毛格街血案",
-  "author": "",
+  "author": "未知",
   "language": "zh",
   "genre": "悬疑",
   "structure": {
@@ -8,35 +8,41 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "血案发生，侦探接手；"
+        "desc": "毛格街发生血案，侦探被卷入调查。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现关键线索；"
+        "desc": "发现关键线索，指向嫌疑人。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "接近真相；"
+        "desc": "侦探锁定嫌疑人，准备收网。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "嫌疑人反击；"
+        "desc": "嫌疑人逃脱，危机升级。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "对决；"
+        "desc": "侦探揭露真相，解决案件。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "破案结案"
+        "desc": "案件尘埃落定，侦探获得认可。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "侦探通过分析能力解开毛格街血案谜团，展现推理智慧与破案过程。",
+  "summary": "侦探通过分析能力解开毛格街血案，探讨分析与直觉的对比。",
   "chapter_count": 1
 }

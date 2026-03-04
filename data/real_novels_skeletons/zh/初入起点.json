@@ -1,0 +1,62 @@
+{
+  "title": "初入起点",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市/玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "等待游戏公测"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现游戏特色"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "等待过程感慨"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无解决"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "玩家吴起为测试新游戏\"起点\"公测，排队等待体验高拟真度头盔与游戏特色，感慨游戏人生。",
+  "chapter_count": 1
+}

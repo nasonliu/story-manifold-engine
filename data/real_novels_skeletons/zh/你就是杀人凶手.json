@@ -2,40 +2,9 @@
   "title": "你就是杀人凶手",
   "author": "那些年一起追过的小说",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "悬疑/犯罪",
   "structure": {
-    "beats": [
-      {
-        "id": 1,
-        "name": "beat_1",
-        "desc": "富商失踪引发调查"
-      },
-      {
-        "id": 2,
-        "name": "beat_2",
-        "desc": "朋友被列为嫌疑人"
-      },
-      {
-        "id": 3,
-        "name": "beat_3",
-        "desc": "线索指向神秘组织"
-      },
-      {
-        "id": 4,
-        "name": "beat_4",
-        "desc": "真相颠覆认知"
-      },
-      {
-        "id": 5,
-        "name": "beat_5",
-        "desc": "暴力摊牌揭露阴谋"
-      },
-      {
-        "id": 6,
-        "name": "beat_6",
-        "desc": "法律与道德的抉择"
-      }
-    ],
+    "beats": [],
     "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
@@ -51,6 +20,6 @@
       0.3
     ]
   },
-  "summary": "富商离奇失踪，小镇居民将矛头指向其挚友，调查揭开层层阴谋与人性黑暗面。",
-  "chapter_count": 10
+  "summary": "小镇长者离奇失踪，众人求助神灵，调查过程中发现好友嫌疑，真相揭开后引发信仰危机。",
+  "chapter_count": 1
 }

@@ -1,39 +1,39 @@
 {
   "title": "浪子江湖",
-  "author": "佚名",
+  "author": "",
   "language": "zh",
-  "genre": "都市/仙侠",
+  "genre": "仙侠",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "看到美女洗澡。"
+        "desc": "黄羽翔撞见绝色美女沐浴，引发杀身之祸。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现对方身份。"
+        "desc": "张华庭发现儿子失踪，派高手追杀。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "意识到危险。"
+        "desc": "黄羽翔被迫逃亡，寻找解药。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "被追杀。"
+        "desc": "追杀危机升级，多方势力介入。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "对决。"
+        "desc": "与张华庭父子决战。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "逃脱。"
+        "desc": "黄羽翔化解危机，获得奇遇。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "浪子黄羽翔因意外撞见绝世美女洗澡，引发江湖纷争，面临杀身之祸。",
-  "chapter_count": 5
+  "summary": "浪子黄羽翔因轻功失误摔伤，意外撞见江湖第一美女沐浴，引发武林高手追杀，被迫逃亡。",
+  "chapter_count": 10
 }

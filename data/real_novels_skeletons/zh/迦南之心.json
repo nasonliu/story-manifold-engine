@@ -2,38 +2,38 @@
   "title": "迦南之心",
   "author": "绯炎",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "游戏/都市/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "玩家执行任务导致追杀。"
+        "desc": "开始游戏任务"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "到达永暗镇。"
+        "desc": "到达目的地"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "发现神秘狼嚎事件。"
+        "desc": "暂时休息"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "危机尚未显现。"
+        "desc": "遭遇危机"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "高潮未发生。"
+        "desc": "高潮未出现"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解决未发生。"
+        "desc": "未解决"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "玄幻游戏玩家箫焚因执行任务，在永暗丘陵遭遇追杀，历经艰险抵达永暗镇，目睹神秘狼嚎事件，踏上未知旅程。",
-  "chapter_count": 0
+  "summary": "主角箫焚为完成游戏任务，在炎热天气中艰难跋涉，最终抵达永暗镇边缘，遭遇未知危机。",
+  "chapter_count": 1
 }

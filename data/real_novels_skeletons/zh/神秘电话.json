@@ -1,0 +1,54 @@
+{
+  "title": "神秘电话",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市/悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "杨华第三次高考当天被劫持；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现前两次缺考与意外事件相关；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "调查霉运与犯罪团伙的联系；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "霉运经历被证实与劫案有关；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "挫败犯罪团伙的阴谋；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "揭露真相，杨华洗清冤屈"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      0.8,
+      0.6,
+      0.4
+    ]
+  },
+  "summary": "杨华三次高考因霉运缺考，调查发现与连环犯罪有关，揭开自身遭遇背后的阴谋。",
+  "chapter_count": 10
+}

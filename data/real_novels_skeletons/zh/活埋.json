@@ -1,42 +1,48 @@
 {
   "title": "活埋",
-  "author": "未知",
+  "author": "佚名",
   "language": "zh",
-  "genre": "悬疑/恐怖",
+  "genre": "悬疑/惊悚",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角被意外活埋。"
+        "desc": "主角遭遇意外活埋；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现其他受害者尸体。"
+        "desc": "意识到无法逃脱的现实；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "意识到人性黑暗。"
+        "desc": "在黑暗中适应并思考生命意义；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "陷入绝望无路可逃。"
+        "desc": "绝望感达到顶峰；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与前来挖掘的众人对抗。"
+        "desc": "最终在黑暗中消亡；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "最终逃脱或接受命运。"
+        "desc": "无解的结局，引发读者思考"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -46,11 +52,12 @@
       0.7,
       0.9,
       1.0,
+      0.9,
       0.7,
       0.5,
       0.3
     ]
   },
-  "summary": "主角被活埋后发现人性黑暗面，揭露社会残酷真相的故事。",
+  "summary": "探讨活埋主题的恐怖小说，聚焦于个体在极端困境下的挣扎与绝望。",
   "chapter_count": 0
 }

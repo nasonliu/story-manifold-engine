@@ -4,14 +4,39 @@
   "language": "zh",
   "genre": "历史",
   "structure": {
-    "beats": [],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "死囚被判处死刑，进入死牢；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "法官宣判时的冷漠态度；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "死囚对死亡的幻想与恐惧；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "行刑前的绝望等待；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "行刑仪式的紧张时刻；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "死囚获得解脱"
+      }
     ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -26,6 +51,6 @@
       0.4
     ]
   },
-  "summary": "死囚面对死刑的恐惧与审判场景，内心对周围环境的扭曲想象。",
+  "summary": "法国大革命背景下，一名死囚在雅各宾俱乐部监狱中面对死刑审判，经历恐惧与幻灭的心理挣扎。",
   "chapter_count": 10
 }

@@ -1,31 +1,45 @@
 {
   "title": "陷坑与钟摆",
-  "author": "未知",
+  "author": "那些年一起追过的小说",
   "language": "zh",
-  "genre": "都市/科幻",
+  "genre": "都市",
   "structure": {
-    "beats": [],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "被判处死刑；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "意识到死亡不可避免；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "出现超自然现象；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "审判者消失；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "面对死亡抉择；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "接受或反抗命运"
+      }
     ],
+    "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.5,
-      0.7,
-      0.9,
-      1.0,
-      0.7,
-      0.5,
-      0.3
-    ]
+    "tension_curve": []
   },
-  "summary": "主角被判处死刑，在折磨中逐渐接受死亡，最终在行刑前获得某种超脱或重生。",
-  "chapter_count": 0
+  "summary": "主角在酷刑中被判处死刑，经历超现实审判与幻象，面临生死抉择的内心挣扎。",
+  "chapter_count": 1
 }

@@ -2,7 +2,7 @@
   "title": "网游之模拟城市",
   "author": "笨太子",
   "language": "zh",
-  "genre": "都市",
+  "genre": "都市/游戏",
   "structure": {
     "beats": [],
     "turning_points": [
@@ -26,6 +26,6 @@
       0.3
     ]
   },
-  "summary": "主角经营虚拟领地，发展城市，与历史人物互动，弥补现实遗憾。",
-  "chapter_count": 30
+  "summary": "主角在模拟城市网游中经营领地，发展村落，弥补现实遗憾，演绎历史。",
+  "chapter_count": 10
 }

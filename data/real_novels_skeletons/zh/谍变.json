@@ -1,48 +1,42 @@
 {
   "title": "谍变",
-  "author": "金串",
+  "author": "未知",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "悬疑/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "特工名单被盗，贝尔调查；"
+        "desc": "间谍盗走特工名单，贝尔紧急回国。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现间谍手法类似MI6；"
+        "desc": "队员发现间谍在巴黎接头。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "怀疑病毒可能性五成；"
+        "desc": "贝尔推测CIA“病毒”可能介入。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "各国间谍陆续抵达巴黎；"
+        "desc": "各国间谍抵达，局势升级。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "贝尔准备行动对抗；"
+        "desc": "贝尔与间谍展开终极对决。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功取回物品或解决危机"
+        "desc": "团队成功取回名单，但付出代价。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "法国特工失窃名单，贝尔队长怀疑对手是CIA的病毒，准备应对盟国间谍威胁。",
-  "chapter_count": 10
+  "summary": "法国特工名单遭窃，贝尔队长追查间谍，对抗各国势力，揭露阴谋，直面生死危机。",
+  "chapter_count": 1
 }
