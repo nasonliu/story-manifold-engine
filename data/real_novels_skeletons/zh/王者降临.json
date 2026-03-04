@@ -1,39 +1,39 @@
 {
-  "title": "天王",
-  "author": "跳舞",
+  "title": "王者降临",
+  "author": "",
   "language": "zh",
-  "genre": "都市/异能",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "父母死于科研事故，接神秘电话；"
+        "desc": "科学家发表抑制原子裂变技术"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "收到沉睡女孩，生活剧变；"
+        "desc": "多国掌握技术并退出联合国"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "适应新生活并觉醒能力；"
+        "desc": "Z国对TW开战"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "首次遭遇危机；"
+        "desc": "Z国对TW开战"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与沉睡女孩共同对抗强敌；"
+        "desc": "竹国对TW开战"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "主角掌控力量，守护身边人。"
+        "desc": "竹国对TW开战"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "十八岁孤儿陈潇生日接神秘电话，获父母遗留的沉睡女孩，从此卷入都市异能世界。",
-  "chapter_count": 0
+  "summary": "未来世界多国掌握原子裂变抑制技术，围绕台湾问题爆发战争，一名无名狙击手回忆自己战场经历。",
+  "chapter_count": 1
 }

@@ -1,39 +1,39 @@
 {
-  "title": "天王",
-  "author": "跳舞",
+  "title": "疑难解答集",
+  "author": "未知",
   "language": "zh",
-  "genre": "都市/异能",
+  "genre": "游戏",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "父母死于科研事故，接神秘电话；"
+        "desc": "读者提出游戏相关问题"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "收到沉睡女孩，生活剧变；"
+        "desc": "作者逐一解答"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "适应新生活并觉醒能力；"
+        "desc": "问题解决后的新疑问"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "首次遭遇危机；"
+        "desc": "公告中断更新"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与沉睡女孩共同对抗强敌；"
+        "desc": "读者期待后续内容"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "主角掌控力量，守护身边人。"
+        "desc": "作者承诺减少设定说明"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "十八岁孤儿陈潇生日接神秘电话，获父母遗留的沉睡女孩，从此卷入都市异能世界。",
-  "chapter_count": 0
+  "summary": "游戏设定问答集，解答玩家关于职业赛奖品、游戏机制及公告等疑问，内容以FAQ形式呈现。",
+  "chapter_count": 8
 }

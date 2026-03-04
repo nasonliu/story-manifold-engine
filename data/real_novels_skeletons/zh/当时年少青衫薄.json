@@ -1,11 +1,48 @@
 {
   "title": "当时年少青衫薄",
-  "author": "无明确提及",
+  "author": "管平潮",
   "language": "zh",
-  "genre": "仙侠",
+  "genre": "都市仙侠",
   "structure": {
-    "beats": [],
-    "turning_points": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "少年张醒言渴望拜入仙门却屡遭拒绝。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "他决定改变自己，踏上寻道之路。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得季老先生启蒙，领悟诗书真谛。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇强敌，险些丧命。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "突破境界，初窥仙道门径。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "找到自己的道，不再执着于拜师。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -20,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "十四五岁少年张醒言痴迷修道，屡遭拒绝后仍坚持，展开一段充满仙侠与成长的波折故事。",
-  "chapter_count": 0
+  "summary": "十四五岁的少年张醒言渴望拜入仙门，却屡遭拒绝。为追寻仙道，他决定改变自己，踏上寻找机缘的旅程。",
+  "chapter_count": 10
 }
