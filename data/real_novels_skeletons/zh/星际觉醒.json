@@ -1,0 +1,56 @@
+{
+  "title": "星际觉醒",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "插卡验证获入伍许可"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "抱怨流程但决心参军"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "回忆元帅梦想与家族渊源"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "揭露父母不孕的家族秘密"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "面对高考失利与军衔差距"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功开启新兵生活"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "唐龙通过高科技身份验证入伍，因家族单丁和高考失利挣扎，立志成为元帅统领天下。",
+  "chapter_count": 10
+}

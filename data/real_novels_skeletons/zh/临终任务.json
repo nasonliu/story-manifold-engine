@@ -1,0 +1,62 @@
+{
+  "title": "临终任务",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市/奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现泪流满面能力"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "接到神秘任务"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得超自然力量"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇组织追杀"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终决战"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "完成任务"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "重症肌无力患者范慎在弥留之际，发现自己能通过流泪获得超自然力量，被迫接下寻找神秘组织的临终任务。",
+  "chapter_count": 0
+}

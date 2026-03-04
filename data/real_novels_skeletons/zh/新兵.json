@@ -1,0 +1,25 @@
+{
+  "title": "新兵",
+  "author": "未知",
+  "language": "zh",
+  "genre": "冒险",
+  "structure": {
+    "beats": [],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "唐龙放弃优渥生活参军，经历身份验证后进入新兵营，为实现元帅梦想直面挑战。",
+  "chapter_count": 0
+}

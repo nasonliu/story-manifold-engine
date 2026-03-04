@@ -1,0 +1,62 @@
+{
+  "title": "瓶子中的手稿",
+  "author": "基诺",
+  "language": "en",
+  "genre": "冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现神秘手稿；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "决定阅读手稿内容；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "意识到手稿揭示的危险；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "手稿突然消失；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "面对生死抉择；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角做出决定并离开。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.9,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角在航船上发现神秘手稿，面临生死抉择，揭开一段不为人知的危险过往。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "月球魔武学院",
+  "author": "",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "韩硕被卷入月球，成为激励事件。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "楚沧澜准备决战，第一个转折点。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "韩硕开始修炼，中点。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "三人联手危机，危机点。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "决战高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "韩硕恢复神识。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "宅男附身异界杂役，修魔成长，颠覆众人认知。",
+  "chapter_count": 10
+}

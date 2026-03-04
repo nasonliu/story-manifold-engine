@@ -1,0 +1,62 @@
+{
+  "title": "细腰",
+  "author": "藤萍",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "女主接受身体改造手术"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现身体被用于实验"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "手术完成获得新身体"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "身份认同危机爆发"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "面对真相"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "接受现实"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "女主为追求完美身材接受改造手术，却发现自己身体被用于他人实验，陷入身份认同危机。",
+  "chapter_count": 1
+}

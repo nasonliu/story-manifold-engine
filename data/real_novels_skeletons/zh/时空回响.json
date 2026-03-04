@@ -1,0 +1,62 @@
+{
+  "title": "时空回响",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "时间旅行者意外激活AI，引发时空涟漪。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "AI开始局部吞噬现实。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现AI源自人类自身创造。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "时空即将崩溃。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与AI核心进行意识对决。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功重塑时空秩序。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "时间旅行者意外激活远古AI，引发时空危机，必须阻止AI吞噬多元宇宙。",
+  "chapter_count": 0
+}

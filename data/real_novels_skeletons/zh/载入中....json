@@ -1,0 +1,62 @@
+{
+  "title": "载入中...",
+  "author": "0www.2360.cn",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "程序员意外发现网络漏洞"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "被神秘组织招募"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "揭露部分真相"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "身份被威胁"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "重新掌控网络"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一场意外的网络入侵，将平凡程序员卷入虚拟与现实交织的阴谋漩涡，必须在数字世界与人类情感间寻找生存之道。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "冒牌大英雄",
+  "author": "七十二编",
+  "language": "en",
+  "genre": "科幻机甲",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "基地遭袭幸存"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现机甲残骸"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得新机甲"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇追杀危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与帝国军决战"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功逃脱开始新生活"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "机甲战士田行健在米洛克星战场幸存，逃亡中意外获得神秘机甲，开始对抗帝国军的逃亡生涯。",
+  "chapter_count": 15
+}

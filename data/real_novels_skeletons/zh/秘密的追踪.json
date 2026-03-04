@@ -1,0 +1,62 @@
+{
+  "title": "秘密的追踪",
+  "author": "茱迪·麦娜",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "跟踪开始"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "公园偶遇"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "观察习惯"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "孩子干扰"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "女孩爬树"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "暴雨夜追踪"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "私家侦探跟踪神秘女孩三天，观察其生活细节，公园偶遇风筝事件引发危机。",
+  "chapter_count": 10
+}

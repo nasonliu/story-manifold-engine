@@ -1,17 +1,42 @@
 {
   "title": "决战·珠穆朗玛之巅",
-  "author": "未知",
+  "author": "未提供",
   "language": "zh",
-  "genre": "冒险",
+  "genre": "玄幻/都市/仙侠",
   "structure": {
-    "beats": [],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "十几人攀登珠峰准备决战。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "胖子质疑地点选择，红衣人解释。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "蓝裙女子提议加快速度抢占先机。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "众人进入更危险区域，红衣人提出热身。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "热身结束后，决战即将开始。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "对决爆发。"
+      }
     ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -26,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "一行人攀登珠峰准备决战，途中讨论环境与目标，展现冒险氛围。",
-  "chapter_count": 1
+  "summary": "十几人攀登珠峰准备对决，红衣神秘人物带领众人，气氛紧张，即将展开激烈战斗。",
+  "chapter_count": 0
 }

@@ -1,39 +1,39 @@
 {
   "title": "决战.珠穆朗玛之颠",
-  "author": "未知",
+  "author": "飞库网",
   "language": "zh",
-  "genre": "仙侠",
+  "genre": "冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "决定在珠峰决战；"
+        "desc": "决定在珠峰决战，众人攀登。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "红衣人出现带队；"
+        "desc": "过雪山后加速行动。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "登山过程中的冲突；"
+        "desc": "队伍过雪山，进入战前状态。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "敌人突袭危机；"
+        "desc": "危机出现，遭遇敌人。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "顶峰决战高潮；"
+        "desc": "高潮：决战爆发。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "胜负揭晓解决"
+        "desc": "胜负揭晓，故事结束。"
       }
     ],
     "turning_points": [
@@ -43,7 +43,7 @@
       0.7,
       0.9
     ],
-    "climax_position": 0.9,
+    "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "登山者在珠峰顶准备决战，红衣神秘老大带领众人应对挑战。",
+  "summary": "一群人为决战攀登珠峰，面对极端环境和未知对手，展开生死对决。",
   "chapter_count": 1
 }

@@ -1,0 +1,62 @@
+{
+  "title": "面具碎裂",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "技术引发国际冲突"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "Z国对TW开战"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "NO13面临毕业考"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "战争阴影笼罩"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮：NO13的内心挣扎"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决：NO13的生存与成长"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "国际冲突因抑制原子裂变技术引发，个人成长故事聚焦于战争中幸存的狙击手。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "占位符标题",
+  "author": "占位符作者",
+  "language": "zh",
+  "genre": "占位符类型",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "占位符激励事件描述"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "占位符第一个转折点描述"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "占位符中点描述"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "占位符危机描述"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "占位符高潮描述"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "占位符解决描述"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "占位符故事概要",
+  "chapter_count": 1
+}

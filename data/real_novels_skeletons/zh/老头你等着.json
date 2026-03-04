@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "发现诺顿星；"
+        "desc": "发现诺顿星，决定移民；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "登船告别；"
+        "desc": "登船启程；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "火星开发背景；"
+        "desc": "登船告别；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "扎戈族威胁；"
+        "desc": "遭遇扎戈族；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "星际旅行；"
+        "desc": "到达新星球；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "抵达新家园。"
+        "desc": "开始新生活。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "人类移民诺顿星途中，年轻主角与红鼻子老头的告别场景。",
-  "chapter_count": 5
+  "summary": "年轻人踏上未知星球寻找爷爷，途中遭遇危机，最终抵达新家园。",
+  "chapter_count": 1
 }

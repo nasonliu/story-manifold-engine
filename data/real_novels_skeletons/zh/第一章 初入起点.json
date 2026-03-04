@@ -1,0 +1,62 @@
+{
+  "title": "第一章 初入起点",
+  "author": "",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "等待游戏公测入场"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "排队时思考游戏前景"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "观看游戏宣传"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "游戏可能不火的危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "进入游戏世界"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "开始虚拟世界冒险"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "玩家吴起为寻找优质游戏排队等候，内心充满对新游戏的期待与对未来的迷茫。",
+  "chapter_count": 100
+}

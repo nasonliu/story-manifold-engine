@@ -1,0 +1,62 @@
+{
+  "title": "疑难解答游戏FAQ",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "玩家遇到游戏机制问题"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "通过解答理解系统规则"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "掌握关键属性成长方法"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遇到物品使用限制"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "完全掌握游戏系统"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决所有疑问"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "游戏FAQ解答集，涵盖职业赛奖品、迷石散Bug、属性成长等常见问题解答。",
+  "chapter_count": 8
+}

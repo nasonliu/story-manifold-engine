@@ -1,0 +1,62 @@
+{
+  "title": "迈尔海峡遇险记",
+  "author": "约瑟",
+  "language": "en",
+  "genre": "冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "老人讲述遇险经历；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "老人恐惧影响探险者；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "探险者尝试克服恐惧；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "悬崖危机；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "探险者决定继续前进；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "暂时克服恐惧但仍有后遗症。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "老人讲述遇险经历导致心理崩溃，年轻探险者试图克服恐惧。",
+  "chapter_count": 1
+}

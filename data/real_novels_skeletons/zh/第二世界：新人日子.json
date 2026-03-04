@@ -1,0 +1,56 @@
+{
+  "title": "第二世界：新人日子",
+  "author": "",
+  "language": "zh",
+  "genre": "科幻/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角开始玩新游戏“第二世界”。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "小毛邀请主角一起玩。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "主角同意与小毛一起玩。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "游戏刚开始，尚未发生危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "游戏高潮未发生。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "游戏结局未发生。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角生日开始玩新游戏“第二世界”，朋友邀请一起玩，但尚未深入。",
+  "chapter_count": 1
+}

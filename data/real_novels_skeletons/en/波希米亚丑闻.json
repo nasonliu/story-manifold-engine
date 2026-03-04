@@ -1,0 +1,63 @@
+{
+  "title": "波希米亚丑闻",
+  "author": "阿瑟·柯南·道尔",
+  "language": "en",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "谋杀动机产生；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "精心策划谋杀；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "实施谋杀；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "被福尔摩斯识破；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "真相大白；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "罪犯被捕"
+      }
+    ],
+    "turning_points": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      0.8,
+      0.6,
+      0.4,
+      0.2,
+      0.1
+    ]
+  },
+  "summary": "一个因迷恋老者的外貌而策划完美谋杀的叙述，展现犯罪心理与推理线索。",
+  "chapter_count": 10
+}

@@ -2,38 +2,38 @@
   "title": "红尘有梦",
   "author": "永远的流浪者",
   "language": "zh",
-  "genre": "都市/仙侠",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "军训中受特殊对待；"
+        "desc": "赵风邀请李远方作报告；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "赵风邀其作报告；"
+        "desc": "李远方回忆高考失利；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "李远方决定分享经历；"
+        "desc": "李远方与父亲的对话；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "军训考核危机；"
+        "desc": "征兵困难；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "考核展现能力；"
+        "desc": "李远方决定复员；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "获得认可与新机遇"
+        "desc": "父亲支持他。"
       }
     ],
     "turning_points": [
@@ -43,7 +43,7 @@
       0.7,
       0.9
     ],
-    "climax_position": 0.9,
+    "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "复员大学生李远方入学军训，因特殊经历受关注，获邀分享军旅故事，开启平凡中寻梦之旅。",
-  "chapter_count": 1
+  "summary": "复员军人李远方在大学军训中受教官赏识，被邀请作报告，回忆高考失利与家庭背景，展开人生新篇章。",
+  "chapter_count": 2
 }

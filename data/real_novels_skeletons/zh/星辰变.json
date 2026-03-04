@@ -1,6 +1,6 @@
 {
   "title": "星辰变",
-  "author": "我吃西红柿",
+  "author": "",
   "language": "zh",
   "genre": "玄幻",
   "structure": {
@@ -13,27 +13,27 @@
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇重大挫折。"
+        "desc": "主角离开宗门闯荡世界。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "获得重要能力。"
+        "desc": "主角获得一方势力掌控权。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面临终极危机。"
+        "desc": "主角遭遇重大挫折。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终决战。"
+        "desc": "主角与宿敌决战。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为强者。"
+        "desc": "主角成为一方强者。"
       }
     ],
     "turning_points": [],
@@ -52,5 +52,5 @@
     ]
   },
   "summary": "主角在异世界修炼成长，历经磨难最终成为强者的故事。",
-  "chapter_count": 200
+  "chapter_count": 0
 }

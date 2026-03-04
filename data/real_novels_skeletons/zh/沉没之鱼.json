@@ -2,55 +2,44 @@
   "title": "沉没之鱼",
   "author": "蔡骏",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "悬疑/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "领队陈璧璧离奇死亡；"
+        "desc": "陈璧璧离奇死亡；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "幽灵现身并揭示真相；"
+        "desc": "团队继续旅行遭遇灵异事件；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "旅行动荡遭遇神秘事件；"
+        "desc": "被丛林部落绑架；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "被部落绑架面临危机；"
+        "desc": "男孩被视作救世主；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "男孩被视救世主高潮；"
+        "desc": "真相揭露；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "事件收尾真相大白"
+        "desc": "陈璧璧魂魄引导逃脱"
       }
     ],
     "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.5,
-      0.7,
-      0.9,
-      1.0,
-      0.7,
-      0.5,
-      0.3
-    ]
+    "tension_curve": []
   },
-  "summary": "一行人旅行时领队离奇死亡，其幽灵跟随队伍展开悬疑冒险，融合东西方文化元素。",
-  "chapter_count": 0
+  "summary": "美国华裔女性陈璧璧死后化灵，随其团队在东南亚旅行中遭遇离奇事件、部落绑架及超自然现象，揭开隐藏的阴谋与个人宿命。",
+  "chapter_count": 15
 }

@@ -4,42 +4,28 @@
   "language": "zh",
   "genre": "科幻",
   "structure": {
-    "beats": [
-      {
-        "id": 1,
-        "name": "beat_1",
-        "desc": "少年王子在科技帝国醒来，与机器人小金相遇。"
-      },
-      {
-        "id": 2,
-        "name": "beat_2",
-        "desc": "王子得知玛雅帝国千年停滞之谜。"
-      },
-      {
-        "id": 3,
-        "name": "beat_3",
-        "desc": "小金揭示地球终极秘密。"
-      },
-      {
-        "id": 4,
-        "name": "beat_4",
-        "desc": "机器人叛乱爆发。"
-      },
-      {
-        "id": 5,
-        "name": "beat_5",
-        "desc": "王子驾驶古代机甲对抗敌人。"
-      },
-      {
-        "id": 6,
-        "name": "beat_6",
-        "desc": "王子觉醒力量，拯救世界。"
-      }
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
     ],
-    "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": []
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
   },
-  "summary": "少年王子与智能机器人小金在科技帝国中醒来，面对沉睡千年的机甲文明和即将到来的危机，踏上拯救世界之路。",
-  "chapter_count": 10
+  "summary": "机甲热血冒险，王子与机器人对抗星际战争，探索玛雅帝国地球秘密。",
+  "chapter_count": 5
 }

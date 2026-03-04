@@ -1,0 +1,62 @@
+{
+  "title": "The Girl Next Door",
+  "author": "Jodie Knaan",
+  "language": "en",
+  "genre": "Suspense",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "The man begins secretly following a woman."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "He tries to control his emotions but finds himself captivated."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "The woman's daily routine becomes his focus."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "Children interrupt his observation."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "His patience reaches its limit."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "He decides to continue his surveillance."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "A man secretly observes a woman, gradually uncovering her secrets while his own obsession deepens.",
+  "chapter_count": 10
+}

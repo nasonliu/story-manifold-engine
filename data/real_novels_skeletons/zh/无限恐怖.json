@@ -2,41 +2,47 @@
   "title": "无限恐怖",
   "author": "zhttty",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "离开黄金时代观察行业现状；"
+        "desc": "作者离开网络书界后发现原创消失；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现原创消失，文笔取代剧情；"
+        "desc": "决定创作《无限恐怖》以提倡新意；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "创作《无限恐怖》传达新意；"
+        "desc": "小说发布引发关注；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面对抄袭泛滥的行业危机；"
+        "desc": "抄袭问题成为危机；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "作品发布引发讨论高潮；"
+        "desc": "通过故事传达创新理念；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "读者认可原创价值。"
+        "desc": "读者反响证明其成功。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "黄金时代后，作者以《无限恐怖》强调剧情创新，批判抄袭泛滥，呼吁回归原创。",
-  "chapter_count": 10
+  "summary": "作者反思网络文学原创危机，创作《无限恐怖》以示挣扎，呼吁读者重视剧情创新。",
+  "chapter_count": 0
 }

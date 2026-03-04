@@ -8,42 +8,42 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "Cannot identify"
+        "desc": "The text is encrypted and cannot be read."
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "Cannot identify"
+        "desc": "The text is corrupted and cannot be read."
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "Cannot identify"
+        "desc": "The text is encrypted and cannot be read."
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "Cannot identify"
+        "desc": "The text is corrupted and cannot be read."
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "Cannot identify"
+        "desc": "The text is encrypted and cannot be read."
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "Cannot identify"
+        "desc": "The text is corrupted and cannot be read."
       }
     ],
     "turning_points": [
+      0.1,
+      0.3,
       0.5,
-      0.5,
-      0.5,
-      0.5,
-      0.5
+      0.7,
+      0.9
     ],
-    "climax_position": 0.5,
+    "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "无法解读的加密文本。",
+  "summary": "This text appears to be encrypted or corrupted. No story content could be extracted.",
   "chapter_count": 1
 }

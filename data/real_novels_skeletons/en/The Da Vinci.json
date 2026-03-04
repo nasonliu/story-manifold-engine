@@ -1,0 +1,62 @@
+{
+  "title": "The Da Vinci",
+  "author": "Dan Brown",
+  "language": "en",
+  "genre": "悬疑/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "妻子发现禁书引发好奇"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "解密密码揭开惊人真相"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "身陷险境面临生死抉择"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "时间紧迫危机四伏"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决幕后黑手"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "平息风波回归平凡生活"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角因妻子痴迷神秘学而被卷入一场关于郇山隐修会和古代密码的惊天阴谋，必须在时间耗尽前阻止一场足以颠覆世界的危机。",
+  "chapter_count": 15
+}

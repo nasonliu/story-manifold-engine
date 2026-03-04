@@ -1,0 +1,56 @@
+{
+  "title": "重生之都市修仙",
+  "author": "陌尘",
+  "language": "zh",
+  "genre": "都市/仙侠",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角重生发现前世仇人"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "开始利用前世知识修仙"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "初步掌握能力帮助朋友"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "仇人反扑主角陷入危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决获胜"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角掌控力量决定未来"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.8,
+      0.6,
+      0.4
+    ]
+  },
+  "summary": "主角重生回到2008年都市，凭借前世记忆修仙，帮助挚友对抗仇敌，在都市掀起修真浪潮。",
+  "chapter_count": 50
+}

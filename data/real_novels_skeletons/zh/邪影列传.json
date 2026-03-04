@@ -1,0 +1,56 @@
+{
+  "title": "邪影列传",
+  "author": "未知",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "邪影觉醒元神，参与国战；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "获得东帝称号后势力暴涨；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "收服妖器与圣器；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "野外生物叛乱引发危机；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与终极BOSS决战；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "以乾坤挪移法力化解危机。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角邪影融合游戏与现实，率领NPC征战三国，凭借枪神称号与东帝真龙印，以武力与策略称霸天下。",
+  "chapter_count": 770
+}

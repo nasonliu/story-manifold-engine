@@ -1,0 +1,62 @@
+{
+  "title": "The Digital Frontier",
+  "author": "Unknown",
+  "language": "en",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "Astronaut discovers alien signal."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "First contact with alien probe."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "Discovery of hidden data."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "Corporate takeover attempt."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "Global conflict."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "Alien technology reveals humanity's past."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "Humanity races to harness alien technology before a shadowy corporation controls the universe's future.",
+  "chapter_count": 10
+}

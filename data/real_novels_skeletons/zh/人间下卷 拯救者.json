@@ -1,0 +1,45 @@
+{
+  "title": "人间下卷 拯救者",
+  "author": "蔡骏",
+  "language": "zh",
+  "genre": "都市/悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "幽灵梅菲斯特提供创作灵感；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "完成上中卷后梅菲斯特提出复活请求；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "创作过程中遭遇创作瓶颈；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "莫妮卡复活真相被揭露；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "决战冰火岛；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主人公完成使命"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "主角因幽灵梅菲斯特的启示创作小说，围绕莫妮卡复活等谜题展开冒险，最终完成使命。",
+  "chapter_count": 15
+}

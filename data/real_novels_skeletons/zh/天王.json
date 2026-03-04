@@ -2,41 +2,47 @@
   "title": "天王",
   "author": "跳舞",
   "language": "zh",
-  "genre": "都市/异能",
+  "genre": "都市/科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "收到神秘电话获冰柜"
+        "desc": "接到神秘电话收到冰柜；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现沉睡女孩"
+        "desc": "发现沉睡女孩身份；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "掌握超能力"
+        "desc": "主角开始适应新生活；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇反派威胁"
+        "desc": "首次遭遇超自然事件；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对决"
+        "desc": "与女孩联手对抗反派；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "危机解除"
+        "desc": "最终解决危机"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "孤儿陈潇十八岁生日接获神秘电话，收到父母遗留的冰柜，开启都市异能英雄传奇。",
-  "chapter_count": 3
+  "summary": "十八岁孤儿陈潇生日当天接到神秘电话，收到父母朋友送来沉睡女孩，平凡生活由此改变，开启都市异能英雄传奇。",
+  "chapter_count": 2
 }

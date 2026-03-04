@@ -1,0 +1,62 @@
+{
+  "title": "黄金时代",
+  "author": "鍓 鍠",
+  "language": "zh",
+  "genre": "都市/奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角获得特殊能力"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "首次被迫使用能力"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现能力的副作用或限制"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇重大危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决问题后的反思"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "特殊能力者在都市中隐藏身份，应对各种危机，同时探索自身能力的来源。",
+  "chapter_count": 15
+}

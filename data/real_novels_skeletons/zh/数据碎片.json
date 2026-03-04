@@ -1,0 +1,62 @@
+{
+  "title": "数据碎片",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "接收到数据流"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "解析出时间序列"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现规律模式"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇解码失败"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "突破技术限制"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "数据意义揭示 (推测性情节要点)"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "无法解读的乱码文本，疑似编码错误或损坏的数据文件。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "游戏世界设定问答",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无激励事件"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无转折点"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "无中点"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无解决"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "游戏设定FAQ集，解答职业赛奖品、迷石散Bug、属性成长等玩家常见问题，内容偏向游戏机制说明。",
+  "chapter_count": 0
+}

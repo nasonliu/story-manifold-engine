@@ -1,0 +1,62 @@
+{
+  "title": "骑士与龙",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "骑士穿越到游戏世界"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "组建冒险团"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "首次遭遇怪物"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现世界真相"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与怪物首领决战"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "回归现实世界"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "末世骑士穿越到龙与地下城游戏世界，组建冒险团对抗怪物，揭开世界真相。",
+  "chapter_count": 0
+}

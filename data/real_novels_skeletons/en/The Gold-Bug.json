@@ -1,0 +1,65 @@
+{
+  "title": "The Gold-Bug",
+  "author": "Edgar Allan Poe",
+  "language": "en",
+  "genre": "悬疑/惊悚",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "The protagonist is bitten by a bug, marking his initiation."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "He deciphers the bug's code leading to treasure."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "He successfully locates the treasure map."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "He faces betrayal and danger."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "The climax involves a desperate chase for the treasure."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "The treasure is found, but the protagonist's sanity is lost."
+      }
+    ],
+    "turning_points": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      0.95,
+      0.99,
+      0.95,
+      0.9
+    ]
+  },
+  "summary": "A man bitten by a bug embarks on a treasure hunt, blending reality and obsession in a chilling narrative.",
+  "chapter_count": 0
+}

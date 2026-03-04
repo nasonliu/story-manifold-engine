@@ -1,0 +1,61 @@
+{
+  "title": "卡卡布",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "导演验收拍摄效果"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "借到达喀活佛法器"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "拍摄古战场戏份"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现神秘青铜盒"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "破解谜题"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功盗墓"
+      }
+    ],
+    "turning_points": [
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "盗墓团队拍摄古墓戏份，意外发现神秘青铜盒，引发一系列惊险探秘。",
+  "chapter_count": 0
+}

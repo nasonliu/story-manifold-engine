@@ -1,0 +1,45 @@
+{
+  "title": "游戏FAQ",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无明确激励事件"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无显著转折点"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "无中点事件"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无危机点"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无解决"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "游戏机制与技能解答集，涵盖奖品、道具、技能成长等，帮助玩家理解游戏设定。",
+  "chapter_count": 7
+}

@@ -1,0 +1,56 @@
+{
+  "title": "长方形盒子",
+  "author": "康华",
+  "language": "zh",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现怀亚特一家订三个客舱引发好奇"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "主角调查怀亚特的秘密"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "揭示怀亚特与意大利画家的交易"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现怀亚特藏有危险品"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "沦为油画引发的危机"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角帮助怀亚特化解危机"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "豪华邮轮上，艺术家怀亚特一家订三个客舱引发主角好奇，暗藏谜团。",
+  "chapter_count": 10
+}

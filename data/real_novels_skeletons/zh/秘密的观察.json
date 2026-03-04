@@ -1,0 +1,56 @@
+{
+  "title": "秘密的观察",
+  "author": "茱迪·麦娜",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "跟踪开始；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "观察到她的阅读习惯；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "公园风筝事件；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "孩子们干扰；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "爬树拿风筝；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "放弃跟踪。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "他跟踪女孩三天，观察其习惯，公园目睹她爬树拿风筝，却因孩子们的干扰而分心。",
+  "chapter_count": 1
+}

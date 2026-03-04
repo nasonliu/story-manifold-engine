@@ -1,49 +1,48 @@
 {
   "title": "百世恶人",
-  "author": "未知",
+  "author": "",
   "language": "zh",
-  "genre": "都市/仙侠",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "杜尘入观偷窃被抓。"
+        "desc": "杜尘入庙行窃被抓。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "葡萄威胁要送他去当和尚。"
+        "desc": "老道士揭露其处男身份。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "杜尘求饶并坦白处男身份。"
+        "desc": "杜尘哭诉求饶。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "葡萄确认杜尘无处可逃。"
+        "desc": "老道士威胁送其去西方。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "杜尘面临送往西方极乐的危机。"
+        "desc": "高潮：老道士说出自己是葡萄。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "杜尘决定接受葡萄的安排。"
+        "desc": "结局：杜尘被绑，命运未卜。"
       }
     ],
     "turning_points": [
       0.1,
-      0.3,
       0.5,
       0.7,
       0.9
     ],
-    "climax_position": 0.7,
+    "climax_position": 0.9,
     "tension_curve": [
       0.1,
       0.2,
@@ -57,6 +56,6 @@
       0.3
     ]
   },
-  "summary": "小偷杜尘偷入道观，被老道士葡萄用美食和威胁困住，揭露其处男身份后，面临送往西方极乐世界的命运。",
-  "chapter_count": 0
+  "summary": "小偷杜尘偷入道观，被神秘老道士葡萄擒获，面临被送去西方极乐当和尚的威胁，生死关头揭露其处男身份。",
+  "chapter_count": 1
 }

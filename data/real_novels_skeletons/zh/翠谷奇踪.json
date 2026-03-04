@@ -1,0 +1,31 @@
+{
+  "title": "翠谷奇踪",
+  "author": "埃德加·爱伦·坡",
+  "language": "zh",
+  "genre": "恐怖",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "1827年，作者与怪异的贝德洛相遇，医生坦普莱顿曾治愈其神经痛，现欲探翠谷奇踪。",
+  "chapter_count": 1
+}

@@ -1,0 +1,67 @@
+{
+  "title": "答疑解惑录",
+  "author": "",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "游戏奖励机制说明"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "迷石散Bug相关解释"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "技能成长性介绍"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "道具使用限制说明"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "论坛迁移公告"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "游戏属性介绍"
+      },
+      {
+        "id": 7,
+        "name": "beat_7",
+        "desc": "运营公告与更新"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "游戏运营公告与答疑合集，内容涉及游戏奖励、技能成长、道具限制、论坛更新及属性说明等。",
+  "chapter_count": 7
+}

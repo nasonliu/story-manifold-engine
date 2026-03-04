@@ -1,0 +1,62 @@
+{
+  "title": "Roam",
+  "author": "NCS",
+  "language": "en",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "Roam discovers a mysterious portal."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "He meets a guide in the digital world."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "He learns about the world's dangers."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "He faces his first challenge."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "He reaches a critical point."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "He returns home changed."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "A story about a character named Roam navigating through a mysterious digital world with encounters and challenges.",
+  "chapter_count": 10
+}

@@ -1,0 +1,31 @@
+{
+  "title": "游戏设定解答集",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "解答游戏相关问题，涵盖职业赛奖品、迷石散、属性介绍等，提供游戏设定和规则说明。",
+  "chapter_count": 7
+}

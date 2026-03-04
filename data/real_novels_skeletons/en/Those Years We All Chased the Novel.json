@@ -1,0 +1,62 @@
+{
+  "title": "Those Years We All Chased the Novel",
+  "author": "William Shakespeare",
+  "language": "en",
+  "genre": "Tragedy",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "The obsession with the old man's eyes fuels the murder plan."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "The decision to kill is made."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "The first attempt to enter the room undetected."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "The discovery of the old man's dead body."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "The murder is carried out."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "The narrator reflects on his actions."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "A young man, tormented by an old man's hawk-like eyes, meticulously plans and executes a murder, showcasing his disturbed mind and calculated actions.",
+  "chapter_count": 0
+}

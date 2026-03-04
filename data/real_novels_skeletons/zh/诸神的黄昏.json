@@ -1,0 +1,56 @@
+{
+  "title": "诸神的黄昏",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "神明因无人教导而争夺地盘。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "神明分裂为两大阵营。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "神明覆灭逃亡。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "凡人趁机崛起。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "神明覆灭。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "凡人建立新秩序。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.5,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "神明因创始神的疏忽而自相残杀，凡人趁机崛起，最终神明覆灭逃亡，世界陷入混乱。",
+  "chapter_count": 1
+}

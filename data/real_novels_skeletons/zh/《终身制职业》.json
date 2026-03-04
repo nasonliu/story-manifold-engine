@@ -1,0 +1,31 @@
+{
+  "title": "《终身制职业》",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "探讨高效格斗技巧，强调实用性和速成，抛弃传统武术花哨动作，专注于实战杀戮。",
+  "chapter_count": 1
+}

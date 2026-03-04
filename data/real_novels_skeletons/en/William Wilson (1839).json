@@ -1,0 +1,62 @@
+{
+  "title": "William Wilson (1839)",
+  "author": "Edgar Allan Poe",
+  "language": "en",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角威廉·威尔逊因债务和道德挣扎而堕落。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "债务和内心的恐惧成为转折点。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "中点：债务危机迫使他坦白。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "危机：无法偿还债务，陷入绝望。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮：坦白并接受惩罚。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决：接受命运，寻求救赎。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一位浪子因债务和道德挣扎而堕落，最终在坦白中寻求救赎，揭示人性与环境的冲突。",
+  "chapter_count": 0
+}

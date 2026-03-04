@@ -1,0 +1,62 @@
+{
+  "title": "黄金罗盘",
+  "author": "鍓 鍠",
+  "language": "zh",
+  "genre": "奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "罗盘出现，主角获得能力"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "首次使用罗盘，遭遇灵魂"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现罗盘背后的秘密"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "面临道德困境"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终抉择"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决问题，获得成长"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角拥有能看见灵魂的罗盘，卷入超自然事件，探索真相并面临抉择。",
+  "chapter_count": 0
+}

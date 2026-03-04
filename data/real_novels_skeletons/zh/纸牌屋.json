@@ -1,0 +1,55 @@
+{
+  "title": "纸牌屋",
+  "author": "刘庸",
+  "language": "zh",
+  "genre": "都市/政治/悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角被陷害入狱"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "被囚禁于别墅"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现阴谋真相"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "被囚禁的绝望"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "突破囚禁"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "揭露并反击"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.0
+    ]
+  },
+  "summary": "政坛新锐遭遇陷害，被囚禁于豪华别墅，揭露权力斗争下的阴谋与背叛。",
+  "chapter_count": 10
+}

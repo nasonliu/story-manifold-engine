@@ -2,47 +2,41 @@
   "title": "新兵报到",
   "author": "未知",
   "language": "zh",
-  "genre": "都市",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "唐龙成功办理参军手续，踏入军营；"
+        "desc": "唐龙成功参军，进入新兵营；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "家族单丁困境迫使他孤军奋战；"
+        "desc": "军营训练残酷，理想受挫；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "爷爷命名的使命激励他前行；"
+        "desc": "初次小胜，获得认可；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "新兵训练初期的适应危机；"
+        "desc": "训练事故，濒临淘汰；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "晋升考试的生死对决；"
+        "desc": "关键考核，逆转危机；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为元帅的终极目标达成"
+        "desc": "晋升机会，开启军旅生涯。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "高三毕业生唐龙为实现元帅梦想，克服家庭阻力参军，开启新兵之旅。",
-  "chapter_count": 1
+  "summary": "唐龙为实现元帅梦想，克服家庭阻力参军，初入军营面临挑战。",
+  "chapter_count": 10
 }

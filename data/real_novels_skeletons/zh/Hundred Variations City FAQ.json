@@ -1,0 +1,62 @@
+{
+  "title": "Hundred Variations City FAQ",
+  "author": "Unknown",
+  "language": "zh",
+  "genre": "Game",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "No inciting incident"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "No first turning point"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "No midpoint"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "No crisis"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "No climax"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "No resolution"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "FAQs addressing player questions on game mechanics, bugs, rewards, and world elements in Hundred Variations City.",
+  "chapter_count": 7
+}

@@ -1,0 +1,62 @@
+{
+  "title": "记忆迷宫",
+  "author": "蔡骏",
+  "language": "zh",
+  "genre": "心理悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角发现异常记忆片段"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇超自然事件"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得关键线索"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现真相更可怕"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮：主角直面真相"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角接受现实继续生活"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角遭遇超自然现象，调查真相却陷入更深的谜团，最终直面内心的恐惧。",
+  "chapter_count": 8
+}

@@ -1,0 +1,62 @@
+{
+  "title": "加密谜题",
+  "author": "未知",
+  "language": "zh",
+  "genre": "悬疑/科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现神秘加密文本"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "尝试破解遭遇挫败"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "找到关键线索"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "最终破解成功"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "揭示文本背后的秘密"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "故事结束"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一段神秘加密文本引发探索，破解过程充满挑战与发现。",
+  "chapter_count": 1
+}

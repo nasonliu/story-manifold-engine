@@ -1,6 +1,6 @@
 {
   "title": "网游之近战法师",
-  "author": "作者名",
+  "author": "未知",
   "language": "zh",
   "genre": "游戏",
   "structure": {
@@ -8,35 +8,41 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角进入游戏发现法师属性劣势；"
+        "desc": "主角创建全敏法师角色进入游戏。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "通过近战弥补职业缺陷；"
+        "desc": "发现职业属性差异引发冲突。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "掌握技能后遭遇强敌；"
+        "desc": "骑士与牧师加入竞争。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "PK惩罚引发危机；"
+        "desc": "PK惩罚规则引发危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "高潮突破等级限制；"
+        "desc": "主角在PK中遭遇失败。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解除惩罚后继续升级"
+        "desc": "最终掌握游戏平衡。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "网游设定解析，属性分配与PK惩罚规则，近战法师与速度职业对比",
-  "chapter_count": 5
+  "summary": "全敏法师主角在游戏中探索属性与PK规则，与各职业竞争，展开冒险故事。",
+  "chapter_count": 0
 }

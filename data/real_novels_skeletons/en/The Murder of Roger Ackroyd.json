@@ -1,0 +1,58 @@
+{
+  "title": "The Murder of Roger Ackroyd",
+  "author": "Agatha Christie",
+  "language": "en",
+  "genre": "推理/悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "警探G先生向波洛介绍离奇的列车谋杀案。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "波洛在火车上开始调查，发现所有乘客都有不在场证明。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "波洛在火车旅程中逐步揭露乘客们的秘密。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "关键证物被意外破坏，调查陷入僵局。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "波洛在火车即将到站时揭露所有乘客共同策划的谋杀。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "谋杀成功后，波洛运用想象力在火车上完成了逻辑推理。"
+      }
+    ],
+    "turning_points": [
+      0.0
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "侦探赫尔克里·波洛在巴黎接到一起离奇谋杀案，调查过程中发现所有线索都指向列车上的乘客。",
+  "chapter_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "title": "贝雷尼丝",
+  "author": "贝雷尼丝",
+  "language": "en",
+  "genre": "城市奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "女孩在充满幻想的家族环境中醒来。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "她发现母亲死于这个充满幻想的环境。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "她开始探索自己与幻想的联系。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "她面临现实与幻想的冲突。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "她在理解自身存在意义的过程中达到高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "她接受了自己的身份和命运。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "一位在充满幻想的家族环境中长大的女孩，探索记忆与现实的边界，试图理解自身存在的意义。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "The Tell-Tale Heart",
+  "author": "Edgar Allan Poe",
+  "language": "en",
+  "genre": "悬疑/惊悚",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "Narrator fixates on old man's eye, decides to kill him."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "Narrator meticulously plans and executes the murder."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "Narrator believes he has successfully hidden the evidence."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "The victim's body decomposes under the bed."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "The victim's vulture eye haunts the narrator with an inescapable sound."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "Police arrive, narrator confesses under pressure."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "A narrator with a guilty conscience kills an old man over his eye, then tries to conceal his crime.",
+  "chapter_count": 0
+}

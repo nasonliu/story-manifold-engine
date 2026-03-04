@@ -1,0 +1,62 @@
+{
+  "title": "拜“顶”",
+  "author": "蔡骏",
+  "language": "zh",
+  "genre": "恐怖",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "女孩借窗观察圆顶；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现圆顶异常发光；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "圆顶显形为恶魔；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "恐怖降临；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "圆顶吞噬二人；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "圆顶消失"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "残疾少年与陌生女孩通过窗户观察神秘圆顶，经历超自然现象，最终发现其真实身份。",
+  "chapter_count": 1
+}

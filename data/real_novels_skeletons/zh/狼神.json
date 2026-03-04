@@ -2,61 +2,44 @@
   "title": "狼神",
   "author": "月关",
   "language": "zh",
-  "genre": "玄幻/奇幻",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "安迪召唤魔狼引发灾难。"
+        "desc": "主角安迪进行召唤魔法试验。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "魔狼失控追杀安迪。"
+        "desc": "魔法阵启动，召唤魔兽。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "安迪逃入森林。"
+        "desc": "主角面临抉择与挑战。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "被追兵包围。"
+        "desc": "危机出现，主角陷入困境。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "安迪利用魔戒逃脱。"
+        "desc": "高潮时刻，主角做出关键决定。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "暂时安全，危机未解除。"
+        "desc": "问题解决，主角成长。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.5,
-      0.7,
-      0.9,
-      1.0,
-      0.7,
-      0.5,
-      0.3
-    ]
+    "tension_curve": []
   },
-  "summary": "少年魔法师安迪召唤魔狼引发灾难，被迫逃亡。",
-  "chapter_count": 10
+  "summary": "主角面临兽、人、神三界交织的复杂世界，探讨善恶与取舍的抉择。",
+  "chapter_count": 0
 }

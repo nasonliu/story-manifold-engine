@@ -1,56 +1,62 @@
 {
   "title": "决战珠穆朗玛之巅",
-  "author": "飞库网作者",
+  "author": "飞库网签约作者",
   "language": "zh",
-  "genre": "都市",
+  "genre": "冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "决定珠峰决战；"
+        "desc": "攀登珠峰准备决战。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇神秘对手；"
+        "desc": "路线选择引发讨论。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "战斗中途转折；"
+        "desc": "红衣首领确认路线。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "生命垂危危机；"
+        "desc": "发现敌人先行。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终实力对决；"
+        "desc": "高潮：与敌人展开决战。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "胜负尘埃落定"
+        "desc": "事件解决，主角获胜。"
       }
     ],
-    "turning_points": [],
-    "climax_position": 0.7,
+    "turning_points": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "climax_position": 0.9,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
+      0.4,
       0.5,
       0.7,
+      0.8,
       0.9,
       1.0,
-      0.8,
       0.6,
-      0.4
+      0.3
     ]
   },
-  "summary": "主角团队攀登珠峰准备决战，途中讨论地形与小说典故，红衣首领沙哑低沉，队伍中暗藏武功高手。",
+  "summary": "一行人攀登珠穆朗玛峰准备决战，途中讨论路线和动机，展现人物关系和环境挑战。",
   "chapter_count": 1
 }

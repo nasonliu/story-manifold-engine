@@ -1,0 +1,62 @@
+{
+  "title": "新人的日子",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角开始玩新游戏。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "游戏启动。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "决定先赚钱和冲级。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇挑战。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决问题。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角生日开始玩新游戏，与朋友决定先赚钱和冲级。",
+  "chapter_count": 5
+}

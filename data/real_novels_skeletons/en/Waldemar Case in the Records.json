@@ -1,0 +1,62 @@
+{
+  "title": "Waldemar Case in the Records",
+  "author": "Unknown",
+  "language": "en",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "The author realizes the lack of research on terminal hypnosis."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "Selecting Waldemar as the subject due to his characteristics."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "Midpoint of the experiment shows anomalies."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "Crisis arises from unexpected results."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "Climax reveals the nature of death and magnetism."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "Resolution concludes the effects of magnetic forces."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "A scientist explores hypnosis and magnetic forces in terminal cases, focusing on Waldemar's peculiar traits, leading to mysterious discoveries.",
+  "chapter_count": 1
+}

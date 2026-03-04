@@ -8,35 +8,41 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "实验事故激活潜能"
+        "desc": "少年在实验室死亡却被复活；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "获得超能力"
+        "desc": "获得超能力后开始创业；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "能力成熟"
+        "desc": "团结众人获得军队支持；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "敌对势力出现"
+        "desc": "敌对势力出现；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对决"
+        "desc": "最终决战；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成长与抉择"
+        "desc": "主角掌控力量，国家崛起。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年意外获得超自然力量，带领国家崛起，却面临内外危机，最终在高潮中实现自我超越。",
-  "chapter_count": 0
+  "summary": "少年意外获得超能力，带领国家走向复兴，同时面临各方势力的挑战与内心抉择。",
+  "chapter_count": 10
 }

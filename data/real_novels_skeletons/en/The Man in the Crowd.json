@@ -1,0 +1,63 @@
+{
+  "title": "The Man in the Crowd",
+  "author": "Charles Dickens",
+  "language": "en",
+  "genre": "悬疑/犯罪",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "Man observes mysterious figure in crowd."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "Figure reveals hidden agenda."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "Man gains partial understanding."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "Figure's true identity is threatened."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "Climactic confrontation."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "Man escapes with knowledge."
+      }
+    ],
+    "turning_points": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9
+    ],
+    "climax_position": 0.8,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ]
+  },
+  "summary": "A man observes a mysterious figure in a London coffeehouse, uncovering secrets that lead to danger and intrigue.",
+  "chapter_count": 10
+}

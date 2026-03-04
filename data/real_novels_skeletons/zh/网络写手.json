@@ -1,0 +1,62 @@
+{
+  "title": "网络写手",
+  "author": "匿名",
+  "language": "zh",
+  "genre": "都市/奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角遭遇超自然现象。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "主角开始调查。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "主角发现线索。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "主角遭遇危险。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "主角揭露真相。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角应对。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "网络写手遭遇超自然现象，调查神秘组织，揭开真相。",
+  "chapter_count": 1
+}

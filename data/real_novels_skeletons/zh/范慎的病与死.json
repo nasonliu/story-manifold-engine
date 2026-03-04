@@ -1,0 +1,47 @@
+{
+  "title": "范慎的病与死",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市/奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现自身病重且无用"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现能流泪的特殊能力"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现眼泪有特殊力量"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "首次使用能力救人"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "首次使用能力杀人"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "接受命运并准备掌控能力"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.0
+    ]
+  },
+  "summary": "病弱书生范慎在医院等待死亡，意外发现自身特殊能力，经历从绝望到接受命运的转变。",
+  "chapter_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "title": "unknown",
+  "author": "unknown",
+  "language": "un",
+  "genre": "unknown",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "unknown"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "unknown"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "unknown"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "unknown"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "unknown"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "unknown"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "unknown",
+  "chapter_count": 0
+}

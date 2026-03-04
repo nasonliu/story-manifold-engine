@@ -1,0 +1,62 @@
+{
+  "title": "血色竹影",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "悬疑/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "借得达喀活佛文物"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "导演催促拍摄进度"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得西藏菜邀约"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "鹭斌面临危机抉择"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "关渔提出危险建议"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "短暂危机被化解"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "导演团队借得金国祭品文物，拍摄遭遇诡异竹林，暗藏杀机。",
+  "chapter_count": 5
+}

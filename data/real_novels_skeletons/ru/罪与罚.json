@@ -1,0 +1,58 @@
+{
+  "title": "罪与罚",
+  "author": "陀思妥耶夫斯基",
+  "language": "ru",
+  "genre": "犯罪",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "触发谋杀念头；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "决定并开始实施计划；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "完成谋杀准备；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "行动前的紧张等待；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "谋杀时刻；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "行动后的反思"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      0.8,
+      0.6
+    ]
+  },
+  "summary": "一个冷静的年轻人因迷恋老者的鹰眼而策划谋杀，冷静执行并反思动机，展现犯罪心理与道德挣扎。",
+  "chapter_count": 1
+}

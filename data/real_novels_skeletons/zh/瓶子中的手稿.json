@@ -1,39 +1,39 @@
 {
   "title": "瓶子中的手稿",
-  "author": "基诺",
+  "author": "佚名",
   "language": "zh",
-  "genre": "科幻/悬疑",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "科学家记录自己目睹超自然现象的经历。"
+        "desc": "学者记录离奇现象"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "他决定将手稿公开。"
+        "desc": "发现神秘手稿"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "手稿被发现。"
+        "desc": "首次遭遇超自然事件"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "发现者遭遇不测。"
+        "desc": "事件影响扩大"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "科学家面临生命危险。"
+        "desc": "面临终极挑战"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "最终揭示真相。"
+        "desc": "揭示真相后恢复正常"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "科学家记录自己经历超自然事件，坚信其真实性，踏上危险旅程揭开谜团。",
-  "chapter_count": 1
+  "summary": "一位学者在19世纪东南亚航程中，目睹了超越时代认知的超自然现象，被迫记录下一段离奇经历。",
+  "chapter_count": 0
 }

@@ -1,6 +1,6 @@
 {
   "title": "The Greek Coffin Mystery",
-  "author": "Ellery Queen",
+  "author": "ELLERY QUEEN",
   "language": "zh",
   "genre": "悬疑",
   "structure": {
@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "埃勒里接手棺材谋杀案委托；"
+        "desc": "发现希腊棺材引发谋杀案，推动主角调查。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现古埃及诅咒线索；"
+        "desc": "线索中断，调查陷入僵局。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "破获博物馆盗窃案；"
+        "desc": "关键证人出现，揭示部分真相。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "谋杀现场出现超自然现象；"
+        "desc": "嫌疑人伪装，危机升级。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "法庭上揭露双重谋杀阴谋；"
+        "desc": "高潮对决，揭露幕后黑手。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "原始盗墓者被绳之以法"
+        "desc": "案件圆满解决，正义得到伸张。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "青年侦探埃勒里·奎因接手希腊棺材引发的连环谋杀案，在调查过程中发现远古诅咒与现代罪案交织的惊人真相。",
-  "chapter_count": 20
+  "summary": "侦探Ellery Queen围绕希腊棺材解开连环谋杀之谜，揭露隐藏的阴谋。",
+  "chapter_count": 30
 }

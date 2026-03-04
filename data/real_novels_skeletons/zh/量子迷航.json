@@ -1,0 +1,62 @@
+{
+  "title": "量子迷航",
+  "author": "匿名",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "科学家发现量子通道异常"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "第一台量子机器出现"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "第一次时空裂缝"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "平行宇宙危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "量子战争爆发"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "人类文明重建"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "人类探索量子通道时意外发现平行宇宙，但科技失控引发灾难，主角必须拯救文明。",
+  "chapter_count": 12
+}

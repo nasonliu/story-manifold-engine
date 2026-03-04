@@ -1,0 +1,62 @@
+{
+  "title": "序",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "悬疑/犯罪",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "父母死亡与双重身份揭露。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现方林的连环杀手身份。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "方林开始追查真相。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现更多受害者。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与方林的最终对决。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "真相大白。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一个关于连环杀手方林的悬疑故事，围绕其父母死亡和复仇展开。",
+  "chapter_count": 1
+}

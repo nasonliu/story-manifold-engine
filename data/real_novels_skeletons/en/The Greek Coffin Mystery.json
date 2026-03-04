@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "Detective takes on a baffling case involving a cursed artifact."
+        "desc": "收到案件委托。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "Discovery of a cryptic clue linking the victim to ancient rituals."
+        "desc": "发现棺材与谋杀关联。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "Confrontation with a shadowy figure holding key information."
+        "desc": "找到关键证据。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "Accusation of the prime suspect during a tense interrogation."
+        "desc": "嫌疑人逃脱。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "Clever deduction leading to the breakthrough at the climax."
+        "desc": "古董店揭露真相。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "Resolution with the culprit exposed and justice served."
+        "desc": "终极推理破案。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "A detective investigates a murder connected to an ancient Greek coffin, uncovering secrets and conspiracies in this classic mystery novel.",
-  "chapter_count": 20
+  "summary": "侦探Ellery Queen调查希腊棺材引发的连环谋杀案，揭露隐藏的阴谋与秘密。",
+  "chapter_count": 40
 }

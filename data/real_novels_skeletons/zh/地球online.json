@@ -1,6 +1,6 @@
 {
   "title": "地球online",
-  "author": "安迪·柯蒂斯",
+  "author": "未提供",
   "language": "zh",
   "genre": "科幻",
   "structure": {
@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "发现世界是虚拟的"
+        "desc": "外星飞船抵达地球；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "少年军团单位觉醒"
+        "desc": "地球人投降并迎接外星军；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "与系统对抗"
+        "desc": "少年军团单位正式登场；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "现实即将崩溃"
+        "desc": "外星军方内部权力斗争；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终决战"
+        "desc": "地球危机全面爆发；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "重置世界"
+        "desc": "人类与外星文明的最终解决方案"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "未来地球被虚拟化，少年军人发现现实只是程序，必须反抗系统控制，拯救人类。",
-  "chapter_count": 20
+  "summary": "未来地球面临外星威胁，神秘龙元帅率领少年军团单位降临，展开星际战争与地外文明接触。",
+  "chapter_count": 0
 }

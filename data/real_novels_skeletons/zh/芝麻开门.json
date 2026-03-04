@@ -2,48 +2,48 @@
   "title": "芝麻开门",
   "author": "佚名",
   "language": "zh",
-  "genre": "悬疑/冒险",
+  "genre": "历史",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "许子心在雨天遗址遭遇异常；"
+        "desc": "左右眼皮跳动预示未知事件。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "神秘声音出现；"
+        "desc": "听到空气中幽灵般的耳语。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "发现古代祭坛；"
+        "desc": "发现祭坛与良渚文明的关联。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "文明毁灭危机；"
+        "desc": "面临未知的危险。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终秘密揭晓；"
+        "desc": "揭露良渚文明的秘密。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "危机解除"
+        "desc": "危机得到解决。"
       }
     ],
     "turning_points": [
-      0.2,
-      0.4,
-      0.6,
-      0.8,
+      0.1,
+      0.3,
+      0.5,
+      0.7,
       0.9
     ],
-    "climax_position": 0.7,
+    "climax_position": 0.9,
     "tension_curve": [
       0.1,
       0.2,
@@ -54,10 +54,9 @@
       1.0,
       0.8,
       0.6,
-      0.4,
-      0.2
+      0.4
     ]
   },
-  "summary": "考古学家许子心在雨天遗址遭遇神秘声音，揭开五千年前良渚文明的诡异祭坛秘密。",
-  "chapter_count": 0
+  "summary": "主角许子心在考古现场遭遇神秘事件，揭开五千年前良渚文明的秘密。",
+  "chapter_count": 5
 }

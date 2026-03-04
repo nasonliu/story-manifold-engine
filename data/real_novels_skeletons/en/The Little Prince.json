@@ -1,0 +1,62 @@
+{
+  "title": "The Little Prince",
+  "author": "Antoine de Saint-Exupéry",
+  "language": "en",
+  "genre": "冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "小王子决定驯养狐狸；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "与国王相遇；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "与爱虚荣的人相遇；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遇到酒鬼；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "到达B-612星球；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "与玫瑰建立联系。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "小王子对大狐狸承诺驯养后，决定前往B-612星球，途中与国王、爱虚荣的人、酒鬼等角色相遇。",
+  "chapter_count": 10
+}

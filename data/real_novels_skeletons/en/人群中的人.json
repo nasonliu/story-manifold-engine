@@ -1,0 +1,62 @@
+{
+  "title": "人群中的人",
+  "author": "未知",
+  "language": "en",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "观察者注意到神秘女子。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "跟踪发现女子的秘密。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现女子死亡。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "暴露秘密的危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "揭露真相的高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成为侦探的解决。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "观察者跟踪神秘女子发现其秘密，目睹其死亡，决心揭开真相。",
+  "chapter_count": 10
+}

@@ -1,0 +1,62 @@
+{
+  "title": "赫耳卡保洛",
+  "author": "加斯东·勒鲁",
+  "language": "fr",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "波洛受邀赴叙；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "将军自杀；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "波洛调查密室；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现谋杀线索；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "波洛推理破案；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "真凶伏法"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "波洛受将军邀请赴叙，途中发现其自杀，深入调查揭开密室杀人案。",
+  "chapter_count": 10
+}

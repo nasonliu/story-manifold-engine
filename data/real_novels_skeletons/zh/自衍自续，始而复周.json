@@ -2,47 +2,41 @@
   "title": "自衍自续，始而复周",
   "author": "莫蕾拉",
   "language": "zh",
-  "genre": "都市",
+  "genre": "都市/哲学",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角对莫蕾拉产生奇特感情。"
+        "desc": "现代人爱上妻子莫蕾拉；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "莫蕾拉引导主角研究神秘哲学。"
+        "desc": "妻子引导研究神秘哲学；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "主角完全投入研究，忘却自我。"
+        "desc": "精神逐渐异变；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "主角因沉迷哲学陷入精神危机。"
+        "desc": "完全被禁哲学控制；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "面对禁书抉择。"
+        "desc": "精神崩溃；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "主角在莫蕾拉帮助下找到平衡。"
+        "desc": "妻子试图拯救"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角因妻子引导沉迷神秘哲学，逐渐迷失自我，陷入对禁书的探索与精神危机。",
-  "chapter_count": 1
+  "summary": "现代人爱上研究神秘哲学的妻子，逐渐陷入精神困境，探索理性与神秘的边界。",
+  "chapter_count": 0
 }

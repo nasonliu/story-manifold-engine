@@ -1,0 +1,56 @@
+{
+  "title": "追踪",
+  "author": "茱迪·麦娜",
+  "language": "en",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "开始跟踪思珑"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "进入公园观察"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现思珑的体态特征"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "孩子们干扰跟踪"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "确定跟踪目标"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "找到思珑的隐藏秘密"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一名跟踪狂潜入女孩的生活，记录她的习惯，却在公园因孩子们的干扰而焦躁，逐渐被她的体态与行为吸引。",
+  "chapter_count": 5
+}

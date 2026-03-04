@@ -1,42 +1,48 @@
 {
   "title": "阳神",
-  "author": "未知",
+  "author": "一朵猫",
   "language": "zh",
-  "genre": "仙侠",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "洪易觉醒特殊体质，获得奇异能力。"
+        "desc": "洪易准备科考，研读经义。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇神秘强者，被迫离开家族。"
+        "desc": "回忆洪易的辉煌武绩。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "初步掌握武技，获得认可。"
+        "desc": "洪易展现文才。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "家族危机爆发，身世之谜显现。"
+        "desc": "暗示朝中局势。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与宿敌决战，展现惊人实力。"
+        "desc": "洪易决心继承父志。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为一代强者，守护苍生。"
+        "desc": "洪易开始修炼。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年洪易身负天大奇缘，于盛世王朝中踏上逆天之路，探索身世之谜，挑战命运极限。",
-  "chapter_count": 100
+  "summary": "少年洪易在玉京城武温的侯府中读书，准备科考，展现其文武双全的背景。",
+  "chapter_count": 1
 }

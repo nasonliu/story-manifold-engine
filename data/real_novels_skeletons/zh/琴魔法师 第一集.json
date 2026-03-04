@@ -1,0 +1,45 @@
+{
+  "title": "琴魔法师 第一集",
+  "author": "未知",
+  "language": "zh",
+  "genre": "奇幻/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "老魔法师出现，引发主角注意。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "主角认出对方非普通魔法师。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "老魔法师表明身份，前往见会长。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "隐瞒的背景和即将到来的危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "主角与老魔法师共同面对挑战。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解开谜团，获得力量或启示。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "老魔法师从法蓝而来，欲见临时会长，揭开阿卡迪亚王国隐藏的秘密。",
+  "chapter_count": 0
+}

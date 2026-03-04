@@ -1,48 +1,42 @@
 {
   "title": "基督山伯爵",
-  "author": "[法]大仲马",
+  "author": "亚历山大·仲马",
   "language": "zh",
-  "genre": "历史/冒险",
+  "genre": "经典悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "迪卡特冤枉入狱，获基督山岛奇遇。"
+        "desc": "救援成功越狱"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "越狱成功，改头换面复仇。"
+        "desc": "化名基督山伯爵"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "与海黛相知，暗中布局。"
+        "desc": "发现福堂纳托弱点"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "福堂纳托阴谋败露。"
+        "desc": "白葡萄酒毒杀计划"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "基督山公爵身份曝光。"
+        "desc": "福堂纳托死亡"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "罪犯伏法，伯爵远走高飞。"
+        "desc": "继续追查其他仇人"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "基督山伯爵因冤案入狱，越狱后化名展开复仇。利用智慧与财富，步步紧逼仇人，最终揭露真相。",
-  "chapter_count": 50
+  "summary": "基督山伯爵因恩师冤案入狱，越狱后化名展开复仇。通过精心策划，利用白葡萄酒毒害仇人福堂纳托，开启复仇序幕。",
+  "chapter_count": 10
 }

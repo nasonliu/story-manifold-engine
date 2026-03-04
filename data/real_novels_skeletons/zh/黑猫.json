@@ -2,38 +2,38 @@
   "title": "黑猫",
   "author": "佚名",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "养猫成癖"
+        "desc": "主角收养黑猫引发异常事件"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "猫现灵异"
+        "desc": "事件升级导致主角人生崩塌"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "妻子失踪"
+        "desc": "主角在绝望中寻求解决"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "高处坠落"
+        "desc": "关键人物出现转折"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "阴森真相"
+        "desc": "高潮时黑猫显现出身负诅咒"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "心理崩溃"
+        "desc": "主角接受命运完成救赎"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "记述作者因养黑猫引发一系列恐怖事件，最终导致自身悲剧，故事充满悬疑与超自然色彩。",
+  "summary": "主角因养黑猫而遭遇超自然事件，逐渐陷入恐怖与挣扎，最终面临人生危机。",
   "chapter_count": 0
 }

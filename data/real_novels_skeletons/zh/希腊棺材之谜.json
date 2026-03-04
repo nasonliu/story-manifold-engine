@@ -1,0 +1,62 @@
+{
+  "title": "希腊棺材之谜",
+  "author": "Ellery Queen",
+  "language": "zh",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "检察官外甥接手祖父旧案；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现希腊棺材与连环谋杀关联；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "调查指向神秘古埃及祭司；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "真相被反目成敌者篡改；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "法庭上揭露双重阴谋；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "以法律制裁终结阴谋"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "美国侦探Ellery Queen接手祖父遗留的埃及文物案件，揭开围绕希腊棺材的连环谋杀谜团，最终在法庭揭露真相。",
+  "chapter_count": 15
+}

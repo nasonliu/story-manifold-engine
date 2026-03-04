@@ -1,0 +1,56 @@
+{
+  "title": "死光",
+  "author": "佚名",
+  "language": "en",
+  "genre": "都市/恐怖",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "折纸船象征冒险开始；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "洪水暴发中断电力；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "父亲讲述小镇黑暗历史；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "真相揭露小镇被诅咒；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "死光降临吞噬一切；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "幸存者逃离德里镇"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "1957年德里小镇洪水初现端倪，小男孩乔治追逐着象征命运的纸船，一场始于童年却横跨28年的恐怖序幕悄然拉开。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "据说",
+  "author": "",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角被分配看守马匹。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遇到神秘贵族。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现神明遗留。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "贵族试图逃跑。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与神明遗留战斗。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角获得力量。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "世界由神创造，神明争斗，主角因看守马匹卷入纷争，发现神迹，获得力量对抗贵族。",
+  "chapter_count": 0
+}

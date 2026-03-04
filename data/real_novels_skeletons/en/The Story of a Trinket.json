@@ -1,0 +1,62 @@
+{
+  "title": "The Story of a Trinket",
+  "author": "Oscar Wilde",
+  "language": "en",
+  "genre": "犯罪/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角计划复仇。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "伪装合作接近仇人。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现仇人弱点。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "危机出现。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮：复仇成功。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角获得满足。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角策划复仇，伪装与仇人合作，暗中设局报复。",
+  "chapter_count": 10
+}

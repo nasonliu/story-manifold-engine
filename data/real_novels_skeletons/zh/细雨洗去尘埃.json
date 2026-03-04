@@ -1,0 +1,45 @@
+{
+  "title": "细雨洗去尘埃",
+  "author": "细雨洗去尘埃",
+  "language": "zh",
+  "genre": "都市/奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角获得特殊能力"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇超自然危机"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得盟友与新力量"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "面临终极威胁"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "危机解除或主角成长"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "拥有特殊能力的都市青年遭遇超自然事件，逐渐觉醒力量，与神秘组织对抗，揭开自身身世之谜。",
+  "chapter_count": 0
+}

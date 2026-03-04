@@ -1,0 +1,45 @@
+{
+  "title": "江湖篇第一章森严",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "历史/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "使者携圣旨至军营，引发警惕。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "刺客身份暴露，李毅遇刺。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "营门被破，主将身亡。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "契丹铁骑突袭，军心溃散。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "战斗爆发，守军面临全灭危机。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "暂无明确解决，埋下后续伏笔。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "契丹刺客假借圣旨混入边关大营，刺杀主将李毅，趁机发动突袭，摧毁守军大营，引发惨烈战斗。",
+  "chapter_count": 1
+}

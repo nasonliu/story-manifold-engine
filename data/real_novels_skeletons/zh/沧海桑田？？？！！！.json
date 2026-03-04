@@ -1,14 +1,62 @@
 {
   "title": "沧海桑田？？？！！！",
-  "author": "未知",
+  "author": "佚名",
   "language": "zh",
-  "genre": "科幻/校园",
+  "genre": "都市",
   "structure": {
-    "beats": [],
-    "turning_points": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "觉醒后与朋友互动，引发日常趣事。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "朋友挑战改变形象。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "主角接受挑战学习日语。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遇到学业或社交危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮解决危机。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角保持普通但找到自我价值。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
-    "tension_curve": []
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
   },
-  "summary": "普通高中生李忠厌倦平凡，热爱日语与游戏，在寒假班级旅行中被吵醒，开始介绍自己及生活态度。",
-  "chapter_count": 0
+  "summary": "普通高中生李忠寒假旅行中醒来，与同学文裘、高猛的对话展现其平凡却有趣的生活，热爱日语和游戏。",
+  "chapter_count": 1
 }

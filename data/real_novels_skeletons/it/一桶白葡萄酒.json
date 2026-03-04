@@ -1,8 +1,8 @@
 {
   "title": "一桶白葡萄酒",
-  "author": "那些年一起追过的小说",
+  "author": "佚名",
   "language": "it",
-  "genre": "悬疑",
+  "genre": "冒险",
   "structure": {
     "beats": [
       {
@@ -13,27 +13,27 @@
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遇到福吐纳托；"
+        "desc": "疯狂节相遇；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "交易白葡萄酒；"
+        "desc": "购买白葡萄酒；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "发现危险；"
+        "desc": "危机浮现；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "实施复仇；"
+        "desc": "冲突爆发；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解决问题。"
+        "desc": "计划推进"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角策划复仇，却因购买白葡萄酒遭遇危机，与品酒专家福吐纳托的交易暗藏杀机。",
-  "chapter_count": 10
+  "summary": "主角策划复仇，利用购买白葡萄酒的误会与仇人周旋，逐步推进复仇计划。",
+  "chapter_count": 1
 }

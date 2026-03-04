@@ -1,0 +1,62 @@
+{
+  "title": "阿蒙蒂拉多酒",
+  "author": "埃德加·爱伦·坡",
+  "language": "en",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角发现神秘客舱。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "主角调查真相。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "主角揭露秘密。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "主角面临死亡威胁。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "主角在船上死亡。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "故事结束。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角在豪华邮轮上发现神秘客舱，调查后得知真相，最终面临死亡威胁。",
+  "chapter_count": 1
+}

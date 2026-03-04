@@ -2,9 +2,40 @@
   "title": "网游之天地",
   "author": "隐为者",
   "language": "zh",
-  "genre": "都市",
+  "genre": "游戏/玄幻",
   "structure": {
-    "beats": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角进入游戏世界，开始冒险；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇强敌，被迫升级职业；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得关键能力，团队崛起；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "面临生死危机，团队分裂；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终BOSS战，主角爆发；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "回归现实，反思虚拟人生。"
+      }
+    ],
     "turning_points": [
       0.1,
       0.3,
@@ -26,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "玩家在虚拟世界中生存冒险，探索真实与虚拟的边界，追求生存与未来。",
-  "chapter_count": 100
+  "summary": "玩家在虚拟世界中探索生存与真实，经历职业成长与冒险，面对虚拟与现实的界限挑战。",
+  "chapter_count": 50
 }

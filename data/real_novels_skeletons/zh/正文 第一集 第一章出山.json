@@ -1,0 +1,56 @@
+{
+  "title": "正文 第一集 第一章出山",
+  "author": "未知",
+  "language": "zh",
+  "genre": "仙侠",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "王浩十年苦修，一心求道。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "师父要求炼制阴丹，王浩震惊。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "王浩回忆阴丹用途，思考如何炼制。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "王浩意识到炼制阴丹困难重重。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "王浩决心尝试炼制阴丹。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "炼丹过程遭遇意外。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "少年炼丹师王浩因师父要求炼制阴丹而展开冒险。",
+  "chapter_count": 1
+}

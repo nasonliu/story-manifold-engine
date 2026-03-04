@@ -1,0 +1,62 @@
+{
+  "title": "参军挑战",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "插入参军卡获信息"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "身份验证通过"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "进入新兵营"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "训练危机爆发"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "战斗高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "实现元帅梦想"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "高考失利的唐龙为实现元帅梦想，克服家族阻力，通过高科技参军系统进入新兵营，开启军旅生涯。",
+  "chapter_count": 5
+}

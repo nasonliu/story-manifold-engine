@@ -1,0 +1,62 @@
+{
+  "title": "汉家寨",
+  "author": "未知",
+  "language": "zh",
+  "genre": "仙侠",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "离开家乡踏上修真路"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇强敌被迫退学"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现身世与修真界秘密"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "生死关头被救"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决宿敌"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "获得力量守护世界"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "少年与青梅竹马在修真世界冒险，对抗强敌，寻找真相。",
+  "chapter_count": 10
+}

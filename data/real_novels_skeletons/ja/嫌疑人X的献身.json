@@ -1,0 +1,62 @@
+{
+  "title": "嫌疑人X的献身",
+  "author": "东野圭吾",
+  "language": "ja",
+  "genre": "科幻/推理",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "数学家自首杀人"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "警方调查发现邻居异常"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现邻居与案件关联"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "警方准备抓捕"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "数学家自杀"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "案件告破"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "数学家自首杀人案引发警方与素未谋面的邻居之间的复杂关系，探讨人性与救赎。",
+  "chapter_count": 0
+}

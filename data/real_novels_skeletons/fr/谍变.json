@@ -1,0 +1,56 @@
+{
+  "title": "谍变",
+  "author": "未提供",
+  "language": "fr",
+  "genre": "悬疑/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "特工名单失窃，引发恐慌。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "推测窃贼身份，认为可能是CIA病毒或MI6。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "发现窃贼可能仍在巴黎等待接头。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "各国间谍陆续抵达巴黎。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "催促DST行动，分派队员监视机场火车站。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功布置监视，等待与目标接头。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "法国情报机构DGSE/DST遭遇特工名单失窃，怀疑CIA\"病毒\"或英国MI6介入，贝尔队长紧急部署应对。",
+  "chapter_count": 0
+}

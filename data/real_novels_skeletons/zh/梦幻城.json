@@ -2,38 +2,38 @@
   "title": "梦幻城",
   "author": "佚名",
   "language": "zh",
-  "genre": "都市/科幻",
+  "genre": "都市/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "天痕被卷入事件中心。"
+        "desc": "天痕遭遇神秘女子邀请"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遇到神秘女子。"
+        "desc": "发现女子与徽章有关"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "发现能量核心。"
+        "desc": "追踪神秘女子"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "被黑暗势力追杀。"
+        "desc": "遭遇危险"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "能量爆发。"
+        "desc": "发现阴谋真相"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "获得能力。"
+        "desc": "决定深入调查"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "天才少年天痕在梦幻城遭遇奇遇，被迫卷入星际冒险。",
+  "summary": "失意青年天痕在梦幻城遭遇神秘女子，被迫卷入一场关于学院徽章的阴谋，追寻真相的过程中发现了隐藏的星际秘密。",
   "chapter_count": 1
 }

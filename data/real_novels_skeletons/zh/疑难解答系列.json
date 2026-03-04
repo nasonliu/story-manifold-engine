@@ -1,0 +1,62 @@
+{
+  "title": "疑难解答系列",
+  "author": "未知",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "玩家发现游戏Bug并提问；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "公司解答并奖励举报；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "解答其他游戏设定问题；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "提供论坛和更新信息；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "解释属性成长机制；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "公告作者回归及工作情况。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "玩家在游戏中提问，解答游戏设定问题，提供攻略和论坛信息。",
+  "chapter_count": 7
+}

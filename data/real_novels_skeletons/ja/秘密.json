@@ -1,0 +1,57 @@
+{
+  "title": "秘密",
+  "author": "东野圭吾",
+  "language": "ja",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "笹垣接手妻子死亡案件；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现妻子出轨证据；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "调查指向连环杀人案；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "凶手现身威胁；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "真相揭露于法庭；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "笹垣选择宽恕与沉默。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.6,
+      0.8,
+      0.9,
+      0.7,
+      0.5,
+      0.3,
+      0.1
+    ]
+  },
+  "summary": "刑警笹垣调查妻子死亡与出轨的关联，揭露隐藏的谎言与绝望爱情，最终直面真相与救赎。",
+  "chapter_count": 10
+}

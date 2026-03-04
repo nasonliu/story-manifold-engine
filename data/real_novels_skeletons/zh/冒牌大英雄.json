@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "田行健在战场求生。"
+        "desc": "战争逃亡"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "被编入新部队。"
+        "desc": "机甲觉醒"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "观察战场环境。"
+        "desc": "初次反击"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "随时可能遭遇敌军。"
+        "desc": "队友牺牲"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "未知高潮。"
+        "desc": "绝地反击"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "未知解决。"
+        "desc": "暗中成长"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "机甲战士在战场求生，编入新部队，观察战场环境，危机四伏。",
-  "chapter_count": 1
+  "summary": "联邦军下士田行健在米洛克星战场幸存，利用机甲和古武能力逃命并逐渐觉醒力量。",
+  "chapter_count": 100
 }

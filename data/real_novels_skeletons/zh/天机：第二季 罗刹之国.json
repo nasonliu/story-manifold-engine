@@ -2,41 +2,47 @@
   "title": "天机：第二季 罗刹之国",
   "author": "蔡骏",
   "language": "zh",
-  "genre": "悬疑/惊悚",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "记者目睹惨烈袭击"
+        "desc": "记者目睹惨烈车祸"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "追踪神秘消失的城市"
+        "desc": "中士阻止拍摄"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "发现城市沉睡真相"
+        "desc": "记者愤怒离开"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "接触神秘组织"
+        "desc": "记者回忆伊拉克事件"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "揭露天机秘密"
+        "desc": "记者决定深入调查"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "冲突高潮与逃离"
+        "desc": "记者发现城市沉寂之谜"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "记者钱莫争在伊拉克战场目睹惨剧，深入神秘消失的城市罗刹之国，揭开\"天机\"背后的恐怖真相。",
+  "summary": "记者钱莫争在伊拉克目睹惨烈车祸后，被派往泰国沉寂之城，调查\"天机\"之谜。",
   "chapter_count": 0
 }

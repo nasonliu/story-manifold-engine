@@ -2,47 +2,41 @@
   "title": "蔡骏午夜小说馆",
   "author": "蔡骏",
   "language": "zh",
-  "genre": "都市/悬疑",
+  "genre": "心理悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "品牌创立与成功"
+        "desc": "品牌小说成功上市。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "作品影响力扩大"
+        "desc": "商标注册保护品牌。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "衍生作品开发"
+        "desc": "影视改编及衍生开发。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "伪书问题出现"
+        "desc": "原著场景“荒村公寓”消失。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "作品核心场景描写"
+        "desc": "对“荒村公寓”消失的思考。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "品牌未来发展计划"
+        "desc": "品牌影响力持续扩大。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "蔡骏悬疑小说品牌发展史，结合超自然元素，讲述商业成功与创作理念。",
-  "chapter_count": 3
+  "summary": "蔡骏悬疑小说品牌介绍，系列作品成功及未来发展计划。",
+  "chapter_count": 0
 }

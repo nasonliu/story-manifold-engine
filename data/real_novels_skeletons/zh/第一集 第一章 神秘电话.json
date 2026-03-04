@@ -1,42 +1,45 @@
 {
   "title": "第一集 第一章 神秘电话",
-  "author": "佚名",
+  "author": "未知",
   "language": "zh",
-  "genre": "都市/悬疑",
+  "genre": "都市/奇幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "杨华第三次高考当天被劫匪绑床，考试错过。"
+        "desc": "杨华第三次参加高考；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "回忆前两次高考意外。"
+        "desc": "接到神秘电话；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "大学生活依旧霉运连连。"
+        "desc": "意识到自己霉运；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "霉运引发社会关注。"
+        "desc": "发现更多霉运经历；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "神秘电话打破困境。"
+        "desc": "决定面对霉运；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "霉运背后隐藏超自然力量。"
+        "desc": "接受现实"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +54,6 @@
       0.3
     ]
   },
-  "summary": "主角杨华因霉运三次高考失败，经历各种离奇事故，最终接到神秘电话，命运或将转向。",
+  "summary": "高考考生杨华因连续霉运三次缺席考试，其经历被报道引发关注，故事围绕他的倒霉遭遇展开。",
   "chapter_count": 1
 }

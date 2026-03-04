@@ -1,0 +1,57 @@
+{
+  "title": "第二世界：生日第一天",
+  "author": "未知",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角生日启动新游戏。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "朋友邀请组队。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "确定游戏目标。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "游戏初期挑战。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "游戏高潮对决。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "完成游戏目标。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0,
+      0.7
+    ]
+  },
+  "summary": "主角生日当天启动新游戏“第二世界”，因朋友邀请决定加入，开启游戏冒险与社交生活。",
+  "chapter_count": 0
+}

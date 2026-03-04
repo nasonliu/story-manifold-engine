@@ -1,6 +1,6 @@
 {
   "title": "江湖篇",
-  "author": "佚名",
+  "author": "待补充",
   "language": "zh",
   "genre": "历史/武侠",
   "structure": {
@@ -8,58 +8,49 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "使者携圣旨入营。"
+        "desc": "文官使者携圣旨至军营；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "使者突袭刺杀主将。"
+        "desc": "刺客突袭将军；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "契丹铁骑趁乱突袭。"
+        "desc": "契丹铁骑趁乱攻营；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "军营惨遭屠杀。"
+        "desc": "大营惨遭毁灭；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "主将战死，军心溃散。"
+        "desc": "战争惨败；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "契丹铁骑轻松获胜。"
+        "desc": "军心涣散"
       }
     ],
-    "turning_points": [
-      0.2,
-      0.4,
-      0.6,
-      0.8,
-      0.95
-    ],
-    "climax_position": 0.8,
+    "turning_points": [],
+    "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
-      0.4,
       0.5,
-      0.6,
       0.7,
-      0.8,
       0.9,
       1.0,
-      0.9,
-      0.8,
-      0.6
+      0.7,
+      0.5,
+      0.3
     ]
   },
-  "summary": "契丹使者的假圣旨刺杀主将，趁乱突袭军营，边关守军惨败。",
-  "chapter_count": 10
+  "summary": "契丹刺客假借圣旨突袭边关大营，守将李毅中计身亡，营寨瞬间被破，惨遭屠杀。",
+  "chapter_count": 0
 }

@@ -1,0 +1,62 @@
+{
+  "title": "零开始的奇幻冒险故事",
+  "author": "未知",
+  "language": "zh",
+  "genre": "奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "少年获得神秘力量。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遇到第一个挑战。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "掌握基本能力。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇强大敌人。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成长为英雄。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一个少年获得神秘力量，踏上冒险之路，面对重重挑战，最终成长为英雄。",
+  "chapter_count": 0
+}

@@ -1,45 +1,62 @@
 {
   "title": "谍变",
-  "author": "崔佛斯",
+  "author": "未知",
   "language": "zh",
-  "genre": "悬疑/间谍",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "特工名单失窃，引发恐慌。"
+        "desc": "特工名单被盗引发国际危机；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "确认间谍仍在巴黎接头。"
+        "desc": "间谍手法暴露怀疑CIA病毒；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "分析各国间谍动向。"
+        "desc": "贝尔分派队员阻截接头；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "各国间谍即将抵达巴黎。"
+        "desc": "多国间谍介入局势失控；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "间谍接头行动。"
+        "desc": "冲突爆发进入高潮；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功取回失窃物品。"
+        "desc": "物品争夺战收尾"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
-    "tension_curve": []
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
   },
-  "summary": "法国特工团队发现驻欧洲特工名单被盗，怀疑CIA病毒或MI6所为，展开潜入行动。",
-  "chapter_count": 0
+  "summary": "法国特工队发现驻欧洲特工名单被盗，怀疑CIA“病毒”或英国MI6涉案，贝尔队长部署行动，危机升级。",
+  "chapter_count": 1
 }

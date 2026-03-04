@@ -1,0 +1,56 @@
+{
+  "title": "寂寞如狗屎的言情男主角",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市/悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "范慎绝症缠身，等待死亡。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现自己能动的舌头。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "意识到自己并非普通病人。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "病房外神秘声音。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "超自然力量觉醒。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "开启求生之路。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "绝症患者范慎在医院发现自身异常，唯一能动的舌头暗示着不寻常的能力，命运开始悄然改变。",
+  "chapter_count": 5
+}

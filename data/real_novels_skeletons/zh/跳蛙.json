@@ -1,48 +1,42 @@
 {
   "title": "跳蛙",
-  "author": "契诃夫",
+  "author": "佚名",
   "language": "zh",
-  "genre": "讽刺",
+  "genre": "历史/讽刺",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "皇帝养小丑取乐；"
+        "desc": "皇帝养弄臣取乐；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "小丑表演滑稽；"
+        "desc": "弄臣丑陋引发众怒；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "小丑境遇凄惨；"
+        "desc": "弄臣机智化解危机；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "小丑表演引发同情；"
+        "desc": "弄臣跳河被救；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "小丑离开宫廷；"
+        "desc": "弄臣跳河被救；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "小丑的境遇引发思考"
+        "desc": "弄臣跳河被救"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "皇帝养着一个又矮又瘸的小丑，他滑稽的表演让皇帝和大臣们开怀大笑，但小丑的境遇令人同情。",
-  "chapter_count": 10
+  "summary": "皇帝养着丑陋矮小的弄臣\"跳蛙\"，靠其蠢行取乐，讽刺宫廷权贵虚伪。",
+  "chapter_count": 0
 }

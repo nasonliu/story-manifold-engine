@@ -1,0 +1,56 @@
+{
+  "title": "神的起源",
+  "author": "",
+  "language": "zh",
+  "genre": "奇幻冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "创世神夫妇离开，世界陷入混乱。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "神明内斗，人类崛起。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "主角成为领导者。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "人类觉醒引发危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终决战决定世界命运。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "新秩序建立。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "创世神夫妇离开后，神明与人类争夺世界主导权，主角在混乱中崛起，最终面临神明内斗与人类觉醒的双重危机。",
+  "chapter_count": 10
+}

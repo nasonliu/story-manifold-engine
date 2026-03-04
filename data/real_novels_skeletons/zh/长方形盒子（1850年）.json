@@ -2,47 +2,41 @@
   "title": "长方形盒子（1850年）",
   "author": "康华",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "历史",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "发现三个客舱，好奇；"
+        "desc": "主角发现怀亚特一家订三个客舱引发好奇"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "猜测原因；"
+        "desc": "调查盒子归属时遭遇阻碍"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "自我解释；"
+        "desc": "接近真相但发现盒子危险性"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "危机出现；"
+        "desc": "危机爆发时主角陷入困境"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "高潮揭开真相；"
+        "desc": "与怀亚特对峙揭露盒子秘密"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解决谜团"
+        "desc": "盒子被妥善处理后主角释怀"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角发现怀亚特一家订三个特等舱，猜测仆人或物品，后自我解释为行李，故事围绕谜团展开。",
-  "chapter_count": 1
+  "summary": "主角因怀亚特一家的客舱异常而调查，发现神秘长方盒子引发悬疑，逐步揭开19世纪邮轮上的秘密。",
+  "chapter_count": 5
 }

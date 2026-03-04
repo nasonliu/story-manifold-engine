@@ -1,0 +1,56 @@
+{
+  "title": "不死不活的我",
+  "author": "未知",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "韩硕被卷入异界，附身小杂役；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "获得修魔记忆开始修炼；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "实力快速成长颠覆认知；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "三人联手围攻危机；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "神识种入韩硕体内；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "韩硕继承传承开始逆袭"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "宅男韩硕意外附身亡灵系杂役，获修魔传承，在异界魔武学院开始修炼，逐步成长颠覆他人认知。",
+  "chapter_count": 0
+}

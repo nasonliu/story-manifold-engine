@@ -1,0 +1,62 @@
+{
+  "title": "格斗技巧的探讨",
+  "author": "未知",
+  "language": "zh",
+  "genre": "都市/非虚构",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "学习格斗技巧的动机"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "格斗原则的提出"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "实用技巧的探讨"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无武器格斗技巧的探讨"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "格斗技巧的提升方法"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "格斗技巧的总结"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.5,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "summary": "探讨格斗技巧的核心原则和实用方法，强调实战和效率。",
+  "chapter_count": 0
+}
