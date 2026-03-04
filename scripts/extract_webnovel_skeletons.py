@@ -1,40 +1,35 @@
 #!/usr/bin/env python3
 """
-Extract skeleton from novel using rule-based method
-Fallback when no LLM API available
+Extract skeleton from novel - RULE-BASED VERSION
+(Fallback when no LLM API available)
+
+Note: Local Ollama (deepseek-r1:8b) integration pending JSON parsing fix.
 """
 import json
 import re
 from pathlib import Path
 
 def extract_skeleton_from_plot(plot: str, title: str, genre: str = "玄幻") -> dict:
-    """
-    Extract skeleton using rule-based method.
-    """
-    # Simple heuristic-based extraction
+    """Extract skeleton using rule-based method."""
     sentences = re.split(r'[。！？\n]', plot)
     sentences = [s.strip() for s in sentences if s.strip()]
     
-    # Estimate total parts
     total_parts = max(1, len(sentences) // 10)
-    
-    # Generate beats based on story length
     beat_count = min(9, max(6, total_parts))
     
-    # Generate tension curve (simple pattern)
+    # Generate tension curve
     tension_curve = []
     for i in range(beat_count):
         pos = i / (beat_count - 1) if beat_count > 1 else 0.5
-        # Classic story arc: low -> rising -> climax -> falling -> resolution
         if pos < 0.2:
-            t = 0.2 + pos * 2  # 0.2 -> 0.6
+            t = 0.2 + pos * 2
         elif pos < 0.7:
-            t = 0.6 + (pos - 0.2) * 0.8  # 0.6 -> 1.0
+            t = 0.6 + (pos - 0.2) * 0.8
         else:
-            t = 1.0 - (pos - 0.7) * 2  # 1.0 -> 0.4
+            t = 1.0 - (pos - 0.7) * 2
         tension_curve.append(round(t, 2))
     
-    # Generate beat names based on genre/tension
+    # Beat names by genre
     beat_templates = {
         "玄幻": ["初始", "觉醒", "修炼", "挑战", "危机", "突破", "决战", "成道", "结局"],
         "都市": ["入职", "困境", "机遇", "成长", "危机", "反击", "成功", "稳定", "未来"],
@@ -53,7 +48,7 @@ def extract_skeleton_from_plot(plot: str, title: str, genre: str = "玄幻") -> 
             "desc": sentences[i*3] if i*3 < len(sentences) else f"这是{title}的第{i+1}个情节点。"
         })
     
-    # Determine archetype and ending based on genre patterns
+    # Archetype
     archetype = "成长"
     if "复仇" in plot[:100]:
         archetype = "复仇"
@@ -62,7 +57,7 @@ def extract_skeleton_from_plot(plot: str, title: str, genre: str = "玄幻") -> 
     elif "救" in plot[:100]:
         archetype = "救赎"
     
-    # Simple ending inference
+    # Ending
     endings = ["tragedy", "triumph", "bittersweet", "open", "pyrrhic"]
     ending = endings[hash(title) % len(endings)]
     
@@ -78,11 +73,10 @@ def extract_skeleton_from_plot(plot: str, title: str, genre: str = "玄幻") -> 
         "beats": beats,
         "tension_curve": tension_curve,
         "themes": [genre, archetype],
-        "quality_score": 60.0
+        "quality_score":
     }
 
 def main():
-    # Load web novels
     input_file = Path("data/to_process_webnovels.json")
     output_file = Path("data/real_novels/webnovels_skeletons.json")
     
@@ -94,7 +88,7 @@ def main():
     skeletons = []
     for i, novel in enumerate(novels):
         title = novel.get('title', f'Novel_{i}')
-        plot = novel.get('plot', '')[:2000]  # Limit length
+        plot = novel.get('plot', '')[:2000]
         genre = novel.get('genre', '玄幻')
         
         skeleton = extract_skeleton_from_plot(plot, title, genre)
@@ -102,10 +96,9 @@ def main():
         skeleton['original_genre'] = genre
         skeletons.append(skeleton)
         
-        if (i + 1) % 100 == 0:
+        if (i + 1) % 500 == 0:
             print(f"Processed {i+1}/{len(novels)}")
     
-    # Save
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(skeletons, f, ensure_ascii=False, indent=2)
