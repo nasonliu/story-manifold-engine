@@ -1,0 +1,45 @@
+{
+  "title": "第二世界：新人的第一天",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角进入游戏世界，开始新生活。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "好友邀请加入游戏，决定分工合作。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "初次体验游戏，探索世界。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇意外，游戏进程受阻。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮：解决危机，获得初步成功。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决问题，规划未来发展方向。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "主角生日入游戏世界，与好友合作开始冒险，目标是升级与赚钱。",
+  "chapter_count": 1
+}

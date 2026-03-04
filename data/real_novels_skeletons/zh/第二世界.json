@@ -1,0 +1,38 @@
+{
+  "title": "第二世界",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角开始玩新游戏。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "决定与朋友一起玩。"
+      }
+    ],
+    "turning_points": [
+      0.1
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角生日当天开始玩新虚拟现实游戏，与好友合作，准备进入游戏世界。",
+  "chapter_count": 0
+}

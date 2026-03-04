@@ -1,0 +1,59 @@
+{
+  "title": "未知故事",
+  "author": "未知作者",
+  "language": "zh",
+  "genre": "未知类型",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无法解析文本，无法提取情节"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无法解析文本，无法提取转折"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "无法解析文本，无法提取中点"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无法解析文本，无法提取危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无法解析文本，无法提取高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无法解析文本，无法提取解决"
+      }
+    ],
+    "turning_points": [
+      0.0
+    ],
+    "climax_position": 0.0,
+    "tension_curve": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "summary": "文本无法解析，无法提供概要",
+  "chapter_count": 0
+}

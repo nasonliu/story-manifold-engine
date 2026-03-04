@@ -1,42 +1,48 @@
 {
-  "title": "江山美人志",
-  "author": "瑞根",
+  "title": "网游之天地",
+  "author": "隐为者",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "科幻/游戏",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角起步与机遇；"
+        "desc": "主角进入游戏开启冒险；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "西北战事爆发；"
+        "desc": "遭遇主线BOSS被迫升级；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "崛起为侯；"
+        "desc": "获得终极技能突破瓶颈；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "揭露游戏背后的阴谋；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终扩张胜利；"
+        "desc": "与幕后黑手展开决战；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "实现理想与目标"
+        "desc": "主角觉醒平衡虚拟与现实"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年崛起，征战四方，成就霸业，涉及权谋与战争的宏大历史画卷。",
+  "summary": "玩家在虚拟与现实间挣扎，探索生存与自我认知的边界。",
   "chapter_count": 0
 }

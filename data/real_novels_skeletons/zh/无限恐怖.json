@@ -1,0 +1,31 @@
+{
+  "title": "无限恐怖",
+  "author": "zhttty",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "作者回忆网络文学黄金时代，反思原创危机，创作《无限恐怖》以呼吁新意。",
+  "chapter_count": 0
+}

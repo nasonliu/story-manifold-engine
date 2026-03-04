@@ -1,39 +1,39 @@
 {
-  "title": "江山美人志",
-  "author": "瑞根",
+  "title": "网游-梦幻现实",
+  "author": "云天空",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "游戏",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角起步与机遇；"
+        "desc": "主角被误会意图不轨，遭拽衣质问。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "西北战事爆发；"
+        "desc": "对方揭露夜间通行秘密。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "崛起为侯；"
+        "desc": "主角试图解释被打断。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "冲突升级，对方威胁。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终扩张胜利；"
+        "desc": "主角面临被纠缠危机。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "实现理想与目标"
+        "desc": "寻求脱身或反击机会。"
       }
     ],
     "turning_points": [],
@@ -51,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "少年崛起，征战四方，成就霸业，涉及权谋与战争的宏大历史画卷。",
-  "chapter_count": 0
+  "summary": "主角因看美女被误会意图不轨，遭殴打后逃跑，被拽住质问，故事围绕误会与冲突展开。",
+  "chapter_count": 1
 }

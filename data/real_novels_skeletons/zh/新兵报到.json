@@ -1,0 +1,31 @@
+{
+  "title": "新兵报到",
+  "author": "",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "唐龙为实现元帅梦想，克服家庭阻力参军报到，面对新兵营生活，内心充满野心与挑战。",
+  "chapter_count": 1
+}

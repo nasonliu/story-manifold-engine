@@ -1,42 +1,48 @@
 {
-  "title": "江山美人志",
-  "author": "瑞根",
+  "title": "斗罗大陆",
+  "author": "唐家三少",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角起步与机遇；"
+        "desc": "完成暗器巅峰之作；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "西北战事爆发；"
+        "desc": "内门长老突然到访；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "崛起为侯；"
+        "desc": "暗器被长老认可；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "面临违背门规的抉择；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终扩张胜利；"
+        "desc": "决定投下佛怒唐莲；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "实现理想与目标"
+        "desc": "成功突破，开启新篇"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年崛起，征战四方，成就霸业，涉及权谋与战争的宏大历史画卷。",
-  "chapter_count": 0
+  "summary": "唐门弟子唐三历经二十年努力，完成暗器巅峰之作，面临违背门规的抉择。",
+  "chapter_count": 50
 }

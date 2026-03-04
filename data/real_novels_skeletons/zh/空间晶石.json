@@ -1,39 +1,39 @@
 {
-  "title": "盘龙之戒",
-  "author": "网络小说",
+  "title": "空间晶石",
+  "author": "老云",
   "language": "zh",
-  "genre": "玄幻/奇幻",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "少年渴望成为强大战士。"
+        "desc": "神明之战爆发，天使恶魔厮杀。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "训练开始，强调基础与刻苦。"
+        "desc": "破坏神背叛，创世神被刺穿。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "少年们决心坚持锻炼。"
+        "desc": "战场混乱，阵营分裂。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "(无明显危机)。"
+        "desc": "创世神死亡，破坏神挑衅。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "(无明显高潮)。"
+        "desc": "战局未定，危机升级。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "(无明显解决)。"
+        "desc": "暂无解决。"
       }
     ],
     "turning_points": [
@@ -43,7 +43,7 @@
       0.7,
       0.9
     ],
-    "climax_position": 0.7,
+    "climax_position": 0.5,
     "tension_curve": [
       0.1,
       0.2,
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "平民少年接受严苛训练，为提升实力而奋斗，乌山镇训练场是他们成长的起点。",
-  "chapter_count": 0
+  "summary": "世界神明之战，创世神被破坏神背叛，天使恶魔厮杀，能量斗气肆虐，人类追随神明战斗。",
+  "chapter_count": 1
 }

@@ -1,42 +1,48 @@
 {
-  "title": "江山美人志",
-  "author": "瑞根",
+  "title": "琴魔法师",
+  "author": "未知",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角起步与机遇；"
+        "desc": "老魔法师出现并要求见会长。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "西北战事爆发；"
+        "desc": "皮尔洛认出老魔法师身份。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "崛起为侯；"
+        "desc": "老魔法师展示魔法能力。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "老魔法师的危机请求。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终扩张胜利；"
+        "desc": "解决危机。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "实现理想与目标"
+        "desc": "故事结局。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年崛起，征战四方，成就霸业，涉及权谋与战争的宏大历史画卷。",
-  "chapter_count": 0
+  "summary": "老魔法师皮尔洛从法蓝而来，要求见临时会长，引发后续冒险。",
+  "chapter_count": 10
 }

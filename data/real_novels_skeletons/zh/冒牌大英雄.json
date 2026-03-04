@@ -1,42 +1,48 @@
 {
-  "title": "江山美人志",
-  "author": "瑞根",
+  "title": "冒牌大英雄",
+  "author": "七十二编",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "古武机甲",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角起步与机遇；"
+        "desc": "机甲维修兵幸存战场"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "西北战事爆发；"
+        "desc": "搭上撤退战舰"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "崛起为侯；"
+        "desc": "到达新基地"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "面对联邦覆灭"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终扩张胜利；"
+        "desc": "与帝国军对抗"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "实现理想与目标"
+        "desc": "成长为强者"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年崛起，征战四方，成就霸业，涉及权谋与战争的宏大历史画卷。",
-  "chapter_count": 0
+  "summary": "机甲维修兵在战场上求生，幸存并加入联邦残部，开启艰难求存之旅。",
+  "chapter_count": 10
 }

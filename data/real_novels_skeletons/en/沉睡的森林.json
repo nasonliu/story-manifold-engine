@@ -1,0 +1,31 @@
+{
+  "title": "沉睡的森林",
+  "author": "未知",
+  "language": "en",
+  "genre": "都市",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一位有争议的足球教练托尼·唐恩遭遇意外，其传奇经历由此展开。",
+  "chapter_count": 0
+}

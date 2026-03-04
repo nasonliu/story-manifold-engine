@@ -1,39 +1,39 @@
 {
-  "title": "江山美人志",
-  "author": "瑞根",
+  "title": "战国杂家吕不韦",
+  "author": "逆天妖孽",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "仙侠/历史",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角起步与机遇；"
+        "desc": "少年吕不韦觉醒武道天赋"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "西北战事爆发；"
+        "desc": "获得诸子百家传承"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "崛起为侯；"
+        "desc": "揭露长平之战真相"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "面对百家宗派质疑"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终扩张胜利；"
+        "desc": "武道巅峰对决"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "实现理想与目标"
+        "desc": "建立杂家新秩序"
       }
     ],
     "turning_points": [],
@@ -51,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "少年崛起，征战四方，成就霸业，涉及权谋与战争的宏大历史画卷。",
+  "summary": "诸子百家皆修武，天才少年横空出世，长平之战真相揭秘，吕不韦论定天下。",
   "chapter_count": 0
 }
