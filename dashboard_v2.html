@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Manifold Engine - 数据监控面板</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0a0f;
+            --bg-secondary: #12121a;
+            --bg-card: #1a1a24;
+            --bg-card-hover: #22222e;
+            --accent-cyan: #00ffd5;
+            --accent-magenta: #ff00aa;
+            --accent-yellow: #ffd000;
+            --accent-green: #00ff88;
+            --accent-red: #ff4466;
+            --text-primary: #ffffff;
+            --text-secondary: #8888aa;
+            --text-muted: #555566;
+            --border-color: #2a2a3a;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Noto Sans SC', 'JetBrains Mono', monospace;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(0,255,213,0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255,0,170,0.03) 0%, transparent 50%),
+                linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .container { max-width: 1600px; margin: 0 auto; padding: 24px; }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 24px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 32px;
+        }
+
+        .logo { display: flex; align-items: center; gap: 16px; }
+
+        .logo-icon {
+            width: 48px; height: 48px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-magenta));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700; font-size: 20px;
+            color: var(--bg-primary);
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-magenta));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo span { font-size: 12px; color: var(--text-secondary); }
+
+        .status-badge {
+            display: flex; align-items: center; gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            font-size: 13px;
+        }
+
+        .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            background: var(--accent-green);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 32px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            background: var(--bg-card-hover);
+            transform: translateY(-2px);
+            border-color: var(--accent-cyan);
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0;
+            width: 4px; height: 100%;
+            background: var(--accent-cyan);
+        }
+
+        .stat-card.magenta::before { background: var(--accent-magenta); }
+        .stat-card.yellow::before { background: var(--accent-yellow); }
+        .stat-card.green::before { background: var(--accent-green); }
+
+        .stat-label {
+            font-size: 13px; color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex; align-items: center; gap: 8px;
+        }
+
+        .stat-value {
+            font-size: 42px; font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .stat-sub {
+            font-size: 13px; color: var(--text-muted); margin-top: 8px;
+        }
+
+        /* Main Grid */
+        .main-grid {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 24px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+
+        .card-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-title {
+            font-size: 14px; font-weight: 600;
+            display: flex; align-items: center; gap: 8px;
+        }
+
+        .card-title::before {
+            content: '';
+            width: 4px; height: 16px;
+            background: var(--accent-cyan);
+            border-radius: 2px;
+        }
+
+        .card-body { padding: 0; }
+
+        /* Source List */
+        .source-list { max-height: 400px; overflow-y: auto; }
+
+        .source-item {
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .source-item:hover { background: var(--bg-secondary); }
+
+        .source-item.active { background: var(--bg-card-hover); border-left: 3px solid var(--accent-cyan); }
+
+        .source-name {
+            font-size: 13px;
+            display: flex; justify-content: space-between;
+        }
+
+        .source-count {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-cyan);
+        }
+
+        /* Skeleton List */
+        .skeleton-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .skeleton-item {
+            padding: 10px 20px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            transition: background 0.2s;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+
+        .skeleton-item:hover { background: var(--bg-secondary); }
+
+        .skeleton-title {
+            font-size: 13px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 280px;
+        }
+
+        .skeleton-meta {
+            font-size: 11px; color: var(--text-muted);
+        }
+
+        .lang-badge {
+            display: inline-block; padding: 2px 6px;
+            border-radius: 4px; font-size: 10px;
+            margin-right: 8px;
+        }
+
+        .lang-badge.zh { background: rgba(0,255,213,0.15); color: var(--accent-cyan); }
+        .lang-badge.en { background: rgba(255,0,170,0.15); color: var(--accent-magenta); }
+        .lang-badge.other { background: rgba(255,208,0,0.15); color: var(--accent-yellow); }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal-overlay.active { display: flex; }
+
+        .modal {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            width: 90%; max-width: 800px;
+            max-height: 80vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .modal-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title { font-size: 18px; font-weight: 600; }
+
+        .modal-close {
+            background: none; border: none;
+            color: var(--text-secondary);
+            font-size: 24px; cursor: pointer;
+        }
+
+        .modal-body {
+            padding: 20px;
+            overflow-y: auto;
+            flex: 1;
+        }
+
+        .skeleton-detail {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            white-space: pre-wrap;
+            background: var(--bg-secondary);
+            padding: 16px;
+            border-radius: 8px;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+
+        /* Loading */
+        .loading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            color: var(--text-muted);
+        }
+
+        .refresh-btn {
+            background: transparent;
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .refresh-btn:hover {
+            background: var(--bg-card-hover);
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+        ::-webkit-scrollbar-thumb { background: var(--border-color); border-radius: 3px; }
+
+        /* Search */
+        .search-box {
+            padding: 12px 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px 12px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-size: 13px;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">SM</div>
+                <div>
+                    <h1>Story Manifold Engine</h1>
+                    <span>实时数据监控面板</span>
+                </div>
+            </div>
+            <div class="status-badge">
+                <div class="status-dot"></div>
+                <span id="status-text">运行中</span>
+            </div>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">📚 总骨架数量</div>
+                <div class="stat-value" id="total">0</div>
+                <div class="stat-sub">目标: 2000</div>
+            </div>
+            <div class="stat-card magenta">
+                <div class="stat-label">🌐 中文网文</div>
+                <div class="stat-value" id="zh-count">0</div>
+                <div class="stat-sub" id="zh-percent">0%</div>
+            </div>
+            <div class="stat-card yellow">
+                <div class="stat-label">📖 英文小说</div>
+                <div class="stat-value" id="en-count">0</div>
+                <div class="stat-sub" id="en-percent">0%</div>
+            </div>
+            <div class="stat-card green">
+                <div class="stat-label">🌍 其他语言</div>
+                <div class="stat-value" id="other-count">0</div>
+                <div class="stat-sub" id="other-percent">0%</div>
+            </div>
+        </div>
+
+        <div class="main-grid">
+            <!-- Source List -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">数据源</div>
+                    <button class="refresh-btn" onclick="loadData()">刷新</button>
+                </div>
+                <div class="source-list" id="source-list">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+
+            <!-- Skeleton List -->
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-title">骨架列表</div>
+                    <span id="skeleton-count" style="font-size: 12px; color: var(--text-muted);">0 条</span>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="搜索..." id="search-input">
+                </div>
+                <div class="skeleton-list" id="skeleton-list">
+                    <div class="loading">加载中...</div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Story Manifold Engine | 最后更新: <span id="last-update">--</span></p>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <div class="modal-header">
+                <div class="modal-title" id="modal-title">骨架详情</div>
+                <button class="modal-close" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <pre class="skeleton-detail" id="modal-content">加载中...</pre>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allSkeletons = [];
+        let currentSource = 'all';
+
+        async function loadData() {
+            try {
+                // Load from local JSON file
+                const resp = await fetch('/data/dashboard_data.json');
+                const data = await resp.json();
+                
+                // Update stats
+                document.getElementById('total').textContent = data.total;
+                document.getElementById('zh-count').textContent = data.languages.zh;
+                document.getElementById('en-count').textContent = data.languages.en;
+                document.getElementById('other-count').textContent = data.languages.classic + data.languages.other;
+                
+                const total = data.total;
+                document.getElementById('zh-percent').textContent = Math.round(data.languages.zh / total * 100) + '%';
+                document.getElementById('en-percent').textContent = Math.round(data.languages.en / total * 100) + '%';
+                document.getElementById('other-percent').textContent = Math.round((data.languages.classic + data.languages.other) / total * 100) + '%';
+
+                // Update source list
+                renderSourceList(data.sources);
+                
+                // Store all skeletons
+                allSkeletons = data.skeletons;
+                renderSkeletonList(allSkeletons);
+                
+                // Update time
+                document.getElementById('last-update').textContent = new Date().toLocaleTimeString('zh-CN');
+                
+            } catch (e) {
+                console.error('Failed to load data:', e);
+            }
+        }
+
+        function renderSourceList(sources) {
+            const list = document.getElementById('source-list');
+            const sorted = Object.entries(sources).sort((a, b) => b[1] - a[1]);
+            
+            let html = `<div class="source-item active" onclick="filterSource('all')">
+                <div class="source-name"><span>全部</span><span class="source-count">${Object.values(sources).reduce((a, b) => a + b, 0)}</span></div>
+            </div>`;
+            
+            sorted.forEach(([name, count]) => {
+                html += `<div class="source-item" onclick="filterSource('${name}')">
+                    <div class="source-name"><span>${name}</span><span class="source-count">${count}</span></div>
+                </div>`;
+            });
+            
+            list.innerHTML = html;
+        }
+
+        function filterSource(source) {
+            currentSource = source;
+            
+            // Update active state
+            document.querySelectorAll('.source-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            event.target.closest('.source-item').classList.add('active');
+            
+            // Filter skeletons
+            if (source === 'all') {
+                renderSkeletonList(allSkeletons);
+            } else {
+                const filtered = allSkeletons.filter(s => s.path.startsWith(source + '/'));
+                renderSkeletonList(filtered);
+            }
+        }
+
+        function renderSkeletonList(skeletons) {
+            const list = document.getElementById('skeleton-list');
+            document.getElementById('skeleton-count').textContent = skeletons.length + ' 条';
+            
+            if (skeletons.length === 0) {
+                list.innerHTML = '<div class="loading">暂无数据</div>';
+                return;
+            }
+            
+            let html = '';
+            skeletons.forEach(s => {
+                const lang = s.language || 'other';
+                const langClass = lang === 'zh' || lang === '中文' ? 'zh' : 
+                                  lang === 'en' || lang === 'English' ? 'en' : 'other';
+                html += `<div class="skeleton-item" onclick="viewSkeleton('${s.path}')">
+                    <div>
+                        <span class="lang-badge ${langClass}">${lang}</span>
+                        <span class="skeleton-title">${s.title}</span>
+                    </div>
+                    <span class="skeleton-meta">${s.author || 'Unknown'}</span>
+                </div>`;
+            });
+            
+            list.innerHTML = html;
+        }
+
+        async function viewSkeleton(filepath) {
+            const modal = document.getElementById('modal');
+            const title = document.getElementById('modal-title');
+            const content = document.getElementById('modal-content');
+            
+            modal.classList.add('active');
+            title.textContent = '加载中...';
+            content.textContent = '加载中...';
+            
+            try {
+                const resp = await fetch('/data/real_novels_skeletons/' + filepath);
+                const data = await resp.json();
+                
+                title.textContent = data.title || filepath;
+                content.textContent = JSON.stringify(data, null, 2);
+            } catch (e) {
+                content.textContent = '加载失败: ' + e.message;
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        // Search
+        document.getElementById('search-input').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            if (!query) {
+                if (currentSource === 'all') {
+                    renderSkeletonList(allSkeletons);
+                } else {
+                    filterSource(currentSource);
+                }
+                return;
+            }
+            
+            const filtered = allSkeletons.filter(s => 
+                s.title.toLowerCase().includes(query) || 
+                (s.author && s.author.toLowerCase().includes(query))
+            );
+            renderSkeletonList(filtered);
+        });
+
+        // Close modal on outside click
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') closeModal();
+        });
+
+        // Initial load
+        loadData();
+        
+        // Auto-refresh every 30s
+        setInterval(loadData, 30000);
+    </script>
+</body>
+</html>
