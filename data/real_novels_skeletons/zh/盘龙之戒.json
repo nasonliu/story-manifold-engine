@@ -1,0 +1,49 @@
+{
+  "title": "盘龙之戒",
+  "author": "未知",
+  "language": "zh",
+  "genre": "玄幻/冒险",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "激励事件: 少年们开始日常训练。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "第一个转折点: 希尔曼强调平民必须比贵族更刻苦。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "中点: 少年们展现决心，准备迎接训练。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "危机: (未出现)"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮: (未出现)"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决: (未出现)"
+      }
+    ],
+    "turning_points": [
+      0.1
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1
+    ]
+  },
+  "summary": "乌山镇少年接受严苛训练，为成为受人尊敬的战士而努力，镇上的训练队长希尔曼强调力量与地位的重要性。",
+  "chapter_count": 0
+}
