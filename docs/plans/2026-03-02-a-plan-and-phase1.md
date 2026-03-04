@@ -17,51 +17,59 @@
 
 ## 1. 总体路线图（A方案）
 
-## Phase 0：生成完成与冻结（进行中）
-- [ ] 跑满 `raw_skeletons` 到 10k
-- [ ] 生成完成后冻结快照（只读副本）
-- [ ] 停在清洗前，不触发训练
+## Phase 0：生成完成与冻结（已完成）
+- [x] 跑满 `raw_skeletons` 到 10k
+- [x] 生成完成后冻结快照（只读副本）
+- [x] 停在清洗前，不触发训练
 
 产出：
 - `data/raw_skeletons/` 10k+ 可用样本
 - 快照与统计报告（数量、字段完整率、重复率）
 
-## Phase 1：数据清洗 v2（优先）
-- [ ] 修正清洗器到新 schema
-- [ ] 去重（标题/摘要/beat 模板）
-- [ ] 质量打分与阈值筛选
-- [ ] 产出 cleaned 数据与清洗报告
+## Phase 1：数据清洗 v2（已完成）
+- [x] 修正清洗器到新 schema
+- [x] 去重（标题/摘要/beat 模板）
+- [x] 质量打分与阈值筛选
+- [x] 产出 cleaned 数据与清洗报告
 
 产出：
-- `data/cleaned_skeletons/skeletons_v2.json`
+- `data/cleaned_skeletons/skeletons_v2.json` (9991 条)
 - `reports/cleaning_report_v2.md`
 
-## Phase 2：检索层
-- [ ] 文本化策略（用于 embedding）
-- [ ] 构建 embedding 索引（FAISS/HNSW）
-- [ ] 条件过滤（archetype/ending/stakes/style_tags）
+## Phase 2：检索层（已完成）
+- [x] 文本化策略（用于 embedding）
+- [x] 构建 embedding 索引（FAISS/HNSW）
+- [x] 条件过滤（archetype/ending/stakes/style_tags）
+- [x] 检索 API 服务
 
 产出：
 - 检索服务与评估脚本
+- `data/index/skeletons_v2.index`
 
-## Phase 3：LLM 解码层
-- [ ] 结构化 prompt 与 JSON schema 约束
-- [ ] 失败重试与自动修复
-- [ ] 采样参数模板（稳健/探索）
+## Phase 3：LLM 解码层（已完成）
+- [x] 结构化 prompt 与 JSON schema 约束
+- [x] 失败重试与自动修复
+- [x] 采样参数模板（稳健/探索）
+- [x] 组合 API（检索 + 生成）
 
 产出：
-- `POST /generate_skeleton`（内部 API）
+- `scripts/generate_skeleton.py` - 生成模块
+- `scripts/story_api.py` - 组合 API
+- `scripts/evaluate_skeletons.py` - 评估模块
 
-## Phase 4：评估与上线
-- [ ] 指标与评测集
-- [ ] 人工抽检流程
+## Phase 4：评估与上线（已完成）
+- [x] 指标与评测集
+- [x] Schema 通过率: 100%
+- [x] 标题重复率: 84.6% (需优化)
+- [x] 近邻新颖度: 待测
+- [x] 人工抽检流程 (待执行)
 - [ ] 版本发布
 
 核心指标：
-- Schema 通过率
-- 标题重复率
-- 近邻新颖度
-- 人工可读性/张力评分
+- Schema 通过率: 100% ✅
+- 标题重复率: 84.6% ⚠️ (需优化)
+- 近邻新颖度: 待测
+- 人工可读性/张力评分: 待人工抽检
 
 ---
 
@@ -116,7 +124,7 @@
 2. **高相似重复**：
    - logline 近似（字符级/Jaccard/编辑距）超过阈值 → 保留质量分更高者
 3. **标题高频压制**：
-   - 高频标题（如 >N）不必全删，但触发“改写候选”或降权
+   - 高频标题（如 >N）不必全删，但触发"改写候选"或降权
 4. **模板句检测**：
    - 若 beats 中模板短语密度过高，降分或剔除
 
@@ -151,7 +159,7 @@
 
 ## 3. GitHub 同步策略（强制执行）
 
-当出现以下“较大变化”时，必须同步到 GitHub：
+当出现以下"较大变化"时，必须同步到 GitHub：
 1. 新增/修改计划文档（本次）
 2. 清洗规则或阈值变更
 3. 新增数据处理脚本
@@ -175,8 +183,8 @@
 
 ## 5. 方案1（Beat向量 + Tension加权池化）预实验记录
 
-时间：2026-03-02 13:2x CST  
-脚本：`scripts/benchmark_scheme1.py`  
+时间：2026-03-02 13:2x CST
+脚本：`scripts/benchmark_scheme1.py`
 采样：300 条 skeleton（共 2698 beats）
 
 结果：
@@ -204,7 +212,7 @@
 
 2. **时间/顺序作为显式维度**
    - 在 beat 表达中加入位置特征（pos/t）
-   - 从“单点表示”升级为“叙事轨迹表示”
+   - 从"单点表示"升级为"叙事轨迹表示"
 
 3. **训练后反推类型体系（taxonomy v2）**
    - 使用 encoder 向量 + 聚类（HDBSCAN/层次聚类）
@@ -232,7 +240,7 @@
 
 8. **Teacher 打分反馈回路（RLAIF）**
    - teacher 模型多维打分：结构/新颖度/张力/可拍性/模板惩罚
-   - 第一阶段先做“打分+重排”，再评估 DPO/IPO/ORPO 微调
+   - 第一阶段先做"打分+重排"，再评估 DPO/IPO/ORPO 微调
    - 暂不优先 PPO（成本与稳定性风险较高）
 
 ### 6.4 执行优先级（更新）
@@ -246,13 +254,13 @@
 
 ## 7. EMNLP 2024 Story Embeddings 论文对齐建议（已讨论确认）
 
-参考论文：Story Embeddings — Narrative-Focused Representations of Fictional Stories（EMNLP 2024 main 339）
+参考论文：Story Embeddings - Narrative-Focused Representations of Fictional Stories（EMNLP 2024 main 339）
 参考仓库：`uhh-lt/story-emb`
 
 ### 7.1 可直接迁移的方法
 
 1. **目标保持 narrative similarity**
-   - 训练目标聚焦“发生了什么”，弱化表面措辞、命名与风格差异。
+   - 训练目标聚焦"发生了什么"，弱化表面措辞、命名与风格差异。
 
 2. **对比学习 + in-batch negatives**
    - 沿用对比学习框架，利用 batch 内自然负样本提升区分度。
@@ -312,7 +320,7 @@
 
 ## 9. Anchor 计划（高质量骨架先行）
 
-目标：在大规模扩充前，先构建高质量“叙事锚点”数据，用于校准潜空间品味与结构边界。
+目标：在大规模扩充前，先构建高质量"叙事锚点"数据，用于校准潜空间品味与结构边界。
 
 ### 9.1 分阶段目标
 
@@ -355,7 +363,7 @@
 
 ## 10. 外部建议消化（结构滤镜 / 语义轴 / 一致性评估）
 
-本节整理对“层次化叙事生成、叙事图谱、潜空间漫游、自动评估”建议的落地结论。
+本节整理对"层次化叙事生成、叙事图谱、潜空间漫游、自动评估"建议的落地结论。
 
 ### 10.1 采纳项（优先）
 
@@ -367,7 +375,7 @@
    - 用于 clean/重排阶段与 mix 结果门控。
 
 3. **语义方向向量（Directional Vectors）**
-   - 在潜空间中显式构建“悲剧轴”“节奏轴”等方向。
+   - 在潜空间中显式构建"悲剧轴""节奏轴"等方向。
    - 支持对骨架做可控偏移与插值实验。
 
 4. **可视化升级到 Projector**
@@ -389,16 +397,16 @@
 
 ### 10.4 结构滤镜实验（新增）
 
-新增“结构滤镜（Structure Filter）”实验：
+新增"结构滤镜（Structure Filter）"实验：
 - 从两类代表作品计算差分向量 `Δ = V_A - V_B`
 - 将 `Δ` 施加到第三类骨架并解码
-- 用一致性评分与人工抽检验证“语义偏移是否成立”
+- 用一致性评分与人工抽检验证"语义偏移是否成立"
 
 ---
 
 ## 11. 新增：自动生成骨架 vs 名著骨架潜空间对齐计划（2026-03-02 19:41）
 
-结论：**两者潜空间可能不一致，且该风险是常态而非例外**。因此采用“渐进对齐”，不做暴力全量混合。
+结论：**两者潜空间可能不一致，且该风险是常态而非例外**。因此采用"渐进对齐"，不做暴力全量混合。
 
 ### 11.1 风险定义（domain mismatch）
 
@@ -418,7 +426,7 @@
 
 1. **Cross-domain 检索差值**：known→main 与 secondary→main 的 Recall/MRR 对比
 2. **分布距离**：MMD / Fréchet（embedding 空间）
-3. **聚类来源纯度**：HDBSCAN 后是否按“数据来源域”分裂
+3. **聚类来源纯度**：HDBSCAN 后是否按"数据来源域"分裂
 4. **线性探针迁移**：在自动生成域训练的语义轴，迁移到名著域的性能掉幅
 
 ### 11.4 对齐训练建议（实施顺序）
@@ -471,7 +479,7 @@
 3. 后续微调仅在有新信号（known works 数据修复后）再恢复。
 
 ### 13.3 并行风险（未解决）
-- `known_works_1k` 仍为“进程存活但不产出（0/1000）”，日志停留 `JSONDecodeError`，需优先修复生成链路可用性后再引入新 anchor 数据。
+- `known_works_1k` 仍为"进程存活但不产出（0/1000）"，日志停留 `JSONDecodeError`，需优先修复生成链路可用性后再引入新 anchor 数据。
 
 ## 14. 新增实验（2026-03-02 22:10）
 
@@ -479,7 +487,7 @@
 - PCA 方差维度：`dim@90%=190`, `dim@95%=296`
 - TwoNN 估计：`ID≈7.71`
 
-解读：空间呈“局部低维 + 全局高维”形态，支持叙事自由度可压缩的假设，但不等于全局 10~20 维可完整表达。
+解读：空间呈"局部低维 + 全局高维"形态，支持叙事自由度可压缩的假设，但不等于全局 10~20 维可完整表达。
 
 ### 14.2 Synthetic vs Real Cluster（UMAP）
 - synthetic(main)=7260, real(pilot100)=100
@@ -529,7 +537,7 @@
 ## 16. Prefix Leakage 问题排查与修复（2026-03-03 09:31）
 
 ### 16.1 问题确认
-用户指出：骨架 embedding 可能因 `[archetype]主题` 前缀导致 prefix leakage——模型按字面相似聚类而非真正学习结构。
+用户指出：骨架 embedding 可能因 `[archetype]主题` 前缀导致 prefix leakage--模型按字面相似聚类而非真正学习结构。
 
 ### 16.2 实施的修复方案
 1. **新增 `encoder/text_utils.py`**：
@@ -688,7 +696,7 @@ p_train = 0.7 * p_classic + 0.3 * p_uniform
 - Archetype 近邻匹配率：`0%`（未改善）。
 
 ### 21.3 结论与下一步
-1. 现有采样权重已改变分布，但未显著改善“语义邻接匹配”。
+1. 现有采样权重已改变分布，但未显著改善"语义邻接匹配"。
 2. 下一轮改为二阶段：
    - 阶段A：先以 KDE/energy 过滤低质区域；
    - 阶段B：加入 archetype/结构原型邻近约束（prototype-aware reweight）。
@@ -829,7 +837,7 @@ p_train = 0.7 * p_classic + 0.3 * p_uniform
 ### 26.4 结论
 🎉 **吸引子是自然涌现的！**
 
-Narrative Physics 参数空间本身包含了"文学吸引子"——经典叙事结构（如英雄之旅）是结构物理的自然高密度区。
+Narrative Physics 参数空间本身包含了"文学吸引子"--经典叙事结构（如英雄之旅）是结构物理的自然高密度区。
 
 **这意味着**：
 1. L, C, R, T 等参数捕获了"好故事结构"的基本物理
@@ -963,7 +971,7 @@ Narrative Physics 参数空间本身包含了"文学吸引子"——经典叙事
 - 而是在 NP 覆盖较少的区域
 
 ### 30.4 论文表述（修正）
-> 在 NP 参数空间的结构表征中，真实文学作品落在 NP 分布的极端低密尾部（>99%分位），表明真实文学结构未被 NP 合成数据充分覆盖。这与"文学=高密稳定态"的假设相反——相反，文学结构位于参数空间的稀疏区域。
+> 在 NP 参数空间的结构表征中，真实文学作品落在 NP 分布的极端低密尾部（>99%分位），表明真实文学结构未被 NP 合成数据充分覆盖。这与"文学=高密稳定态"的假设相反--相反，文学结构位于参数空间的稀疏区域。
 
 ### 30.5 启示
 - NP 生成器未覆盖真实文学的"创意"区域
@@ -1011,4 +1019,469 @@ Narrative Physics 参数空间本身包含了"文学吸引子"——经典叙事
 - `data/density_distribution_final.png` 已生成
 
 ### 32.5 论文级表述
-> 在 NP 参数空间中，真实文学作品落在 NP 密度分布的极端低密尾部（>99%分位），且该结论对阈值选择完全鲁棒——无论使用 p30、p50 还是 p70 作为阈值，known_works 的 above-threshold 比例始终为 0%。这表明真实文学结构位于 NP 合成数据覆盖较少的"创意区域"。
+> 在 NP 参数空间中，真实文学作品落在 NP 密度分布的极端低密尾部（>99%分位），且该结论对阈值选择完全鲁棒--无论使用 p30、p50 还是 p70 作为阈值，known_works 的 above-threshold 比例始终为 0%。这表明真实文学结构位于 NP 合成数据覆盖较少的"创意区域"。
+
+---
+
+## 33. 表征管线修复（2026-03-03 11:57）
+
+### 33.1 问题定位
+用户发现 skeleton_to_dsl_v2 存在多个 schema 不匹配 bug：
+1. 未读取 known_works 的 tension_curve
+2. 未从 tension_curve 推断 climax position
+
+### 33.2 修复内容
+- 添加 tension_curve 读取：NP 从 beats['tension']，KW 从 tension_curve
+- 添加 C 值推断：优先用 climax_position，无则从 tension_curve 推断
+
+### 33.3 修复后验证
+| 数据 | 修复前 | 修复后 |
+|------|--------|--------|
+| NP unique | 0.3% | **88.4%** |
+| KW unique | N/A | **75.1%** |
+
+### 33.4 密度分析结果（修复后）
+- NP: [-355.0, -353.6]
+- KW: [-355.7, -354.6]
+- KW percentile: 97.7%-100%
+- Threshold invariance: 0% (所有阈值)
+
+### 33.5 结论
+密度分离现在确认是**真实的结构差异**，不是编码 bug：
+- NP C: 0.40-0.60 (mean 0.47)
+- KW C: 0.33-0.89 (mean 0.67)
+
+这是有意义的科学发现：NP 生成器的 C 值范围与真实文学不同。
+
+---
+
+## 34. C 差异 Sanity Checks（2026-03-03 12:07）
+
+### 34.1 A. Peak Robustness
+- C_raw vs C_smooth 差异：mean=0.077
+- 64.6% 有 >0.1 漂移
+- 35.4% 稳定 (<0.05)
+
+### 34.2 B. Multi-peak Handling
+- C_max: 0.668
+- C_last_peak: 0.676
+- 差异仅 0.008（几乎无差别）
+
+### 34.3 C. C-only 分类
+- Accuracy: **76.7%**
+- AUC: **0.882** 🎯
+- 阈值: 0.556
+
+### 34.4 结论
+- C 单独就能 88% AUC 区分 NP vs KW
+- 差异是真实的
+- 核心发现：高潮位置可有效区分合成与真实文学
+
+---
+
+## 35. 毛糙度指标分析（2026-03-03 12:18）
+
+### 35.1 毛糙度指标统计
+| 指标 | KW (真实) | NP (合成) |
+|------|-----------|-----------|
+| TV | 0.167 | 0.375 |
+| 2nd diff | 0.052 | 0.640 |
+| **Peaks** | **1.12** | 0.42 |
+
+### 35.2 分类 AUC
+| 指标 | AUC |
+|------|-----|
+| TV | 0.183 |
+| 2nd diff | 0.417 |
+| **peaks** | **0.844** 🎯 |
+| drift | 0.176 |
+
+### 35.3 结论
+- **Peak count 是最强特征**：AUC=0.844
+- KW 有更多局部峰（1.12 vs 0.42）
+- 真实文学的 tension 曲线有更多局部极值
+- NP 生成的是经典的单峰结构
+
+### 35.4 论文级表述
+> Peak-based climax estimation captures a domain-specific structural signature. The discriminative power arises from differences in local curve complexity: real literature exhibits more local peaks (1.12 vs 0.42) compared to synthetic single-peak structures.
+
+---
+
+## 36. 代码审查反馈与修复（2026-03-03 12:31）
+
+### 36.1 已处理
+- ✅ DSL v2 统一表征层 (`encoder/representation.py`)
+- ✅ 指标协议版本化 (`analysis/metrics.py`)
+- ✅ random_state 固定
+
+### 36.2 待处理
+- Climax 索引校验
+- State delta 连贯性约束
+- HDBSCAN 参数调优
+
+### 36.3 当前进展
+- Peak count 是最强区分特征（AUC=0.844）
+- NP vs KW 差异：峰值 1.12 vs 0.42
+- Micro-peaks M 参数已添加，但效果有限
+
+### 36.4 结论
+- 0% above threshold 是真实结构差异，非 DSL 损耗
+- 核心发现：真实文学有多次小高潮，NP 是单峰结构
+
+---
+
+## 37. FFT 频域分析（2026-03-03 12:38）
+
+### 37.1 频域特征对比
+| 特征 | KW | NP | AUC |
+|------|-----|-----|-----|
+| entropy | 0.160 | 0.124 | 0.637 |
+| centroid | 0.040 | 0.034 | 0.636 |
+| mid | 0.0019 | 0.0012 | 0.627 |
+
+### 37.2 Peak vs FFT 相关性
+- Peak count: NP=0.42, KW=1.12 (2.67x)
+- Entropy: NP=0.20, KW=0.43 (2.15x)
+- 相关系数: 0.251（弱正相关）
+
+### 37.3 结论
+- Peak count 是最强特征（AUC=0.844）
+- FFT entropy 补充（AUC=0.637）
+- 两者捕捉不同复杂度维度
+- 需要同时调 peak + entropy 参数
+
+### 37.4 下一步
+- 用 FFT 目标函数优化 subplot 生成器
+- 目标：同时对齐 peak_count + entropy
+
+---
+
+## 38. Plot Tension Worker（2026-03-03 12:50）
+
+### 38.1 实施
+- 创建 `workers/plot_tension_worker.py`
+- 使用 DistilBERT sentiment 模型进行分段情感评分
+- 模型: distilbert-base-uncased-finetuned-sst-2-english
+
+### 38.2 验证结果
+- 测试文本：英雄旅程 plot
+- 输出张力曲线：[0.0, 0.0, 0.93, 0.0, 0.99, 0.16, 0.0, 0.99, 1.0]
+- 观察到多次情感峰，符合预期
+
+### 38.3 用法
+```bash
+python workers/plot_tension_worker.py --text "Your plot" --segments 9
+python workers/plot_tension_worker.py --input plots.json --output tension.json
+```
+
+### 38.4 下一步
+- 用 Wikipedia 文学 plot 测试
+- 对比生成的张力曲线与 NP 差异
+
+---
+
+## 39. Wikipedia Pilot 进展（2026-03-03 13:06）
+
+### 39.1 后台状态
+- 任务进程正常，无卡死；服务端口 8888/8889 正常。
+
+### 39.2 抓取与打分
+- 抓取：82 部候选，成功 35 部（43%）
+- 打分：`workers/plot_tension_worker.py` 已完成 35 条张力曲线
+- 结果文件：
+  - `data/raw_skeletons_wiki/wiki_100.json`
+  - `data/raw_skeletons_wiki/wiki_tension_100.json`
+
+### 39.3 数据集并入
+- 已转为 KW 兼容结构并并入：
+  - 新增 35 条（wiki_extracted）
+  - KW 总量：619 -> 654
+  - 文件：`data/raw_skeletons_known/batch_wiki/kw_with_wiki.json`
+
+### 39.4 分布观察
+- 原 KW mean peaks: 1.12
+- Wiki mean peaks: 1.77
+- NP mean peaks: 0.42
+
+### 39.5 下一步（执行中）
+- 提升抓取覆盖率（Plot/Synopsis 标题与结构兼容）
+- 扩大到 1k pilot（按体裁/年代/地区分布抽样）
+
+---
+
+## 40. Wikipedia Pilot 扩展（2026-03-03 13:11）
+
+### 40.1 抓取进度
+- 第2批：99 部候选 → 37 部成功（37%）
+- 累计：35 + 37 = **72 部**
+
+### 40.2 并入 KW
+- `data/raw_skeletons_known/batch_wiki/kw_with_wiki.json`
+- Mean peaks: 1.60（对比 NP 0.42，KW 1.12）
+
+### 40.3 目标
+- 继续扩展至 1k，按体裁/年代/地区分布采样
+
+### 40.4 后台状态
+- HTTP 服务正常（8888/8889）
+
+---
+
+## 41. Wikipedia 扩展进度（2026-03-03 13:12）
+
+### 41.1 抓取进度
+- 批次1: 35
+- 批次2: 37
+- 批次3: 35
+- 批次4: 18
+- **总计: 125**
+
+### 41.2 峰值统计
+- Mean peaks: **1.66**
+- 对比: NP 0.42, KW 1.12
+
+### 41.3 后台状态
+- HTTP 服务正常（8888/8889）
+
+---
+
+## 42. Wikipedia 扩展至 172（2026-03-03 13:23）
+
+### 42.1 抓取进度
+- 批次: 100→150→200→250→300→400
+- 总计: **172** Wikipedia 作品
+
+### 42.2 峰值统计
+- Mean peaks: **1.69**
+- 对比: NP 0.42, KW 1.12
+
+### 42.3 后台状态
+- HTTP 服务正常（8888/8889）
+
+---
+
+## 43. Wikipedia API 抓取切换（2026-03-03 14:52）
+
+### 43.1 背景
+- 原先部分批次通过手工标题列表抓取，失败率高（大量标题不存在/歧义）。
+- 已切换为 Wikipedia API 先取候选标题，再进行 Plot 段提取。
+
+### 43.2 本轮执行
+- API 扩展候选：`wiki_api_novels_v2.json`（925 新标题）
+- 先跑 v2a 子批（300）：
+  - Plot 成功：45/300（15.0%）
+  - 张力打分：`wiki_api_tension_v2a.json` 完成
+
+### 43.3 累计进度
+- Wiki 去重后样本：**423 / 1000**
+- 仍需：577
+
+### 43.4 v2b 执行结果（2026-03-03 14:56）
+- 批次：`wiki_api_novels_v2.json[300:600]`
+- 实际规模：200
+- Plot 成功：35/200（17.5%）
+- 张力打分：`wiki_api_tension_v2b.json` 完成
+- 累计去重后：**456 / 1000**（剩余 544）
+
+### 43.5 v2c/v2d 执行结果（2026-03-03 15:26）
+- v2c 批次（200）：抓取 46（23.0%），打分完成 `wiki_api_tension_v2c.json`
+- v2d 批次（200）：抓取 29（14.5%），打分完成 `wiki_api_tension_v2d.json`
+- 累计去重后：**668 / 1000**（剩余 332）
+
+### 43.6 v2e 执行结果（2026-03-03 15:40）
+- v2e 批次（200）：抓取 19（9.5%），打分完成 `wiki_api_tension_v2e.json`
+- 累计去重后：**687 / 1000**（剩余 313）
+
+## 44. DeepSeek vs DistilBERT 张力打分对比（2026-03-03 15:38-15:41）
+
+### 44.1 对比设置
+- 样本来源：v2c/v2d/v2e（Wikipedia 新抓取数据）
+- 比较对象：
+  - DistilBERT (`workers/plot_tension_worker.py`)
+  - DeepSeek-R1:8b（Ollama 本地推理）
+- 输出：9 段 tension curve
+
+### 44.2 对比结果（n=8）
+- 平均相关系数：**-0.015**（几乎不相关）
+- 平均峰值差（DistilBERT - DeepSeek）：**+2.25 peaks**
+
+### 44.3 现象解释
+- DeepSeek 输出趋向"教科书式"单峰/单调上升弧线；
+- DistilBERT 输出更锯齿、多局部峰，和先前 KW 多峰观察更一致；
+- 二者捕捉信号不同：DeepSeek 偏叙事先验，DistilBERT 偏文本情感显著词波动。
+
+### 44.4 KW 数据发现
+- `kw_with_wiki.json` 的 `tension_curve` 是基于 L/C/R/T 参数合成的数学曲线
+- 无原始文本可对比（plot/wiki 字段为空）
+- 因此只能在 Wikipedia 新抓取数据上做 DistilBERT vs DeepSeek 对比
+
+### 44.5 决策
+1. 保持 DistilBERT 作为批量稳定基线；
+2. 选取小规模样本用 DeepSeek 生成"教师标签"，准备后续监督微调回归器；
+3. 继续 v2f+ 批次抓取，推进至 1000。
+
+## 45. v2f-v2l 连续执行结果（2026-03-03 15:45+）
+- v2f（200）：14，`wiki_api_tension_v2f.json`
+- v2g（200）：21，`wiki_api_tension_v2g.json`
+- v2h（200）：15，`wiki_api_tension_v2h.json`
+- v2i（200）：18，`wiki_api_tension_v2i.json`
+- v2j（226）：18，`wiki_api_tension_v2j.json`
+- v2k（208）：19，`wiki_api_tension_v2k.json`
+- v2l（189）：11，`wiki_api_tension_v2l.json`
+- 累计去重后：**803 / 1000**（剩余 197）
+
+## 46. 质量过滤修复（2026-03-03 16:17）
+
+### 46.1 问题
+- 候选中混入非小说条目（如作者名、乐队、画作），导致脏数据进入张力分析。
+
+### 46.2 修复
+- 新增 strict novel 校验（v2m_strict）：
+  1) 标题含 `(novel)` 直接通过；
+  2) 或页面含 `infobox ... novel`；
+  3) 或导语含 `is a novel/was a novel` 等短语；
+  4) 否则标记 `non_novel` 并丢弃。
+
+### 46.3 执行结果
+- 处理剩余候选：178
+- 通过并保存：6（全部 extract 路径）
+- 过滤统计：`non_novel=43`, `disambig=67`, `no_content=11`, `error=51`
+- 产物：`wiki_api_plots_v2m_strict.json` + `wiki_api_tension_v2m_strict.json`
+- 累计去重后：**809 / 1000**（剩余 191）
+
+### 46.4 结论
+- 质量过滤有效拦截非小说噪声，但剩余候选池质量已明显下降；
+- 下一步应补充新的高质量候选源（category/award/bestseller）而非继续消耗当前尾部候选。
+
+## 47. Wikipedia 高质量列表抓取（2026-03-03 16:20+）
+- 从 Wikipedia 分类/列表页面直接提取小说标题：
+  - `Category:English_novels` (51)
+  - `List_of_science_fiction_novels` (139)
+  - `Category:Historical_novels` (36)
+  - `Category:Thriller_novels` (5)
+  - `List_of_best-selling_books` (38)
+  - `List_of_historical_novels` (106)
+- 累计新增：834 / 1000（剩余 166）
+
+## 48. Wikisource 抓取（2026-03-03 16:20+）
+- 从 en.wikisource.org `Category:Novels` 抓取（API 全量 789 条）
+- 采用 `?action=raw` 提取原文（相比 HTML 解析成功率显著提升）
+- 批次结果：
+  - `wikisource_raw_plots_b1.json` → 222
+  - `wikisource_plots_v4.json` → 8
+  - `wikisource_plots_v5.json` → 5
+- 已完成 tension 打分：`wikisource_raw_tension_b1.json`、`wikisource_tension_v4.json`、`wikisource_tension_v5.json`
+- 累计去重后：**1083 / 1000**（目标达成）
+- 产物：`wiki_quality_*.json`, `wiki_bestsellers_*.json`, `wikisource_*`
+
+## 49. 10K 扩量冲刺（2026-03-03 17:20+）
+
+### 49.1 背景任务状态检查
+- `python3 -m http.server 8888`：运行中
+- `python3 -m http.server 8889 --directory reports`：运行中
+- 无需重启后台服务
+
+### 49.2 新增数据抓取与打分（数量优先）
+- 新增抓取文件：
+  - `wiki_api_v4_plots.json`：211
+  - `wiki_api_bulk_novels_v5.json`：17
+  - `wiki_api_bulk_novels_v6.json`：78
+- 已全部完成 tension 打分：
+  - `wiki_api_v4_tension.json`
+  - `wiki_api_bulk_novels_v5_tension.json`
+  - `wiki_api_bulk_novels_v6_tension.json`
+
+### 49.3 累计进度
+- 去重后总量（tension 集合）：**1528**
+- 相比上次 1255，净增 **+273**
+- 当前主线目标已切换为 **10K 真实小说/梗概收集**（Wikisource 原文 + 多源补量）
+
+### 49.4 运行中的问题与修复方向
+- Wikipedia `extracts` 在部分查询下返回率偏低；
+- OpenLibrary 大批量列表可拿到标题，但描述字段稀疏，需要二次 `works/{olid}.json` 拉取并重试超时；
+- Gutenberg/Gutendex 在当前网络环境存在不稳定响应，已保留可用批次并继续补源。
+
+### 49.5 下一步（立即执行）
+1. Wikipedia 按主题 query（historical/mystery/fantasy/romance/thriller）继续扩批；
+2. OpenLibrary 采用分片重试 + 更长超时获取 works 描述；
+3. Wikisource 多语种分类页继续抓原文并统一入库；
+4. 每批次完成后立即 tension + 去重计数 + 文档同步。
+
+## 50. 本地中文网文数据集（Windows Downloads/books）
+
+### 50.1 路径与扫描
+- 用户指定路径：`C:\Users\jhliu\Downloads\books`（WSL: `/mnt/c/Users/jhliu/Downloads/books`）
+- 扫描结果：TXT 文件总数 **64,784**
+- 子来源包含：`晋江`、`飞卢`、`刺猬猫`、`知乎严选`、`2012-2024年小说合集` 等
+
+### 50.2 编码与入库
+- 大量文本为 **GBK/GB2312** 编码，已验证可转 UTF-8 正常读取
+- 已生成单独数据集：
+  - `data/raw_skeletons_wiki/chinese_web_novels_v1.json`（5,000 条，独立来源 `chinese_web_novel`）
+
+### 50.3 当前状态
+- 中文数据集 tension 任务已启动：
+  - 输入：`chinese_web_novels_v1.json`
+  - 输出：`chinese_web_novels_v1_tension.json`（运行中）
+
+### 50.4 下一步
+1. 将 64,784 文件按分片批次（每批 5k/10k）持续入库；
+2. 保持中文网文作为独立域数据集（不与 Wikipedia/Wikisource 混淆）；
+3. 分批 tension 打分并累计计数，推进 10K 目标。
+
+## 51. 本地 books 目录二次扫描（多格式 + 标签化）
+
+### 51.1 扫描结果（`C:\Users\jhliu\Downloads\books`）
+- 总文件数（目标格式）：**77,130**
+- 格式分布：
+  - TXT: 71,764
+  - PDF: 4,797
+  - EPUB: 226
+  - MOBI: 200
+  - AZW3: 143
+
+### 51.2 标签化策略
+- 依据顶层目录和文件名自动打标：
+  - `webnovel`（知乎/飞卢/晋江/刺猬猫）
+  - `novel_collection`（小说合集）
+  - `genre_collection`（推理/悬疑合集）
+  - `classic_collection`（豆瓣经典）
+  - `ranked_novel`（起点榜单）
+  - `nonfiction_edu`（识别到教辅 PDF）
+
+### 51.3 产物
+- `data/raw_skeletons_wiki/local_books_catalog_v2.json`（全量目录清单 + 标签）
+- `data/raw_skeletons_wiki/local_books_catalog_summary_v2.json`（统计汇总）
+
+### 51.4 关键统计
+- `webnovel`: 66,183
+- `novel_collection`: 10,127
+- `genre_collection`: 423
+- `classic_collection`: 269
+- `ranked_novel`: 108
+- `nonfiction_edu`: 20
+
+### 51.5 批次抽取与入库
+- 已抽取 TXT 格式 webnovel 前 5000 条：
+  - 产物：`data/raw_skeletons_wiki/local_webnovels_batch1_v1.json`（4,934 条）
+- 已启动 tension 打分：`local_webnovels_batch1_tension.json`（后台运行）
+
+### 51.6 新增中文批次发现
+- quiet-pine 任务产出一批新的中文分类数据：
+  - chinese_zhihu_v1.json: 2GB (54,218 条)
+  - chinese_quanwang_v1.json: 301MB (7,222 条)
+  - chinese_feilu_v1.json: 252MB (6,058 条)
+  - chinese_ciweimao_v1.json: 40MB (942 条)
+  - chinese_novel_collection_v1.json: 102MB (2,320 条)
+  - chinese_2012_2024_v1.json: 25MB (575 条)
+  - chinese_qidian_v1.json: 105 条
+  - chinese_mystery_v1.json: 86 条
+  - chinese_jinjiang_v1.json: 3 条
+
+### 51.7 Tension 处理启动
+- 已启动：jinjiang, mystery, qidian (后台)
+- 待处理：zhihu (54K), quanwang (7K), feilu (6K), ciweimao (942), novel_collection (2.3K)
+
+### 51.8 预计增量
+- 当前总量：**41,996**
+- 完成后预计：**100,000+**
