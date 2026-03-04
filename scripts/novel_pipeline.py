@@ -153,6 +153,16 @@ def load_raw_novels() -> List[Dict]:
     return novels
 
 def save_skeleton(skeleton: Dict):
+    # Filter out bad quality skeletons
+    title = skeleton.get('title', '')
+    # Skip if title is empty, placeholder, or invalid
+    if not title or title in ['unknown', 'Unknown', '无标题', '无法提取', '[未提供]', '-']:
+        return
+    
+    # Skip if title contains invalid characters
+    if title.startswith('(') or title.startswith('[') or title.startswith('-'):
+        return
+    
     lang = skeleton.get('language', 'unknown')
     lang_dir = SKELETON_DIR / lang
     lang_dir.mkdir(parents=True, exist_ok=True)
