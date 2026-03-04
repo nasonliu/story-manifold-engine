@@ -159,7 +159,12 @@ def save_skeleton(skeleton: Dict):
     if not title or title in ['unknown', 'Unknown', '无标题', '无法提取', '[未提供]', '-']:
         return
     
-    # Skip if title contains invalid characters
+    # Skip if title contains invalid/placeholder keywords
+    invalid_keywords = ['未知', '加密', '无标题', '无法', '未提供', 'unknown', '无法提取']
+    if any(kw in title for kw in invalid_keywords):
+        return
+    
+    # Skip if title starts with invalid characters
     if title.startswith('(') or title.startswith('[') or title.startswith('-'):
         return
     
