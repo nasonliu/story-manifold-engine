@@ -1,39 +1,39 @@
 {
   "title": "网游之格斗——战无不胜",
-  "author": "",
+  "author": "网络作家",
   "language": "zh",
-  "genre": "游戏",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角构思格斗网游模式；"
+        "desc": "主角进入网游，开始格斗训练；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "引入武侠元素；"
+        "desc": "遇强敌被迫开发新招式；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "游戏初步成功；"
+        "desc": "掌握核心技能实力提升；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面临技术或竞争危机；"
+        "desc": "被敌人围攻面临生死危机；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "游戏上线高潮；"
+        "desc": "最终对决战胜强敌；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功验证理念"
+        "desc": "成为顶尖玩家继续发展。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角通过格斗网游展示能力，结合武侠元素，探索非运气型成功路径。",
-  "chapter_count": 1
+  "summary": "网游与格斗结合，主角通过努力在虚拟世界中证明实力，展现格斗技巧与成长。",
+  "chapter_count": 0
 }

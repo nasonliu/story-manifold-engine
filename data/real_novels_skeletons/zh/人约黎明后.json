@@ -1,48 +1,42 @@
 {
-  "title": "紫虚真龙",
-  "author": "未知",
+  "title": "人约黎明后",
+  "author": "一个梦想家",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "龙脉传说引发探索欲望"
+        "desc": "主角在威尼斯获得神秘药物能力"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "神秘山脉出现异常现象"
+        "desc": "发现药物副作用引发身份危机"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "少年意外发现龙域入口"
+        "desc": "适应双重身份的中点"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "龙域危机降临"
+        "desc": "敌对势力追杀"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与守护者对抗"
+        "desc": "最终对决"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为龙脉继承者"
+        "desc": "恢复平静生活"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "龙脉传说与神秘山脉，月圆之夜森林异变，少年探险揭开龙域秘密。",
-  "chapter_count": 10
+  "summary": "主角在威尼斯遭遇神秘人，获得特殊能力后卷入超自然事件，经历重重危机最终化解。",
+  "chapter_count": 4
 }

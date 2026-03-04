@@ -1,39 +1,39 @@
 {
-  "title": "紫虚真龙",
-  "author": "未知",
+  "title": "出神记",
+  "author": "佚名",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "仙侠",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "龙脉传说引发探索欲望"
+        "desc": "师父布置炼制阴丹任务；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "神秘山脉出现异常现象"
+        "desc": "王浩尝试炼丹遭遇失败；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "少年意外发现龙域入口"
+        "desc": "炼丹过程突破瓶颈；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "龙域危机降临"
+        "desc": "师父发现并反对；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与守护者对抗"
+        "desc": "冲突爆发；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为龙脉继承者"
+        "desc": "王浩坚持炼丹引发后续事件"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "龙脉传说与神秘山脉，月圆之夜森林异变，少年探险揭开龙域秘密。",
-  "chapter_count": 10
+  "summary": "少年王浩拜入冷面丹王门下十年，苦修混沌之火炼制阴丹，却遭师父反对，引发师徒冲突与修真界的风波。",
+  "chapter_count": 1
 }

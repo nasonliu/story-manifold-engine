@@ -1,8 +1,8 @@
 {
-  "title": "网游之模拟城市",
-  "author": "笨太子",
+  "title": "死囚牢",
+  "author": "那些年一起追过的小说",
   "language": "zh",
-  "genre": "都市",
+  "genre": "历史",
   "structure": {
     "beats": [],
     "turning_points": [
@@ -21,11 +21,11 @@
       0.7,
       0.9,
       1.0,
-      0.7,
-      0.5,
-      0.3
+      0.8,
+      0.6,
+      0.4
     ]
   },
-  "summary": "主角经营虚拟领地，发展城市，与历史人物互动，弥补现实遗憾。",
-  "chapter_count": 30
+  "summary": "死囚面对死刑的恐惧与审判场景，内心对周围环境的扭曲想象。",
+  "chapter_count": 10
 }

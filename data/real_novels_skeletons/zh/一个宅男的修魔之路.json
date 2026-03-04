@@ -1,0 +1,25 @@
+{
+  "title": "一个宅男的修魔之路",
+  "author": "未知",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "宅男韩硕附身小杂役，修魔之路开启，逐步成长颠覆认知。",
+  "chapter_count": 0
+}

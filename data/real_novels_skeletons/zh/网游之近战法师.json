@@ -1,11 +1,48 @@
 {
   "title": "网游之近战法师",
-  "author": "",
+  "author": "未知",
   "language": "zh",
-  "genre": "都市",
+  "genre": "游戏",
   "structure": {
-    "beats": [],
-    "turning_points": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角创建近战法师角色，探索游戏设定。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现属性分配机制，职业优劣势对比。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "首次参与PK遭遇死亡惩罚。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "PK值积累导致NPC敌对。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮中击败强敌逆转局势。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "达成声望目标，解锁新区域。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -20,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "网游小说，讲述法师角色在游戏中通过属性分配和PK系统展开冒险，揭示职业优劣与战斗规则。",
-  "chapter_count": 0
+  "summary": "近战法师主角在网游中探索职业属性与PK系统，通过冒险成长并应对死亡惩罚与等级掉落机制。",
+  "chapter_count": 10
 }

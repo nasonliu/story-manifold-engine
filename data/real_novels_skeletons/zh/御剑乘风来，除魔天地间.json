@@ -1,48 +1,42 @@
 {
-  "title": "前传",
+  "title": "御剑乘风来，除魔天地间",
   "author": "佚名",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "仙侠",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "无具体情节描述"
+        "desc": "师父布置炼制阴丹任务。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "无具体情节描述"
+        "desc": "发现阴丹炼制需特殊材料且过程凶险。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "无具体情节描述"
+        "desc": "找到解决材料问题的方法。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "无具体情节描述"
+        "desc": "发现关键材料被替换。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "无具体情节描述"
+        "desc": "成功炼制阴丹。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "无具体情节描述"
+        "desc": "任务完成，但危机并未解除。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "天元大陆五大国家与神圣教廷的设定，介绍种族分布、神职体系及政治结构。",
-  "chapter_count": 0
+  "summary": "胖子炼丹师王浩因师父冷面丹王布置炼制阴丹任务，从修炼日常跌入新奇险境，经历重重困难终获成功。",
+  "chapter_count": 1
 }

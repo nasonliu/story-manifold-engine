@@ -1,8 +1,8 @@
 {
-  "title": "网游之模拟城市",
-  "author": "笨太子",
+  "title": "高考状元的霉运人生",
+  "author": "佚名",
   "language": "zh",
-  "genre": "都市",
+  "genre": "都市/轻喜剧",
   "structure": {
     "beats": [],
     "turning_points": [
@@ -26,6 +26,6 @@
       0.3
     ]
   },
-  "summary": "主角经营虚拟领地，发展城市，与历史人物互动，弥补现实遗憾。",
-  "chapter_count": 30
+  "summary": "杨华因霉运连续三次高考失败，经历各种离奇意外，决心改变命运却遭遇转学生室友的挑战。",
+  "chapter_count": 0
 }

@@ -1,39 +1,39 @@
 {
-  "title": "紫虚真龙",
-  "author": "未知",
-  "language": "zh",
-  "genre": "玄幻",
+  "title": "威廉·威尔逊",
+  "author": "埃德加·爱伦·坡",
+  "language": "en",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "龙脉传说引发探索欲望"
+        "desc": "主角遭遇无法言说的不幸，突然堕落。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "神秘山脉出现异常现象"
+        "desc": "犯罪事件发生。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "少年意外发现龙域入口"
+        "desc": "心理挣扎与自我认知。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "龙域危机降临"
+        "desc": "罪恶感与死亡阴影。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与守护者对抗"
+        "desc": "犯罪高潮。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为龙脉继承者"
+        "desc": "自白寻求理解与解脱。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "龙脉传说与神秘山脉，月圆之夜森林异变，少年探险揭开龙域秘密。",
-  "chapter_count": 10
+  "summary": "主角威廉·威尔逊突然堕落，犯下罪行，内心自责，通过自白探索人性与环境的复杂关系。",
+  "chapter_count": 1
 }

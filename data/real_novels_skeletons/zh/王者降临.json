@@ -8,41 +8,35 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "科学家发表抑制原子裂变技术"
+        "desc": "科学家公布抑制原子裂变技术引发世界动荡"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "多国掌握技术并退出联合国"
+        "desc": "Z国对台宣战"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "Z国对TW开战"
+        "desc": "首次毕业考死亡事件"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "Z国对TW开战"
+        "desc": "全面战争爆发"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "竹国对TW开战"
+        "desc": "狙击手面临生死抉择"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "竹国对TW开战"
+        "desc": "战争持续升级"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "未来世界多国掌握原子裂变抑制技术，围绕台湾问题爆发战争，一名无名狙击手回忆自己战场经历。",
-  "chapter_count": 1
+  "summary": "科学家公布抑制原子裂变技术引发世界格局剧变，多国退出联合国，最终爆发大规模战争，一名编号NO13的狙击手在战火中挣扎求生。",
+  "chapter_count": 0
 }

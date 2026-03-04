@@ -1,39 +1,39 @@
 {
-  "title": "紫虚真龙",
-  "author": "未知",
+  "title": "浪子江湖",
+  "author": "佚名",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "都市/仙侠",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "龙脉传说引发探索欲望"
+        "desc": "看到美女洗澡。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "神秘山脉出现异常现象"
+        "desc": "发现对方身份。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "少年意外发现龙域入口"
+        "desc": "意识到危险。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "龙域危机降临"
+        "desc": "被追杀。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与守护者对抗"
+        "desc": "对决。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为龙脉继承者"
+        "desc": "逃脱。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "龙脉传说与神秘山脉，月圆之夜森林异变，少年探险揭开龙域秘密。",
-  "chapter_count": 10
+  "summary": "浪子黄羽翔因意外撞见绝世美女洗澡，引发江湖纷争，面临杀身之祸。",
+  "chapter_count": 5
 }

@@ -1,39 +1,39 @@
 {
-  "title": "紫虚真龙",
-  "author": "未知",
+  "title": "谍变",
+  "author": "金串",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "龙脉传说引发探索欲望"
+        "desc": "特工名单被盗，贝尔调查；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "神秘山脉出现异常现象"
+        "desc": "发现间谍手法类似MI6；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "少年意外发现龙域入口"
+        "desc": "怀疑病毒可能性五成；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "龙域危机降临"
+        "desc": "各国间谍陆续抵达巴黎；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与守护者对抗"
+        "desc": "贝尔准备行动对抗；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为龙脉继承者"
+        "desc": "成功取回物品或解决危机"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "龙脉传说与神秘山脉，月圆之夜森林异变，少年探险揭开龙域秘密。",
+  "summary": "法国特工失窃名单，贝尔队长怀疑对手是CIA的病毒，准备应对盟国间谍威胁。",
   "chapter_count": 10
 }
