@@ -2,10 +2,47 @@
   "title": "仙葫",
   "author": "流浪的蛤蟆",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "仙侠",
   "structure": {
-    "beats": [],
-    "turning_points": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "焦飞对长生的向往被激发。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "焦飞决定追随老道。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "焦飞离开小镇踏上旅程。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇危险，被迫应对。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮：面对最终考验。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决：获得力量或领悟。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -20,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "少年焦飞偶遇神秘道士，对长生之道产生向往，踏上追寻仙葫的冒险之路，在平凡世界中揭开命运的谜团。",
+  "summary": "少年焦飞对长生向往，追随邋遢道人踏上修道之路，经历重重磨难，探寻仙葫之秘。",
   "chapter_count": 0
 }

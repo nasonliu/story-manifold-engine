@@ -2,38 +2,38 @@
   "title": "恶汉",
   "author": "庚新",
   "language": "zh",
-  "genre": "历史",
+  "genre": "都市/穿越",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "重生为董卓之子；"
+        "desc": "穿越成董卓之子，目睹全家被害"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现身份与敌意；"
+        "desc": "初次杀人解决危机"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "认清生存危机；"
+        "desc": "发现改变历史的可能性"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "被视为灾祸；"
+        "desc": "面对家族追杀"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "决定改变历史；"
+        "desc": "建立势力对抗董卓"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "开始复仇行动"
+        "desc": "最终选择牺牲自我保全所爱"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "现代护林员重生为三国恶汉之子，背负家族仇恨与生存危机，在乱世中挣扎求生。",
-  "chapter_count": 0
+  "summary": "穿越成三国恶霸董卓之子，面对家族仇恨与生存危机，主角利用现代思维在乱世中挣扎求生。",
+  "chapter_count": 10
 }

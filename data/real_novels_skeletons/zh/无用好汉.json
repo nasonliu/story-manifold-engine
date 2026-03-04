@@ -1,0 +1,62 @@
+{
+  "title": "无用好汉",
+  "author": "",
+  "language": "zh",
+  "genre": "都市/悬疑/轻小说",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "意识到死亡临近；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现眼泪异常；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "揭示吞舌能力；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "死亡倒计时；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "发现能力来源；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "接受命运"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "绝症患者范慎在医院等待死亡，发现自身异常能力，揭开死亡真相。",
+  "chapter_count": 0
+}

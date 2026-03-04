@@ -8,41 +8,42 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "发现神秘装置"
+        "desc": "田行健在战场上逃生"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "获得机甲"
+        "desc": "搭上撤退战舰编入新部队"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "初次使用"
+        "desc": "开始适应新环境"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇敌军"
+        "desc": "帝国军进攻威胁"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "机甲觉醒"
+        "desc": "与敌军展开最终决战"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "暂时脱险"
+        "desc": "成功击退敌军保全基地"
       }
     ],
     "turning_points": [
+      0.1,
       0.3,
       0.5,
       0.7,
       0.9
     ],
-    "climax_position": 0.9,
+    "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
@@ -56,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "机甲战士在末日战场求生并觉醒神秘力量。",
-  "chapter_count": 50
+  "summary": "机甲维修兵田行健在战场上幸存，搭上撤退战舰，编入新部队，面临帝国军进攻危机。",
+  "chapter_count": 0
 }

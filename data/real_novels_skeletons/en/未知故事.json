@@ -1,0 +1,62 @@
+{
+  "title": "未知故事",
+  "author": "未知",
+  "language": "en",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "The emergence of strange patterns in"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "The establishment of recurring anomalies in"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "The midpoint where anomalies become more frequent."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "A significant escalation in"
+      },
+      {
+        "id": 8,
+        "name": "beat_8",
+        "desc": "The climax in 2039 involving major disruptions."
+      },
+      {
+        "id": 9,
+        "name": "beat_9",
+        "desc": "Resolution or adaptation by"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "A story with a long time span, featuring repetitive elements and mysterious events unfolding across decades.",
+  "chapter_count": 0
+}

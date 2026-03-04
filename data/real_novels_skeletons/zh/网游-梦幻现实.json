@@ -2,7 +2,7 @@
   "title": "网游-梦幻现实",
   "author": "云天空",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "游戏",
   "structure": {
     "beats": [],
     "turning_points": [
@@ -26,6 +26,6 @@
       0.3
     ]
   },
-  "summary": "主角因误会遭校园欺凌，意外进入游戏世界，成为玩家后开启冒险，逐步揭开虚拟与现实的真相。",
-  "chapter_count": 10
+  "summary": "懦弱主角因被误解对校花不轨而遭殴打，被迫面对校园欺凌，故事从冲突中展开。",
+  "chapter_count": 1
 }

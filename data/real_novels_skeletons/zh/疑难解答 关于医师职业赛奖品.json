@@ -1,0 +1,53 @@
+{
+  "title": "疑难解答 关于医师职业赛奖品",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无激励事件"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无转折点"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "无中点"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无解决"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0
+    ]
+  },
+  "summary": "游戏攻略问答集，解答玩家关于医师职业赛奖品、迷石散等游戏机制问题，内容为FAQ形式。",
+  "chapter_count": 1
+}

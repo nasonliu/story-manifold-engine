@@ -4,14 +4,39 @@
   "language": "zh",
   "genre": "都市",
   "structure": {
-    "beats": [],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "得知世界存在超凡力量，决定参与反击"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "获得弱者专属能力，初显锋芒"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "建立反击者联盟，初具规模"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "首战失败，团队元气大伤"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "意识觉醒，突破瓶颈"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "最终对决反派，实现弱者逆袭"
+      }
     ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -26,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "平凡青年不甘平凡，努力拼搏却屡遭挫折，最终寻求反击的故事。",
-  "chapter_count": 1
+  "summary": "平凡主角不甘平凡，在都市奋斗却屡遭挫折，陷入走投无路的困境，决心寻求改变命运的反击之路。",
+  "chapter_count": 10
 }

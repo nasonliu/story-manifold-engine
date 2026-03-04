@@ -1,0 +1,62 @@
+{
+  "title": "命运游戏",
+  "author": "",
+  "language": "zh",
+  "genre": "都市游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角被宣告死亡后进入游戏世界"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遇到游戏NPC并了解游戏规则"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "适应游戏环境并开始探索"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "遭遇游戏危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "解决危机获得成长"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "主角继续在游戏世界冒险"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角在医院被宣告死亡，进入名为命运游戏的虚拟世界，开始新手冒险。",
+  "chapter_count": 0
+}

@@ -1,39 +1,39 @@
 {
   "title": "第二世界",
-  "author": "",
+  "author": "用户",
   "language": "zh",
-  "genre": "都市/科幻",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角生日开始玩新游戏。"
+        "desc": "主角生日开始玩新游戏；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "决定与朋友合作。"
+        "desc": "决定与朋友合作；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "初步进入游戏世界。"
+        "desc": "安装设备准备进入；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇游戏危机。"
+        "desc": "发现神秘项链；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "游戏高潮爆发。"
+        "desc": "决定冒险；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解决游戏危机。"
+        "desc": "准备进入游戏"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角生日开始玩新游戏，与朋友准备合作冲级赚钱，初步进入游戏世界。",
-  "chapter_count": 5
+  "summary": "主角生日当天开始玩新游戏\"第二世界\"，与好友约定合作，准备进入虚拟世界冒险。",
+  "chapter_count": 1
 }

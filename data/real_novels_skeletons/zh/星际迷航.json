@@ -1,0 +1,62 @@
+{
+  "title": "星际迷航",
+  "author": "未知",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现神秘信号"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "接触未知文明"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "内部分裂危机"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "舰船系统崩溃"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "人类文明新生"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "人类舰队发现神秘信号，展开星际探索，遭遇未知文明，经历重重危机，最终揭开宇宙奥秘。",
+  "chapter_count": 12
+}

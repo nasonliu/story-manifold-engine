@@ -1,41 +1,10 @@
 {
   "title": "凯旋落魄",
-  "author": "未知",
+  "author": "",
   "language": "zh",
-  "genre": "都市/冒险",
+  "genre": "都市",
   "structure": {
-    "beats": [
-      {
-        "id": 1,
-        "name": "beat_1",
-        "desc": "魔族溃败，远东军胜利。"
-      },
-      {
-        "id": 2,
-        "name": "beat_2",
-        "desc": "罗杰挑衅白川，引发争执。"
-      },
-      {
-        "id": 3,
-        "name": "beat_3",
-        "desc": "紫川秀昏睡，白川无奈。"
-      },
-      {
-        "id": 4,
-        "name": "beat_4",
-        "desc": "战后危机浮现。"
-      },
-      {
-        "id": 5,
-        "name": "beat_5",
-        "desc": "紫川秀被唤醒，战局未定。"
-      },
-      {
-        "id": 6,
-        "name": "beat_6",
-        "desc": "远东军面临未知挑战。"
-      }
-    ],
+    "beats": [],
     "turning_points": [
       0.1,
       0.3,
@@ -57,6 +26,6 @@
       0.3
     ]
   },
-  "summary": "魔族溃败，远东军凯旋，副旗本间争锋相对，主角昏睡，近卫冒充统帅，战局暗藏危机。",
-  "chapter_count": 10
+  "summary": "魔族溃败，紫川秀贪睡被部下叫醒，讽刺将领懒散无能。",
+  "chapter_count": 1
 }

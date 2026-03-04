@@ -8,41 +8,35 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "肖恩目睹UFO引发关注。"
+        "desc": "肖恩在麦田发呆被呼唤打断。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "被父亲责骂后决定探索。"
+        "desc": "父亲发现并质问肖恩。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "发现UFO与农场异常有关。"
+        "desc": "肖恩解释自己完成工作。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面临UFO威胁自身安全。"
+        "desc": "父亲担忧肖恩不合群。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与UFO展开最终对抗。"
+        "desc": "父亲回忆亡妻。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "危机解除，主角获得力量。"
+        "desc": "父亲接受肖恩的特性。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "少年肖恩目睹神秘UFO，引发一系列不可思议的事件，卷入超自然力量的漩涡。",
-  "chapter_count": 1
+  "summary": "小男孩肖恩因不合群和特殊爱好被父亲发现，引发家庭回忆与沟通，展现乡村生活背景与人物关系。",
+  "chapter_count": 0
 }

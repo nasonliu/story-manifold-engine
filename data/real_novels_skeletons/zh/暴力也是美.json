@@ -1,42 +1,48 @@
 {
   "title": "暴力也是美",
-  "author": "未知",
+  "author": "不详",
   "language": "zh",
-  "genre": "都市/冒险",
+  "genre": "仙侠",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "胖槐与少当家首次打劫成功。"
+        "desc": "激励事件：胖槐等人按新战术执行打劫任务。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "少当家发明投石机策略。"
+        "desc": "第一个转折点：任务成功，团队认可新战术。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "胖槐崇拜少当家。"
+        "desc": "中点：少当家魅力与智慧得到进一步彰显。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "恐龙美女问题出现。"
+        "desc": "危机：未出现。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "打劫高潮。"
+        "desc": "高潮：未出现。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功解决。"
+        "desc": "解决：未出现。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "马匪胖槐与少当家打劫，少当家发明投石机策略，众人崇拜其智慧与魅力。",
-  "chapter_count": 1
+  "summary": "马匪胖槐与少当家执行打劫任务，少当家运用兵法创新战术，团队成员对其智慧与魅力崇拜。",
+  "chapter_count": 0
 }
