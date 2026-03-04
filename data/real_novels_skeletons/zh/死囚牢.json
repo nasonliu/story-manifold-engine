@@ -1,56 +1,62 @@
 {
   "title": "死囚牢",
-  "author": "那些年一起追过的小说",
+  "author": "佚名",
   "language": "zh",
-  "genre": "历史",
+  "genre": "犯罪",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "死囚被判处死刑，进入死牢；"
+        "desc": "主角被绑在死囚牢中。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "法官宣判时的冷漠态度；"
+        "desc": "听到\"死刑\"判决词。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "死囚对死亡的幻想与恐惧；"
+        "desc": "法官宣判时的冷漠形象。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "行刑前的绝望等待；"
+        "desc": "墙上黑布摆动引发恐惧。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "行刑仪式的紧张时刻；"
+        "desc": "蜡烛从天使到鬼怪的转变。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "死囚获得解脱"
+        "desc": "等待最终执行。"
       }
     ],
-    "turning_points": [],
-    "climax_position": 0.7,
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.5,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
+      0.4,
       0.5,
       0.7,
       0.9,
-      1.0,
+      0.9,
       0.8,
-      0.6,
-      0.4
+      0.6
     ]
   },
-  "summary": "法国大革命背景下，一名死囚在雅各宾俱乐部监狱中面对死刑审判，经历恐惧与幻灭的心理挣扎。",
-  "chapter_count": 10
+  "summary": "死刑犯在死囚牢中等待审判的心理描写，通过环境和人物细节营造恐怖氛围。",
+  "chapter_count": 1
 }

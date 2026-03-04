@@ -1,56 +1,45 @@
 {
   "title": "谍变",
-  "author": "未知",
+  "author": "崔佛斯",
   "language": "zh",
-  "genre": "悬疑/冒险",
+  "genre": "悬疑/间谍",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "间谍盗走特工名单，贝尔紧急回国。"
+        "desc": "特工名单失窃，引发恐慌。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "队员发现间谍在巴黎接头。"
+        "desc": "确认间谍仍在巴黎接头。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "贝尔推测CIA“病毒”可能介入。"
+        "desc": "分析各国间谍动向。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "各国间谍抵达，局势升级。"
+        "desc": "各国间谍即将抵达巴黎。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "贝尔与间谍展开终极对决。"
+        "desc": "间谍接头行动。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "团队成功取回名单，但付出代价。"
+        "desc": "成功取回失窃物品。"
       }
     ],
     "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.5,
-      0.7,
-      0.9,
-      1.0,
-      0.7,
-      0.5,
-      0.3
-    ]
+    "tension_curve": []
   },
-  "summary": "法国特工名单遭窃，贝尔队长追查间谍，对抗各国势力，揭露阴谋，直面生死危机。",
-  "chapter_count": 1
+  "summary": "法国特工团队发现驻欧洲特工名单被盗，怀疑CIA病毒或MI6所为，展开潜入行动。",
+  "chapter_count": 0
 }

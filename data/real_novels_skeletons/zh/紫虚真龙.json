@@ -1,6 +1,6 @@
 {
   "title": "紫虚真龙",
-  "author": "未知",
+  "author": "",
   "language": "zh",
   "genre": "玄幻",
   "structure": {
@@ -8,35 +8,41 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "深夜森林异象触发探索"
+        "desc": "发现龙脉异常引发探索；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现龙脉异常波动"
+        "desc": "遭遇守护者揭示世界真相；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "进入龙脉核心地带"
+        "desc": "理解龙脉奥秘获得能力；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "触发守护者警戒"
+        "desc": "龙域危机降临世界动荡；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与龙脉意识对抗"
+        "desc": "与真龙对峙命运抉择；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "破解龙域封印契约"
+        "desc": "找到龙穴平息危机"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "神秘龙脉传说，月圆之夜森林异动，引出古老龙域的守护秘密。",
+  "summary": "神秘龙脉与龙域传说，藏族神山下的奇幻冒险揭开序幕。",
   "chapter_count": 10
 }

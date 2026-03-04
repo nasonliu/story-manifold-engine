@@ -1,10 +1,41 @@
 {
   "title": "跳蛙",
-  "author": "那些年一起追过的小说",
+  "author": "契诃夫",
   "language": "zh",
-  "genre": "都市",
+  "genre": "讽刺",
   "structure": {
-    "beats": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "皇帝养小丑取乐；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "小丑表演滑稽；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "小丑境遇凄惨；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "小丑表演引发同情；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "小丑离开宫廷；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "小丑的境遇引发思考"
+      }
+    ],
     "turning_points": [
       0.1,
       0.3,
@@ -26,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "皇帝养着滑稽小丑跳蛙，他通过笑话和蠢行逗乐皇上，成为宫廷中不可或缺的弄臣。",
-  "chapter_count": 1
+  "summary": "皇帝养着一个又矮又瘸的小丑，他滑稽的表演让皇帝和大臣们开怀大笑，但小丑的境遇令人同情。",
+  "chapter_count": 10
 }

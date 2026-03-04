@@ -2,7 +2,7 @@
 
 ## Progress
 
-Current skeletons: **339** (正在提取中)
+Current skeletons: **362** (正在提取中)
 
 Language distribution:
 - zh: ~155 (96%)

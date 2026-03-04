@@ -1,39 +1,39 @@
 {
   "title": "意淫梦想",
-  "author": "",
+  "author": "未提供",
   "language": "zh",
-  "genre": "玄幻都市",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "穿越记忆，发现1985年身份。"
+        "desc": "觉醒认母"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现母亲，适应香港生活。"
+        "desc": "穿越时空"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "遇见导演，获得事业机遇。"
+        "desc": "现实认知"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "事业危机爆发。"
+        "desc": "时代冲击"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与张曼玉合作，事业巅峰。"
+        "desc": "生存抉择"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功实现电影梦想。"
+        "desc": "梦想重启"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角萧然意外穿越回1985年香港，发现自己是电影从业者，面临事业危机和情感抉择。",
-  "chapter_count": 0
+  "summary": "现代青年萧然意外穿越至1985年香港，发现自己是本地人，需适应时代差异并面对未知挑战。",
+  "chapter_count": 1
 }

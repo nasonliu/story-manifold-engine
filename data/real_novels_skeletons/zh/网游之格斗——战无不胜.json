@@ -1,6 +1,6 @@
 {
   "title": "网游之格斗——战无不胜",
-  "author": "我",
+  "author": "",
   "language": "zh",
   "genre": "科幻",
   "structure": {
@@ -8,41 +8,35 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "进入格斗网游；"
+        "desc": "主角进入格斗网游世界。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇挑战；"
+        "desc": "开发并引入新游戏模式。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "展示格斗天赋；"
+        "desc": "在实战中证明自己的能力。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机；"
+        "desc": "遭遇前所未有的危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对决；"
+        "desc": "最终对决，展示格斗技巧。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功证明"
+        "desc": "胜利并继续探索游戏新边界。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角在格斗网游中证明自己，探索新游戏模式的故事",
+  "summary": "主角在格斗网游中证明自己，探索新游戏模式，结合武侠元素。",
   "chapter_count": 0
 }

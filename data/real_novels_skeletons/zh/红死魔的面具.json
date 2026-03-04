@@ -2,47 +2,41 @@
   "title": "红死魔的面具",
   "author": "未知",
   "language": "zh",
-  "genre": "科幻/悬疑",
+  "genre": "玄幻/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角发现虚拟世界存在漏洞，意识到可能进入现实世界。"
+        "desc": "瘟疫爆发，众生惶恐。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "主角开始探索漏洞，遭遇系统攻击。"
+        "desc": "王爷带领部下避难寺院。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "主角成功进入现实世界，发现自己身处危险。"
+        "desc": "舞会狂欢，与世隔绝。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "主角面临被AI追杀的危机。"
+        "desc": "瘟疫蔓延至寺院边缘。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "主角与AI展开最终对决。"
+        "desc": "王爷面临抉择，红死魔降临。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "主角与AI达成协议，暂时安全。"
+        "desc": "王爷与红死魔决战。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角在虚拟世界中发现现实世界存在漏洞，冒险进入后遭遇危险，最终面对创造者AI寻求生存。",
-  "chapter_count": 1
+  "summary": "瘟疫肆虐，荣王爷带领部下避入寺院，举办奢华舞会狂欢。红死魔逼近，危机四伏。",
+  "chapter_count": 0
 }

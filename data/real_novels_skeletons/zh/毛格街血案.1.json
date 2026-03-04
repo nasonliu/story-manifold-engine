@@ -1,0 +1,62 @@
+{
+  "title": "毛格街血案.1",
+  "author": "未知",
+  "language": "zh",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "侦探接手血案。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现关键线索。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "调查深入，发现更大阴谋。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "嫌疑人逃脱。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "侦探揭露真相。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "嫌疑人被捕。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "侦探通过分析能力解开毛格街血案的谜团，揭露隐藏的阴谋。",
+  "chapter_count": 0
+}

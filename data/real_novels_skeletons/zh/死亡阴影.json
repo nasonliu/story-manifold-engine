@@ -1,62 +1,63 @@
 {
   "title": "死亡阴影",
-  "author": "",
+  "author": "佚名",
   "language": "zh",
-  "genre": "悬疑/恐怖",
+  "genre": "都市/悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "搬入阴森木屋。"
+        "desc": "租房适应与学习环境建立"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "夜晚昏睡被警告。"
+        "desc": "疲倦入睡与意识模糊"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "产生莫名恐惧。"
+        "desc": "警告与钢琴奖励幻想"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "湖中尸体传闻浮现。"
+        "desc": "恐惧被唤醒与湖怪传说"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "意识模糊时的极度恐惧。"
+        "desc": "意识即将沉沦"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "努力清醒摆脱阴影。"
+        "desc": "暂时保持清醒"
       }
     ],
     "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
       0.9
     ],
-    "climax_position": 0.7,
+    "climax_position": 0.6,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
       0.5,
-      0.7,
+      0.6,
+      0.8,
       0.9,
-      1.0,
       0.7,
       0.5,
-      0.3
+      0.3,
+      0.1
     ]
   },
-  "summary": "主角搬入阴森木屋，夜半被湖中尸体传闻惊扰，陷入恐惧与不安。",
-  "chapter_count": 0
+  "summary": "少女小伦租住阴郁木屋，夜读时被湖怪传说和自身恐惧困扰，陷入半梦半醒的危险境地。",
+  "chapter_count": 1
 }

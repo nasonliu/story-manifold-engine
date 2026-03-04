@@ -1,0 +1,62 @@
+{
+  "title": "人群中的人",
+  "author": "拉布吕耶尔",
+  "language": "de",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "观察秘密引发好奇"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现秘密内容"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "认清自己也是秘密"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无法摆脱秘密的恐惧"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "揭露秘密的高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "获得自由的结局"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "观察者在伦敦咖啡馆发现人群秘密，陷入自我认知的恐惧与探索中。",
+  "chapter_count": 0
+}
