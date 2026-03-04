@@ -1,0 +1,62 @@
+{
+  "title": "轼0R",
+  "author": "2360.cn",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角发现神秘事件"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇第一个障碍"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得关键线索"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "危机升级"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决谜团"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一个关于悬疑与冒险的故事，主角在神秘世界中探索真相，面对重重挑战。",
+  "chapter_count": 15
+}

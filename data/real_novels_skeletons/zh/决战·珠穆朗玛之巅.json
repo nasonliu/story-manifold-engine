@@ -1,0 +1,31 @@
+{
+  "title": "决战·珠穆朗玛之巅",
+  "author": "未知",
+  "language": "zh",
+  "genre": "冒险",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "一行人攀登珠峰准备决战，途中讨论环境与目标，展现冒险氛围。",
+  "chapter_count": 1
+}

@@ -1,0 +1,45 @@
+{
+  "title": "奔向黎明",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "王廉寻找天才程序员失败，身心俱疲。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "回到山西老家，人生地不熟。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "途中见煤矿开发景象，加深失落感。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "未明确危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "未明确高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "未明确解决。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "四十八岁的王廉寻找天才程序员未果，回到阔别百年的山西老家，途中目睹乡村煤矿开发景象，内心充满失落与对未来的迷茫。",
+  "chapter_count": 1
+}

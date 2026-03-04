@@ -4,45 +4,8 @@
   "language": "zh",
   "genre": "玄幻",
   "structure": {
-    "beats": [
-      {
-        "id": 1,
-        "name": "beat_1",
-        "desc": "世界神明大战爆发，创世神重伤。"
-      },
-      {
-        "id": 2,
-        "name": "beat_2",
-        "desc": "破坏神重创创世神，局势逆转。"
-      },
-      {
-        "id": 3,
-        "name": "beat_3",
-        "desc": "创世神释放能量反击。"
-      },
-      {
-        "id": 4,
-        "name": "beat_4",
-        "desc": "破坏神设下陷阱，局势危急。"
-      },
-      {
-        "id": 5,
-        "name": "beat_5",
-        "desc": "创世神与破坏神最终对决。"
-      },
-      {
-        "id": 6,
-        "name": "beat_6",
-        "desc": "战斗结果待定。"
-      }
-    ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "beats": [],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +20,6 @@
       0.3
     ]
   },
-  "summary": "世界神明大战，创世神被破坏神重创，双方展开激烈对决，天使恶魔混战，场面宏大惨烈。",
+  "summary": "创世神与破坏神大陆决战，双方神明及信徒厮杀，破坏神反杀创世神，世界陷入混乱。",
   "chapter_count": 1
 }

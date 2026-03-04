@@ -1,57 +1,62 @@
 {
   "title": "我们是冠军",
-  "author": "未知",
+  "author": "佚名",
   "language": "zh",
-  "genre": "都市",
+  "genre": "都市/体育",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "预告片开场，展现足球魅力。"
+        "desc": "足球场上的神秘青年杨攀；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "杨攀在AC米兰的突破射门。"
+        "desc": "进球庆祝引发关注；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "杨攀在切尔西替补出场。"
+        "desc": "获得球队信任；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "梅阿查球场进球引发骚动。"
+        "desc": "面临技术挑战；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "杨攀在斯坦福桥的精彩表现。"
+        "desc": "绝杀进球；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "预告片结尾，暗示杨攀的传奇生涯。"
+        "desc": "战胜对手"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
-      0.4,
       0.5,
       0.7,
-      0.8,
       0.9,
       1.0,
       0.7,
-      0.5
+      0.5,
+      0.3
     ]
   },
-  "summary": "天才足球运动员杨攀在AC米兰和切尔西的精彩表现片段。",
-  "chapter_count": 1
+  "summary": "预告篇展现主角杨攀在足球场上的天赋，通过速度、力量和技术三个片段，预示他将带领球队创造奇迹。",
+  "chapter_count": 0
 }

@@ -1,0 +1,62 @@
+{
+  "title": "紫虚真龙",
+  "author": "",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现龙脉异常。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇守护者。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "进入龙域核心。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "触发古老禁制。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与真龙对抗。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "危机暂时解除。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "龙脉传说引发神秘事件，藏族神山现异象，探险者揭开龙域秘密，遭遇守护者与危机。",
+  "chapter_count": 1
+}

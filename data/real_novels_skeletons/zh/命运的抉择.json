@@ -1,0 +1,31 @@
+{
+  "title": "命运的抉择",
+  "author": "黑色柳丁",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "大学生孙露送弹弓至神秘老宅，意外触动异常罗盘，阿婆警告引发危机，揭开隐藏秘密。",
+  "chapter_count": 1
+}

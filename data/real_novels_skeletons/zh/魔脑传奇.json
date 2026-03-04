@@ -2,47 +2,41 @@
   "title": "魔脑传奇",
   "author": "皓月星灯",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "科幻/都市/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "少年被激活获得超能力。"
+        "desc": "实验事故男孩死亡却奇迹存活"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "被绑架威胁。"
+        "desc": "超智力觉醒引发多方关注"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "初步掌握能力。"
+        "desc": "初步掌握科技力量崭露头角"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面临国家危机。"
+        "desc": "危机逼近团队面临威胁"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终决战。"
+        "desc": "终极对决对抗幕后黑手"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为国家领袖。"
+        "desc": "平衡力量与责任的抉择"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "实验事故催生超能力少年，他带领国家崛起却面临阴谋挑战。",
-  "chapter_count": 1
+  "summary": "医学实验意外导致男孩死亡却奇迹存活，他凭借超凡智慧带领国家崛起，却在阴谋中面临终极挑战。",
+  "chapter_count": 0
 }

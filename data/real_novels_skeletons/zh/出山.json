@@ -1,0 +1,62 @@
+{
+  "title": "出山",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "仙侠",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "师父布置炼阴丹任务"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "王浩尝试失败"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "得到师父指点"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "发现阴丹需阴魂"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "成功炼制阴丹"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "危机解除"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "少年炼丹师王浩首次尝试炼制阴丹，遭遇失败后得到师父指点，准备迎接更大的挑战。",
+  "chapter_count": 1
+}

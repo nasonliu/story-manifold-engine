@@ -1,0 +1,62 @@
+{
+  "title": "终身制职业",
+  "author": "",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "对传统武术修炼周期长的反思；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "格斗技术速成班的定义；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "提出格斗五原则；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "强调格斗的危险性；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "总结格斗原则；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "强调格斗技巧的实用性"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "探讨实用格斗技巧，强调速效杀伤原则，抛弃传统武术花哨动作。",
+  "chapter_count": 0
+}

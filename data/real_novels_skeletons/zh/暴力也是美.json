@@ -1,14 +1,56 @@
 {
   "title": "暴力也是美",
-  "author": "佚名",
+  "author": "未知",
   "language": "zh",
-  "genre": "都市",
+  "genre": "都市/冒险",
   "structure": {
-    "beats": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "胖槐与少当家首次打劫成功。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "少当家发明投石机策略。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "胖槐崇拜少当家。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "恐龙美女问题出现。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "打劫高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功解决。"
+      }
+    ],
     "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": []
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
   },
-  "summary": "马匪胖槐追随有才少当家打劫，两人性格对比鲜明，少当家发明新词汇，故事展现山寨生活片段。",
+  "summary": "马匪胖槐与少当家打劫，少当家发明投石机策略，众人崇拜其智慧与魅力。",
   "chapter_count": 1
 }

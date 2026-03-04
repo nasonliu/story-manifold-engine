@@ -2,38 +2,38 @@
   "title": "梦幻城",
   "author": "佚名",
   "language": "zh",
-  "genre": "都市",
+  "genre": "科幻/爱情",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "天痕遭遇一连串倒霉事。"
+        "desc": "天痕遭遇意外，处女恋情破灭；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遇到神秘女子邀请。"
+        "desc": "遇到神秘女子，进入梦幻城；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "决定进入梦幻城。"
+        "desc": "发现星球秘密；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "感到危机临近。"
+        "desc": "危机出现；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "在梦幻城中面临抉择。"
+        "desc": "最终对决；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成功摆脱困境。"
+        "desc": "解决问题，获得成长"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "天痕遭遇一连串倒霉事，被神秘女子邀请进入梦幻城，面临未知与诱惑。",
-  "chapter_count": 10
+  "summary": "失意学生天痕在梦幻城偶遇神秘女子，经历一系列奇幻事件，揭开星球秘密，寻找情感归宿。",
+  "chapter_count": 0
 }

@@ -2,41 +2,47 @@
   "title": "网游-梦幻现实",
   "author": "云天空",
   "language": "zh",
-  "genre": "游戏",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角被误会意图不轨，遭拽衣质问。"
+        "desc": "主角被指控意图不轨遭殴打。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "对方揭露夜间通行秘密。"
+        "desc": "揭露误会，主角仅是偶遇。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "主角试图解释被打断。"
+        "desc": "主角进入游戏世界。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "冲突升级，对方威胁。"
+        "desc": "游戏中遭遇强大敌人。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "主角面临被纠缠危机。"
+        "desc": "主角在高潮中击败敌人。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "寻求脱身或反击机会。"
+        "desc": "主角洗清误会，获得成长。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角因看美女被误会意图不轨，遭殴打后逃跑，被拽住质问，故事围绕误会与冲突展开。",
-  "chapter_count": 1
+  "summary": "主角因误会遭殴打，揭露实则偶遇任清雅，被迫进入游戏世界展开冒险。",
+  "chapter_count": 10
 }

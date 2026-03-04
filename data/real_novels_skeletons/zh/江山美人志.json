@@ -2,38 +2,38 @@
   "title": "江山美人志",
   "author": "瑞根",
   "language": "zh",
-  "genre": "历史/军事",
+  "genre": "历史",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角成长起步；"
+        "desc": "少年从军，崭露头角。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "军事冲突爆发；"
+        "desc": "西北鏖兵，初战告捷。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "国家崛起；"
+        "desc": "封侯拜相，权倾朝野。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "霸业奠基；"
+        "desc": "暗流涌动，危机四伏。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "霸业扩张；"
+        "desc": "决战西北，奠定霸业。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "结局稳定。"
+        "desc": "朝堂纷争，稳固统治。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "英雄人物在乱世中崛起，经历战争、权谋与情感纠葛，最终奠定霸业。",
-  "chapter_count": 20
+  "summary": "乱世英雄崛起，权谋与战争交织，少年成长为军事领袖，守护国家命运。",
+  "chapter_count": 15
 }

@@ -2,38 +2,38 @@
   "title": "升龙道",
   "author": "血红",
   "language": "zh",
-  "genre": "玄幻/都市",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "易尘被逐出师门，踏上异国求存之路。"
+        "desc": "易尘被神秘势力追杀。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现神秘力量与自身联系。"
+        "desc": "他决定反击并获得力量。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "初次展现非凡能力。"
+        "desc": "认清敌人并获得盟友。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇致命危机。"
+        "desc": "遭遇更强大的敌人。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "首次接触神秘组织。"
+        "desc": "最终对决。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "决定彻底融入黑暗世界。"
+        "desc": "易尘成功复仇或获得力量。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "被驱逐师门的天才杀手易尘，在伦敦追寻神秘力量，卷入黑暗势力的冲突与阴谋。",
-  "chapter_count": 100
+  "summary": "被驱逐师门的天才少年在伦敦遭遇追杀，开启复仇之路。",
+  "chapter_count": 0
 }

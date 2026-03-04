@@ -2,38 +2,38 @@
   "title": "战国杂家吕不韦",
   "author": "逆天妖孽",
   "language": "zh",
-  "genre": "历史/武侠",
+  "genre": "历史/玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "少年穿越战国，觉醒武道天赋"
+        "desc": "少年发现神秘功法"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现诸子百家皆修武"
+        "desc": "功法来历之谜"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "揭露长平之战真相"
+        "desc": "掌握基础武技"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "神医扁鹊传承现世"
+        "desc": "身份暴露危机"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "诸子百家联合抗暴秦"
+        "desc": "最终对决反派"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "天才少年封神立派"
+        "desc": "功法圆满"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "拥有逆天武道天赋的少年穿越战国，卷入诸子百家争鸣与权谋漩涡，探寻长平之战真相，颠覆世人认知。",
-  "chapter_count": 10
+  "summary": "少年天才在战国乱世中觉醒神秘功法，揭开诸子百家修武的秘密，探寻长平之战真相。",
+  "chapter_count": 100
 }

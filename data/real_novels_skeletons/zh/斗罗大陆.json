@@ -1,6 +1,6 @@
 {
   "title": "斗罗大陆",
-  "author": "唐家三少",
+  "author": "网络同人作者",
   "language": "zh",
   "genre": "玄幻",
   "structure": {
@@ -8,49 +8,40 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "完成暗器作品；"
+        "desc": "唐三完成唐门巅峰暗器，准备离开。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "面对内门危机；"
+        "desc": "被内门长老发现并质问。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "决定放弃暗器；"
+        "desc": "获得穿越异世界的奇遇。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "被判定违反门规；"
+        "desc": "面临门规与现实的抉择危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "穿越斗罗世界；"
+        "desc": "利用武魂力量在异世界崛起。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "获得双生武魂"
+        "desc": "成为强大魂师，守护伙伴与世界。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.0
+    ],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.5,
-      0.7,
-      0.9,
-      1.0,
-      0.8,
-      0.6,
-      0.4
-    ]
+    "tension_curve": []
   },
-  "summary": "唐门弟子唐三完成巅峰暗器，面临门规抉择，意外穿越斗罗世界，开启全新传奇。",
-  "chapter_count": 10
+  "summary": "唐门弟子唐三为突破暗器制作瓶颈，意外穿越到异世界，获得双生武魂，从此踏上修炼之路，与伙伴们共同成长，对抗强敌。",
+  "chapter_count": 0
 }

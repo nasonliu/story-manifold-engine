@@ -1,0 +1,25 @@
+{
+  "title": "网游之近战法师",
+  "author": "",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "网游小说，讲述法师角色在游戏中通过属性分配和PK系统展开冒险，揭示职业优劣与战斗规则。",
+  "chapter_count": 0
+}

@@ -1,0 +1,57 @@
+{
+  "title": "激动风暴",
+  "author": "骷髅精灵",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "王子发现地球终极秘密。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "掌握机甲技术。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "小金进化。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "玛雅帝国停止发展真相揭露。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "与玛雅帝国决战。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "揭开地球秘密，开启新纪元。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.8,
+      0.6,
+      0.4,
+      0.2
+    ]
+  },
+  "summary": "少年王子与机器人小金发现玛雅帝国隐藏的地球终极秘密，一场关于机甲的星际战争热血展开。",
+  "chapter_count": 0
+}

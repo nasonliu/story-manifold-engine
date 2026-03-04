@@ -1,0 +1,31 @@
+{
+  "title": "天下之弱者的反击",
+  "author": "流浪的风",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "平凡青年不甘平凡，努力拼搏却屡遭挫折，最终寻求反击的故事。",
+  "chapter_count": 1
+}

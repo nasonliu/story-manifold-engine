@@ -1,0 +1,62 @@
+{
+  "title": "恶汉",
+  "author": "庚新",
+  "language": "zh",
+  "genre": "历史",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "重生为董卓之子；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现身份与敌意；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "认清生存危机；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "被视为灾祸；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "决定改变历史；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "开始复仇行动"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "现代护林员重生为三国恶汉之子，背负家族仇恨与生存危机，在乱世中挣扎求生。",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "网游之格斗——战无不胜",
+  "author": "",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角构思格斗网游模式；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "引入武侠元素；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "游戏初步成功；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "面临技术或竞争危机；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "游戏上线高潮；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功验证理念"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "主角通过格斗网游展示能力，结合武侠元素，探索非运气型成功路径。",
+  "chapter_count": 1
+}

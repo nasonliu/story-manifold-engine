@@ -1,0 +1,62 @@
+{
+  "title": "地球online",
+  "author": "安迪·柯蒂斯",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "发现世界是虚拟的"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "少年军团单位觉醒"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "与系统对抗"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "现实即将崩溃"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终决战"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "重置世界"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "未来地球被虚拟化，少年军人发现现实只是程序，必须反抗系统控制，拯救人类。",
+  "chapter_count": 20
+}

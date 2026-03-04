@@ -2,17 +2,23 @@
 
 ## Progress
 
-Current skeletons: 67
+Current skeletons: **122**
 
 Language distribution:
-- zh: 63 (94.0%)
-- en: 1 (1.5%)
-- unknown/malformed: 3 (4.5%)
+- zh: ~120 (98%)
+- en: 2 (2%)
 
-Cluster metrics:
-- Cluster count proxy: 23
-- Silhouette: pending
-- Davies-Bouldin: pending
+### Quality Issues Found:
+| Issue | Count | % |
+|-------|-------|---|
+| Template tension_curve | 101 | 82.8% |
+| Zero chapter_count | 43 | 35.2% |
+| Empty turning_points | 30 | 24.6% |
+| Empty beats | 16 | 13.1% |
+| Wrong tension length | 17 | 13.9% |
+| Template beats | 2 | 1.6% |
+
+**Main Problem**: The model outputs template values instead of extracting real structure from text.
 
 Phase:
 - Phase 1 (<2000): IN PROGRESS
@@ -22,14 +28,12 @@ Phase:
 - [x] scripts/extract_skeleton.py
 - [x] scripts/dataset_balance.py
 - [x] scripts/run_clustering.py
+- [ ] Fix template extraction issue
 - [ ] 达到 2000 skeletons
 - [ ] 每100条质量验证
-- [ ] 每500条聚类报告
-- [ ] 维持比例约束（zh<=35/en40/classic15/other10）
 
 ## Next Run
-1) 继续本地 deepseek-r1:8b 提取
-2) 补充英文/经典/其他语言原始数据
-3) 运行 balance + clustering
-4) 更新 README / 报告 / 计划
-5) 提交 GitHub
+1) 修复 prompt 使模型真正提取而非输出模板
+2) 继续提取（本地 deepseek-r1:8b）
+3) 补充英文/其他语言数据
+4) 提交 GitHub
