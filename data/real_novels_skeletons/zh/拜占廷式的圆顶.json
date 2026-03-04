@@ -1,48 +1,42 @@
 {
-  "title": "旧照片里的女子",
-  "author": "一休さん",
+  "title": "拜占廷式的圆顶",
+  "author": "蔡骏",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "发现旧照片，引发好奇；"
+        "desc": "少年搬入公寓开始观察圆顶；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "开始调查女子身份；"
+        "desc": "女孩借窗作画引发互动；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "深入挖掘照片背后的故事；"
+        "desc": "两人对圆顶共鸣触动内心；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遇到阻碍或危险；"
+        "desc": "少年意识到自身恐惧与渴望；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "解决谜团；"
+        "desc": "圆顶成为他逃避现实的象征；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "揭露真相。"
+        "desc": "故事未完成，悬念留白"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "发现旧照片中的神秘女子，引发对过去事件的回忆与探索。",
+  "summary": "轮椅少年守望教堂圆顶，邂逅女孩后内心渴望自由，却因恐惧而逃避现实。",
   "chapter_count": 1
 }

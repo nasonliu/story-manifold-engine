@@ -1,48 +1,42 @@
 {
   "title": "荒村",
-  "author": "佚名",
+  "author": "我（第一人称叙述者）",
   "language": "zh",
-  "genre": "悬疑",
+  "genre": "悬疑/都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "签售会遇神秘女子，引导发现荒村。"
+        "desc": "签售会遇小枝"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "初入荒村，遭遇超自然现象。"
+        "desc": "小枝提及荒村"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "揭示荒村历史与秘密。"
+        "desc": "回忆《幽灵客栈》"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面对致命危机。"
+        "desc": "发现现实与虚构的界限模糊"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对抗。"
+        "desc": "面对未知的恐怖"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解开谜团，主角成长。"
+        "desc": "揭开荒村的秘密"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "神秘女子引导主角发现荒村秘密，经历超自然事件，揭开惊人真相。",
+  "summary": "签售会上遇神秘女孩小枝，随后经历一系列离奇事件，与虚构中的荒村产生诡异联系。",
   "chapter_count": 0
 }

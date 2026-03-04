@@ -1,48 +1,42 @@
 {
   "title": "蝴蝶公墓的约定",
-  "author": "",
+  "author": "佚名",
   "language": "zh",
-  "genre": "奇幻/都市",
+  "genre": "奇幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "吸血鬼复活"
+        "desc": "吸血鬼复活，引发众人恐慌。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "柳笆被吸血鬼盯上"
+        "desc": "柳笆成为目击者，揭开神秘面纱。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "柳笆目击吸血鬼"
+        "desc": "柳笆对吸血鬼产生好奇与迷恋。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "其他病友也看到"
+        "desc": "暗示背后有更深层的阴谋。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "吸血鬼消失"
+        "desc": "柳笆决心探寻真相。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "众人惊魂未定"
+        "desc": "吸血鬼被驱逐或暂时封印。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "三千年后，吸血鬼在现代病房复活，女学生柳笆意外目击，其他病友惊恐万分。",
-  "chapter_count": 0
+  "summary": "三千年前的约定，今夜吸血鬼复活，少女柳笆意外目击，揭开地底潜伏千年的秘密，一场跨越生死的重逢即将展开。",
+  "chapter_count": 1
 }

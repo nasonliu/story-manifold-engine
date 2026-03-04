@@ -1,6 +1,6 @@
 {
   "title": "星辰变",
-  "author": "",
+  "author": "牧童",
   "language": "zh",
   "genre": "玄幻",
   "structure": {
@@ -8,41 +8,35 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角获得修炼契机，踏上修行之路。"
+        "desc": "主角获得修炼机缘。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "首次遭遇强敌，意识到修炼之路艰难。"
+        "desc": "首次遭遇强敌失败。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "实力小成，开始探索世界。"
+        "desc": "得到神秘人物指点。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇重大危机，几乎陨落。"
+        "desc": "面临灭门危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "突破极限，达到更高境界。"
+        "desc": "在生死关头突破极限。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为一方强者，守护亲友。"
+        "desc": "最终成为至尊强者。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角在异世界修炼成长，经历重重磨难，最终成为强者的故事。",
+  "summary": "主角在异世界修炼成长，经历重重磨难，最终成为强者。",
   "chapter_count": 0
 }

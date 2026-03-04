@@ -1,39 +1,39 @@
 {
   "title": "神在看着你",
-  "author": "马原",
+  "author": "",
   "language": "zh",
-  "genre": "恐怖/悬疑/超自然",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "发现白骨引发超自然事件"
+        "desc": "命运傍晚外出；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇幽灵"
+        "desc": "发现地下白骨；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "揭开自身与死亡的联系"
+        "desc": "意识到自己幸运；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面临终极恐惧"
+        "desc": "遭遇幽灵；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与幽灵对抗"
+        "desc": "面对超自然现象；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "获得启示"
+        "desc": "暂时逃脱。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角马达在地下发现白骨并遭遇幽灵，被迫面对超自然力量，揭开自身与死亡的联系。",
-  "chapter_count": 0
+  "summary": "主角从坟墓中爬出，发现白骨并遭遇超自然现象，展开一系列离奇经历。",
+  "chapter_count": 1
 }
