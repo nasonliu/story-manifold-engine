@@ -1,0 +1,62 @@
+{
+  "title": "游戏FAQ解答集",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无情节事件"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无转折点"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "中点"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "危机"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "高潮"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "游戏FAQ解答集，解答玩家在游戏中遇到的各类问题，包括职业赛奖品、游戏机制、属性设置等。",
+  "chapter_count": 8
+}

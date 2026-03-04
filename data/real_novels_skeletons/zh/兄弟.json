@@ -2,47 +2,41 @@
   "title": "兄弟",
   "author": "未知",
   "language": "zh",
-  "genre": "仙侠",
+  "genre": "都市/爱情",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角与兄弟的日常互动。"
+        "desc": "林大公子与小娇儿互动，提及梳拢妹妹。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "外部事件引发误会。"
+        "desc": "黑狗干扰，林大公子咒骂。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "兄弟间情感的升温。"
+        "desc": "老三被唤醒准备同行。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "误会加深，兄弟关系破裂。"
+        "desc": "远处歌声响起，暗示更多人物。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "高潮：兄弟联手解决危机。"
+        "desc": "林大公子决定回府。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "误会解除，兄弟情谊更加深厚。"
+        "desc": "马车准备出发，故事展开。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "兄弟情深，江湖恩怨，一场误会揭开兄弟间的信任危机。",
-  "chapter_count": 1
+  "summary": "林大公子与小娇儿互动，提及兄弟情愫，黑狗干扰引发冲突，老三被唤醒准备同行。",
+  "chapter_count": 0
 }

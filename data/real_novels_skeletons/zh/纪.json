@@ -1,0 +1,56 @@
+{
+  "title": "纪",
+  "author": "未知",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "邪影觉醒元神，获得枪神称号；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "国战爆发，势力初具规模；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "收服益州，势力扩张；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "敌对势力反扑，危机四伏；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终决战，东帝真龙印现世；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "一统天下，建立新秩序。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "真实游戏巅峰，与现实平行的玄幻空间，三国争霸，国战对决，英雄激斗，玩家与NPC共同征战天下。",
+  "chapter_count": 770
+}

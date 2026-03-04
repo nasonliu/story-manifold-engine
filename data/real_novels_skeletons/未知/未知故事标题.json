@@ -1,14 +1,14 @@
 {
   "title": "未知故事标题",
-  "author": "未知作者",
+  "author": "未知作者名",
   "language": "未知",
-  "genre": "未知",
+  "genre": "未知 (无法判断类型)",
   "structure": {
     "beats": [],
     "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": []
   },
-  "summary": "无法提取有效故事概要",
+  "summary": "文本无法解析，无法生成概要。",
   "chapter_count": 0
 }

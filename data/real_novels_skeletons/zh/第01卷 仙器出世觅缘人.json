@@ -1,0 +1,62 @@
+{
+  "title": "第01卷 仙器出世觅缘人",
+  "author": "未知",
+  "language": "zh",
+  "genre": "仙侠",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "少年进入乌风林寻找仙器。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇妖兽陷入危机。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得能力暂时脱险。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "面临更强大敌人。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决妖兽。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "少年成长解决危机。"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "少年进入禁地乌风林寻找仙器，遭遇妖兽，揭开神秘传说。",
+  "chapter_count": 0
+}

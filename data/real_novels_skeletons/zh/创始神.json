@@ -1,0 +1,62 @@
+{
+  "title": "创始神",
+  "author": "",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "创世神无意创造世界；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "神明与人类诞生；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "创世神夫妇离开；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "神明争夺地盘；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "世界陷入混乱；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "神明与人类自生自灭"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "创世神夫妇创造世界与神明，后因无聊离去，神明与人类争夺地盘，世界陷入混乱。",
+  "chapter_count": 0
+}

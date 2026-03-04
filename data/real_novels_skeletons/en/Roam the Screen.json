@@ -1,0 +1,62 @@
+{
+  "title": "Roam the Screen",
+  "author": "Unknown",
+  "language": "en",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "Protagonist discovers the digital anomaly."
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "First encounter with the system's guardian."
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "Gains allies within the simulation."
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "System begins to collapse."
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "Final confrontation with the creator."
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "Achieves freedom or resets the system."
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "In a digital world, a protagonist navigates through simulated realities, facing challenges from the system's core.",
+  "chapter_count": 10
+}

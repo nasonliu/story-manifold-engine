@@ -1,48 +1,42 @@
 {
   "title": "房府之二男",
-  "author": "",
+  "author": "未知",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "穿越者房俊醒来，得知自己是房家二少爷。"
+        "desc": "穿越成房家傻子，身体异变被赐婚威胁；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "房俊担忧被高阳公主选中。"
+        "desc": "朝堂流言引发家族猜忌；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "房俊思考穿越原因。"
+        "desc": "高阳公主召见危机初现；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "房俊接受现实，准备应对未来。"
+        "desc": "被选中戴绿帽的绝望；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "房俊回忆穿越前生活。"
+        "desc": "用现代知识化解危机；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "房俊决定改变命运。"
+        "desc": "与高阳公主达成利益平衡"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "穿越者房俊担心被高阳公主选中，内心焦虑，展开穿越后的思考与应对。",
-  "chapter_count": 1
+  "summary": "现代教师穿越成唐朝房家二少爷，因身体异变被赐婚危机，被迫卷入宫廷权谋与家族纷争。",
+  "chapter_count": 0
 }

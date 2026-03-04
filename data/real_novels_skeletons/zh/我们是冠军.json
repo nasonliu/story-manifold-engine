@@ -1,62 +1,57 @@
 {
   "title": "我们是冠军",
-  "author": "易初",
+  "author": "未提供",
   "language": "zh",
-  "genre": "都市",
+  "genre": "体育竞技",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "杨攀转会AC米兰首秀破门"
+        "desc": "杨攀转会AC米兰崭露头角。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "切尔西替补登场亮相"
+        "desc": "国际米兰后卫卡纳瓦罗无法阻止突破。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "比赛中展现足球天赋"
+        "desc": "进球引爆全场欢呼。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "射门击中门柱危机"
+        "desc": "进球后比赛结束。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "进球引爆全场欢呼"
+        "desc": "利物浦替补登场。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "球迷认可主角身份"
+        "desc": "未提供。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
-    "climax_position": 0.7,
+    "turning_points": [],
+    "climax_position": 0.5,
     "tension_curve": [
+      0.0,
       0.1,
-      0.2,
       0.3,
       0.5,
       0.7,
+      0.8,
       0.9,
-      1.0,
       0.7,
       0.5,
-      0.3
+      0.3,
+      0.1
     ]
   },
-  "summary": "预告篇展示主角杨攀在足球领域的天赋，通过速度、力量和技术的片段式表现，预示其传奇生涯的开端。",
-  "chapter_count": 1
+  "summary": "预告篇展示主角杨攀在足球场上的惊人速度、力量和技术，刚转会AC米兰即获认可，梅阿查球场上演精彩进球。",
+  "chapter_count": 0
 }
