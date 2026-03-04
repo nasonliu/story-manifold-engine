@@ -1,0 +1,62 @@
+{
+  "title": "荒村公寓",
+  "author": "蔡骏",
+  "language": "zh",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "租客入住荒村公寓"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "发现诡异现象"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "遭遇超自然事件"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "危及生命安全"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对抗"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解开谜团"
+      }
+    ],
+    "turning_points": [
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      0.9
+    ],
+    "climax_position": 0.8,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.8,
+      0.6,
+      0.4
+    ]
+  },
+  "summary": "记录都市青年遭遇诡异事件，逐步揭开荒村背后的恐怖秘密。",
+  "chapter_count": 20
+}

@@ -1,0 +1,63 @@
+{
+  "title": "天机·第四季：末日审判",
+  "author": "蔡骏",
+  "language": "zh",
+  "genre": "悬疑",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "司机被杀，叶萧开始调查。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "叶萧冲上楼寻找凶手。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "叶萧发现线索。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "叶萧陷入危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "叶萧与凶手对峙。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "真相被揭露。"
+      }
+    ],
+    "turning_points": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.0,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ]
+  },
+  "summary": "叶萧警官调查司机被枪杀案，凶手藏身于警察局大楼。",
+  "chapter_count": 10
+}

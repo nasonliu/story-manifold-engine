@@ -1,0 +1,45 @@
+{
+  "title": "坏小孩",
+  "author": "紫金陈",
+  "language": "zh",
+  "genre": "犯罪/推理",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "少年策划谋杀；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "谋杀成功；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "孩子们开始调查；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "孩子们发现关键证据；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "孩子们设计反击；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "少年被捕"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "少年策划连环杀人案，却在孩子们的无意拍摄下被设计，展开一场惊人的骗局。",
+  "chapter_count": 70
+}

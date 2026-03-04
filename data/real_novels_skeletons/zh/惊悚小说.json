@@ -1,0 +1,45 @@
+{
+  "title": "惊悚小说",
+  "author": "佚名",
+  "language": "zh",
+  "genre": "悬疑/惊悚",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "收到神秘信件，出现“救救我”的求救信息。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "知道朋友周寒潮病逝，决定去幽灵客栈。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "到达西冷镇邮局，发现幽灵客栈寄出的信件。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "前往幽灵客栈途中，发现小镇异常。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "到达幽灵客栈，揭开谜底。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决事件，找到真相。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "主角叶萧收到神秘信件后，不顾风险前往幽灵客栈调查朋友周旋的失踪，途中发现小镇异常。",
+  "chapter_count": 0
+}

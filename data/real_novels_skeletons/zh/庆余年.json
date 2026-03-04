@@ -1,0 +1,45 @@
+{
+  "title": "庆余年",
+  "author": "猫腻",
+  "language": "zh",
+  "genre": "历史",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "范闲重生异世界，获得特殊能力。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇家族危机，被迫卷入纷争。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "初步展现能力，获得认可。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "敌人步步紧逼，危机加深。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终决战，主角运用智慧与力量化解危机。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "故事结局，主角获得成长与救赎。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "主角范闲在现代背景下运用智慧与权谋，在家族与朝廷间周旋，揭开身世之谜并守护亲人。",
+  "chapter_count": 0
+}

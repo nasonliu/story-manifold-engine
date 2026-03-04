@@ -1,0 +1,56 @@
+{
+  "title": "死光",
+  "author": "Stephen King",
+  "language": "zh",
+  "genre": "都市",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "乔治追逐神秘纸船引发好奇；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "洪水突袭小镇切断交通；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "家庭团聚时发现异常现象；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "暴雨夜出现诡异死亡事件；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "小镇居民接连遭遇怪异死亡；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "乔治与比尔发现纸船背后的超自然力量"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "1957年德里镇洪水肆虐，小男孩乔治追逐神秘纸船，揭开小镇隐藏的超自然恐怖事件，一场家庭与未知力量的对抗即将展开。",
+  "chapter_count": 10
+}
