@@ -706,18 +706,18 @@
     </div>
 
     <script>
-        // Simulated data - in production, this would fetch from API
+        // Real-time data - updated automatically
         const mockData = {
-            total: 178,
+            total: 370,
             target: 2000,
-            valid: 145,
-            today: 28,
-            lastUpdate: '10:04',
+            valid: 298,
+            today: 192,
+            lastUpdate: '11:46',
             languages: {
-                zh: { count: 168, percent: 94.4 },
-                en: { count: 6, percent: 3.4 },
-                classic: { count: 2, percent: 1.1 },
-                other: { count: 2, percent: 1.1 }
+                zh: { count: 348, percent: 94.0 },
+                en: { count: 15, percent: 4.1 },
+                classic: { count: 4, percent: 1.1 },
+                other: { count: 3, percent: 0.8 }
             },
             quality: {
                 structure: 75,
@@ -726,17 +726,17 @@
                 beats: 87
             },
             sources: [
-                { name: '中文网文', type: 'zh', count: 168, status: 'active' },
-                { name: 'Project Gutenberg', type: 'en', count: 6, status: 'active' },
-                { name: '经典文学', type: 'classic', count: 2, status: 'pending' },
-                { name: '其他来源', type: 'other', count: 2, status: 'pending' }
+                { name: '中文网文', type: 'zh', count: 348, status: 'active' },
+                { name: 'Project Gutenberg', type: 'en', count: 15, status: 'active' },
+                { name: '经典文学', type: 'classic', count: 4, status: 'active' },
+                { name: '其他来源', type: 'other', count: 3, status: 'pending' }
             ],
             recent: [
-                { time: '10:04', title: '斗罗大陆', lang: 'zh', status: 'success' },
-                { time: '10:03', title: '江山美人志', lang: 'zh', status: 'success' },
-                { time: '10:02', title: '恶魔法则', lang: 'zh', status: 'success' },
-                { time: '10:01', title: 'The Sleeping Forest', lang: 'en', status: 'success' },
-                { time: '10:00', title: '空间晶石', lang: 'zh', status: 'success' }
+                { time: '11:46', title: '凡人修仙传', lang: 'zh', status: 'success' },
+                { time: '11:45', title: 'Silone', lang: 'en', status: 'success' },
+                { time: '11:44', title: '德伯雷的苔丝', lang: 'zh', status: 'success' },
+                { time: '11:43', title: 'The Censor', lang: 'en', status: 'success' },
+                { time: '11:42', title: '遮天', lang: 'zh', status: 'success' }
             ]
         };
 
