@@ -1,42 +1,48 @@
 {
   "title": "荒村",
-  "author": "我（第一人称叙述者）",
+  "author": "我（或佚名）",
   "language": "zh",
-  "genre": "悬疑/都市",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "签售会遇小枝"
+        "desc": "网友FLASH引发作者思考荒村传说。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "小枝提及荒村"
+        "desc": "神秘人物卷入调查荒村事件。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "回忆《幽灵客栈》"
+        "desc": "发现小说情节与现实重合。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "发现现实与虚构的界限模糊"
+        "desc": "遭遇超自然现象，陷入危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "面对未知的恐怖"
+        "desc": "与神秘人物对抗，揭露真相。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "揭开荒村的秘密"
+        "desc": "事件解决，但留下后续影响。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "签售会上遇神秘女孩小枝，随后经历一系列离奇事件，与虚构中的荒村产生诡异联系。",
-  "chapter_count": 0
+  "summary": "神秘的FLASH引发作者回忆，被卷入调查荒村的超自然事件，经历恐惧与探索，揭开一段离奇真相。",
+  "chapter_count": 10
 }

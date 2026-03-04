@@ -2,41 +2,47 @@
   "title": "肉香",
   "author": "蔡骏",
   "language": "zh",
-  "genre": "悬疑/都市",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "收到家族遗物，好奇翻阅；"
+        "desc": "收到神秘信件，开始阅读。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现书信隐藏的恐惧；"
+        "desc": "发现信件内容与现实相关。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "遭遇超自然现象；"
+        "desc": "开始感受到超自然现象。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "闹鬼危机爆发；"
+        "desc": "发现肉香与死亡有关。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "解决闹鬼事件；"
+        "desc": "面对最终的恐怖。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "主角接受现实"
+        "desc": "主角做出决定或行动。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角收到家族唐朝祖先遗物，发现充满恐惧的文言书信，逐渐卷入超自然事件。",
-  "chapter_count": 1
+  "summary": "主角收到家族唐朝祖先遗物中的神秘信件，逐渐卷入超自然事件，探索肉香背后的恐怖秘密。",
+  "chapter_count": 3
 }

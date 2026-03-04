@@ -1,6 +1,6 @@
 {
   "title": "庆余年",
-  "author": "作者未提及",
+  "author": "",
   "language": "zh",
   "genre": "历史",
   "structure": {
@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角觉醒，踏上修炼之路。"
+        "desc": "主角开始修炼；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇重大挫折，被迫离开。"
+        "desc": "遭遇第一个大boss；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "在新环境找到伙伴。"
+        "desc": "获得重要力量；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "内心挣扎，面临背叛危机。"
+        "desc": "面临生死危机；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对决，战胜强敌。"
+        "desc": "最终对决；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成为一代强者，守护世界。"
+        "desc": "主角战胜敌人。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角在异世界修炼成长，历经磨难，最终成为强者的故事。",
+  "summary": "主角在异世界修炼成长，历经磨难最终成为强者的故事。",
   "chapter_count": 10
 }

@@ -1,6 +1,6 @@
 {
   "title": "神在看着你",
-  "author": "",
+  "author": "佚名",
   "language": "zh",
   "genre": "悬疑",
   "structure": {
@@ -8,55 +8,49 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "命运傍晚外出；"
+        "desc": "那个致命的傍晚鸟鸣异常。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现地下白骨；"
+        "desc": "发现地下埋藏的两具枯骨。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "意识到自己幸运；"
+        "desc": "见到幽灵。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇幽灵；"
+        "desc": "幽灵开始报复。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "面对超自然现象；"
+        "desc": "与幽灵的最终对抗。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "暂时逃脱。"
+        "desc": "主角逃脱，事件告一段落。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
-    "climax_position": 0.7,
+    "turning_points": [],
+    "climax_position": 0.8,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
+      0.4,
       0.5,
+      0.6,
       0.7,
+      0.8,
       0.9,
-      1.0,
-      0.7,
-      0.5,
-      0.3
+      1.0
     ]
   },
-  "summary": "主角从坟墓中爬出，发现白骨并遭遇超自然现象，展开一系列离奇经历。",
-  "chapter_count": 1
+  "summary": "主角从坟墓爬出，发现白骨并听到骨头的语言，随后遭遇幽灵，经历一系列离奇事件。",
+  "chapter_count": 0
 }

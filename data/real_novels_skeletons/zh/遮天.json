@@ -1,6 +1,6 @@
 {
   "title": "遮天",
-  "author": "辰东",
+  "author": "我吃西红柿",
   "language": "zh",
   "genre": "仙侠",
   "structure": {
@@ -8,35 +8,41 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "叶凡觉醒金丹，踏上修行之路。"
+        "desc": "穿越异世界，获得奇遇。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇大能追杀，被迫离开仙域。"
+        "desc": "首次遭遇危机，生死一线。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "成为不朽战皇，掌控一方疆域。"
+        "desc": "得到重要人物指点。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面对宇宙浩劫，世界濒临毁灭。"
+        "desc": "敌人步步紧逼，危机加深。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与狠人大帝决战，生死一线。"
+        "desc": "最终决战，展现实力。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "最终证道成帝，守护诸天万界。"
+        "desc": "成为至尊，守护世界。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "叶凡从凡间踏上修行之路，历经磨难，最终成为至尊强者。",
-  "chapter_count": 0
+  "summary": "主角叶凡穿越到异世界，经历重重磨难，最终成为最强者。",
+  "chapter_count": 50
 }

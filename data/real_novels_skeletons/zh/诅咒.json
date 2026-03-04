@@ -2,42 +2,48 @@
   "title": "诅咒",
   "author": "蔡骏",
   "language": "zh",
-  "genre": "玄幻/都市/科幻",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "江河研究唐代太子头骨后出现幻觉。"
+        "desc": "江河回忆起唐代太子头骨的经历。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "头骨开始移动，江河被困。"
+        "desc": "头骨开始影响江河的生活。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "头骨复活并威胁江河。"
+        "desc": "江河深入调查诅咒的真相。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "头骨要吃掉江河。"
+        "desc": "诅咒危机爆发。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "头骨被封印。"
+        "desc": "江河与诅咒对抗。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "危机暂时解除，但诅咒仍在。"
+        "desc": "诅咒被解除。"
       }
     ],
-    "turning_points": [],
-    "climax_position": 0.9,
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
     "tension_curve": [
       0.1,
       0.2,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "考古学家江河在研究所研究唐代太子头骨后，遭遇超自然现象，头骨开始移动并威胁他的生命安全。",
-  "chapter_count": 1
+  "summary": "主角江河在考古研究所工作，回忆起唐代太子头骨的经历，逐渐卷入神秘诅咒事件。",
+  "chapter_count": 10
 }
