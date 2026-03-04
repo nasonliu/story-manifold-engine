@@ -2,44 +2,17 @@
   "title": "未知标题",
   "author": "未知作者",
   "language": "zh",
-  "genre": "仙侠",
+  "genre": "未知类型",
   "structure": {
-    "beats": [
-      {
-        "id": 1,
-        "name": "beat_1",
-        "desc": "无法提取情节信息。"
-      },
-      {
-        "id": 2,
-        "name": "beat_2",
-        "desc": "无法提取情节信息。"
-      },
-      {
-        "id": 3,
-        "name": "beat_3",
-        "desc": "无法提取情节信息。"
-      },
-      {
-        "id": 4,
-        "name": "beat_4",
-        "desc": "无法提取情节信息。"
-      },
-      {
-        "id": 5,
-        "name": "beat_5",
-        "desc": "无法提取情节信息。"
-      },
-      {
-        "id": 6,
-        "name": "beat_6",
-        "desc": "无法提取情节信息。"
-      }
+    "beats": [],
+    "turning_points": [
+      0.0
     ],
-    "turning_points": [],
-    "climax_position": 0.7,
-    "tension_curve": []
+    "climax_position": 0.0,
+    "tension_curve": [
+      0.0
+    ]
   },
-  "summary": "文本损坏严重，无法提取有效概要。",
+  "summary": "无法提取有效故事内容，文本无法解析。",
   "chapter_count": 0
 }

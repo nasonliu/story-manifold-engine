@@ -1,0 +1,31 @@
+{
+  "title": "未知故事标题",
+  "author": "未知作者名",
+  "language": "zh",
+  "genre": "未知类型",
+  "structure": {
+    "beats": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "无法提取有效故事概要",
+  "chapter_count": 0
+}

@@ -1,0 +1,62 @@
+{
+  "title": "刺客与契丹铁骑",
+  "author": "unknown",
+  "language": "zh",
+  "genre": "历史",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "使者宣旨引发混乱"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "刺客身份揭露"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "营门被攻破"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "主将被杀军心溃散"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "契丹大军攻营"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "战役惨败"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "边关守将李毅接到圣旨后被刺客杀害，契丹趁机攻破大营，展开惨烈战斗。",
+  "chapter_count": 0
+}

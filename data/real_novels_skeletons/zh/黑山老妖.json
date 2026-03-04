@@ -1,62 +1,45 @@
 {
   "title": "黑山老妖",
-  "author": "网络作家",
+  "author": "",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "仙侠",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "王钟准备出门修炼，携带药酒和铁砂。"
+        "desc": "王钟为练功准备，负重赶路。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "王钟遭遇黑山老妖。"
+        "desc": "到达黑山附近，遭遇妖气。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "王钟修炼有成。"
+        "desc": "成功施展铁砂掌击退小妖。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "王钟面临老妖的危机。"
+        "desc": "遭遇黑山老妖，陷入危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "王钟与老妖斗法。"
+        "desc": "最终与老妖展开决战。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "王钟成功斗法。"
+        "desc": "王钟暂时击退老妖，但自身也受重伤。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.5,
-      0.7,
-      0.9,
-      1.0,
-      0.7,
-      0.5,
-      0.3
-    ]
+    "tension_curve": []
   },
-  "summary": "王钟准备出门修炼，携带药酒和铁砂，前往黑山与老妖斗法。",
+  "summary": "王钟为练功，负重赶山，准备铁砂掌秘术，前往黑山应对老妖威胁。",
   "chapter_count": 0
 }

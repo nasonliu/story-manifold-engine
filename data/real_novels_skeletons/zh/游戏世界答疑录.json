@@ -1,0 +1,62 @@
+{
+  "title": "游戏世界答疑录",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "读者提问游戏问题"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "答案揭示设定细节"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "读者理解机制"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "Bug被解释为奖励机制"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "属性成长性说明"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "呼吁读者参与论坛"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "系列游戏设定问答，解答玩家关于游戏机制、Bug、属性等问题，帮助读者理解游戏世界。",
+  "chapter_count": 8
+}

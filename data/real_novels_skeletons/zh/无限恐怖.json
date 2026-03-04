@@ -2,38 +2,38 @@
   "title": "无限恐怖",
   "author": "zhttty",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "悬疑",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角遭遇恐怖事件，开始冒险。"
+        "desc": "作者离开网络界引发思考"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遭遇重大危机，被迫采取行动。"
+        "desc": "发现原创消失被抄袭"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "获得关键能力。"
+        "desc": "创作《无限恐怖》传达新意"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "面临生死危机。"
+        "desc": "行业现状危机四伏"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终决战。"
+        "desc": "通过作品呼吁创新"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解决问题但留下代价。"
+        "desc": "作品引发读者共鸣"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "作者反思网络文学原创消失，创作《无限恐怖》以示挣扎，提倡故事新意。",
+  "summary": "作者反思网络文学黄金时代，创作《无限恐怖》呼吁作品需有新意。",
   "chapter_count": 0
 }

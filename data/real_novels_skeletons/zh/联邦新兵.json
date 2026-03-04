@@ -1,0 +1,62 @@
+{
+  "title": "联邦新兵",
+  "author": "",
+  "language": "zh",
+  "genre": "科幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "插入参军卡开始报到；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "身份验证通过；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "进入新兵营；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "家族单丁政策危机；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "参军成功；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "开始基础训练"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "高考失利的少年唐龙通过基因扫描参军，怀揣元帅梦想，却因家庭和社会因素面临重重阻碍。",
+  "chapter_count": 1
+}

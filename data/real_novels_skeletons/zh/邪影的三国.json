@@ -1,0 +1,25 @@
+{
+  "title": "邪影的三国",
+  "author": "邪影",
+  "language": "zh",
+  "genre": "玄幻/历史",
+  "structure": {
+    "beats": [],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "魔王邪影融合玄幻与三国，率领NPC征战天下，以枪神之姿挑战国战，演绎史诗霸业。",
+  "chapter_count": 770
+}

@@ -1,39 +1,39 @@
 {
   "title": "起点",
-  "author": "",
+  "author": "佚名",
   "language": "zh",
-  "genre": "都市游戏冒险",
+  "genre": "都市/游戏",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "吴起决定参加公测。"
+        "desc": "排队等待游戏公测"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "游戏测试开始。"
+        "desc": "暂未出现"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "排队过程中的思考。"
+        "desc": "暂未出现"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "发现游戏风险。"
+        "desc": "暂未出现"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "进入游戏世界。"
+        "desc": "暂未出现"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "开始新冒险。"
+        "desc": "暂未出现"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "玩家吴起排队等待\"起点\"游戏公测，对新游戏既兴奋又迷茫。",
-  "chapter_count": 1
+  "summary": "吴起为测试新游戏\"起点\"排长队，既兴奋又迷茫，思考游戏与人生的意义。",
+  "chapter_count": 0
 }

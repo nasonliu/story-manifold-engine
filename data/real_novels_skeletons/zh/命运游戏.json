@@ -1,39 +1,39 @@
 {
   "title": "命运游戏",
-  "author": "",
+  "author": "佚名",
   "language": "zh",
-  "genre": "都市游戏",
+  "genre": "科幻/都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角被宣告死亡后进入游戏世界"
+        "desc": "医院苏醒，被告知进入游戏世界。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遇到游戏NPC并了解游戏规则"
+        "desc": "艾迪亚港口外海地小村新手村。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "适应游戏环境并开始探索"
+        "desc": "获得新手装备与指引。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇游戏危机"
+        "desc": "遭遇质疑与引导。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "解决危机获得成长"
+        "desc": "确认游戏世界，寻找记忆碎片。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "主角继续在游戏世界冒险"
+        "desc": "初步掌握游戏规则，开始冒险。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "主角在医院被宣告死亡，进入名为命运游戏的虚拟世界，开始新手冒险。",
-  "chapter_count": 0
+  "summary": "医院苏醒后接入神秘游戏世界，新手村中迷茫探索身份与现实。",
+  "chapter_count": 3
 }

@@ -1,0 +1,62 @@
+{
+  "title": "游戏设定问答集",
+  "author": "未知",
+  "language": "zh",
+  "genre": "游戏",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无激励事件描述"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无第一个转折点描述"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "无中点描述"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无危机描述"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无高潮描述"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无解决描述"
+      }
+    ],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "收录游戏机制相关问答，解答职业、物品、系统设定等，提供玩家操作指南。",
+  "chapter_count": 7
+}

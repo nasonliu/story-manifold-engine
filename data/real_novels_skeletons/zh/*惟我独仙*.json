@@ -1,0 +1,56 @@
+{
+  "title": "*惟我独仙*",
+  "author": "唐家三少",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "少年遭仇敌追杀，生死危机显现；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "突破重劫，获得力量；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "击败仇敌，确立地位；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "强敌伏诛，危机解除；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "绝对力量展现，奠定主角地位；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "仇敌败亡，主角踏上新征途。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": [
+      0.1,
+      0.2,
+      0.3,
+      0.5,
+      0.7,
+      0.9,
+      1.0,
+      0.7,
+      0.5,
+      0.3
+    ]
+  },
+  "summary": "少年突遭仇敌追杀，突破重劫后显露仙体，以绝对力量击溃强敌，开启修仙之路。",
+  "chapter_count": 0
+}

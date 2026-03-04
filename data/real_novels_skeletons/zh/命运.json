@@ -1,8 +1,8 @@
 {
   "title": "命运",
-  "author": "佚名",
+  "author": "",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "游戏",
   "structure": {
     "beats": [],
     "turning_points": [
@@ -26,6 +26,6 @@
       0.3
     ]
   },
-  "summary": "主角在医院濒死后进入虚拟游戏世界，成为新手玩家，探索未知的冒险。",
+  "summary": "主角意外进入虚拟游戏世界，探索村庄，结识玩家，逐渐适应规则，揭开现实与虚拟的谜团。",
   "chapter_count": 2
 }

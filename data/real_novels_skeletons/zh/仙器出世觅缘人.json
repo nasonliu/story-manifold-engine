@@ -1,6 +1,6 @@
 {
   "title": "仙器出世觅缘人",
-  "author": "佚名",
+  "author": "未知",
   "language": "zh",
   "genre": "仙侠",
   "structure": {
@@ -8,35 +8,41 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "少年为寻福地宝物闯禁地；"
+        "desc": "少年进入乌风林，决定探寻仙器。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现古洞现异象；"
+        "desc": "遇到妖兽，被迫战斗。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "获得仙缘开启金光；"
+        "desc": "与同伴合作，暂时击退妖兽。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "妖兽突袭危机四伏；"
+        "desc": "妖兽再次袭击，情况恶化。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与仙器共鸣破困；"
+        "desc": "少年使用仙器击败妖兽。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "众人合力化解危机"
+        "desc": "妖兽被制服，少年获得认可。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "富庶茭湖与神秘乌风林，少年入林寻宝，引出仙侠奇缘。",
-  "chapter_count": 10
+  "summary": "少年进入禁地乌风林，探寻仙器，途中遭遇妖兽，揭开鱼澄洞的秘密。",
+  "chapter_count": 0
 }

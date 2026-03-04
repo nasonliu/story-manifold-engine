@@ -1,39 +1,39 @@
 {
   "title": "神奇暑假",
-  "author": "",
+  "author": "网络作家",
   "language": "zh",
-  "genre": "青春",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "放假心情复杂，回忆学习生活。"
+        "desc": "主角结束学业，迎来短暂假期。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "遇见邻家小妹，气氛轻松。"
+        "desc": "遇见变化成熟的邻家妹妹。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "与小妹互动，略有心动。"
+        "desc": "两人度过愉快的暑假时光。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "无明显危机。"
+        "desc": "遭遇某种挑战或冲突。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "高潮未到。"
+        "desc": "故事达到高潮。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "解决未到。"
+        "desc": "两人依依不舍，假期结束。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "高中生在暑假开始时，回忆学习生活，与邻家小妹重逢互动，内心迷茫但略感轻松。",
-  "chapter_count": 0
+  "summary": "高中生江晓雯在暑假与邻家妹妹重逢，展开一段轻松有趣的青春故事。",
+  "chapter_count": 10
 }

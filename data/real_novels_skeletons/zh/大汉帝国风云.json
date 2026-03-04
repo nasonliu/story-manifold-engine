@@ -2,43 +2,41 @@
   "title": "大汉帝国风云",
   "author": "猛子",
   "language": "zh",
-  "genre": "历史",
+  "genre": "历史/战争",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "慕容风叛逃虎都，引发部落震动。"
+        "desc": "激励事件：慕容风叛逃，部落震动。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "未出现。"
+        "desc": "第一个转折点：慕容峰质疑柯最追捕意图。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "未出现。"
+        "desc": "中点：首领们开始怀疑事件真实性。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "未出现。"
+        "desc": "危机：汉奴李弘的强大能力被揭露。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "未出现。"
+        "desc": "高潮：部落决定保持警惕，准备应对可能的危机。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "未出现。"
+        "desc": "解决：追捕行动展开，但尚未有结果。"
       }
     ],
-    "turning_points": [
-      0.1
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -53,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "鲜卑部落首领得知重要人物慕容风被一名汉奴救走叛逃，部落内部展开激烈讨论，决定派出人手追捕。",
-  "chapter_count": 10
+  "summary": "鲜卑部落首领得知重要人物慕容风被汉奴李弘救出虎都，内部矛盾激化，对柯最的追捕令产生质疑。",
+  "chapter_count": 0
 }
