@@ -1,6 +1,6 @@
 {
   "title": "天王",
-  "author": "跳舞",
+  "author": "天王/跳舞",
   "language": "zh",
   "genre": "都市/异能",
   "structure": {
@@ -8,50 +8,52 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "父母死亡留下的神秘电话；"
+        "desc": "收养神秘公主，获得超自然力量；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "收到沉睡异能少女；"
+        "desc": "首次遭遇超自然威胁；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "获得能力开始觉醒；"
+        "desc": "掌握部分能力；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "反派势力初现；"
+        "desc": "敌对势力出现；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "异能全面爆发；"
+        "desc": "最终决战；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "最终守护世界"
+        "desc": "平息风波，开启新生活"
       }
     ],
-    "turning_points": [],
-    "climax_position": 0.7,
+    "turning_points": [
+      0.0
+    ],
+    "climax_position": 0.9,
     "tension_curve": [
       0.1,
       0.2,
       0.3,
       0.5,
       0.7,
-      0.9,
-      1.0,
       0.8,
-      0.6,
-      0.4,
-      0.2
+      0.9,
+      0.7,
+      0.5,
+      0.3,
+      0.1
     ]
   },
-  "summary": "十八岁孤儿陈潇生日接神秘电话，获父母遗留的沉睡异能少女，从此卷入都市异能战争，守护世界平衡。",
-  "chapter_count": 10
+  "summary": "十八岁孤儿陈潇生日当天，接收父母遗留的沉睡公主，从此卷入超自然事件，开启都市异能英雄传奇。",
+  "chapter_count": 0
 }

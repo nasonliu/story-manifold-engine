@@ -1,42 +1,48 @@
 {
   "title": "兽血沸腾",
-  "author": "跳舞",
+  "author": "南派三叔",
   "language": "zh",
-  "genre": "玄幻/冒险",
+  "genre": "冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "刘震撼醒来，发现身体完好，但受伤流血。"
+        "desc": "刘震撼在孤岛上醒来，发现身体异常。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现并吃掉魔蟹，获得力量。"
+        "desc": "与魔狼首次交锋。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "站起来，意识到身处陌生环境。"
+        "desc": "初步适应新环境。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "鼻血危机加剧，急需解决。"
+        "desc": "面临生存危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "面对未知危险，准备迎接高潮。"
+        "desc": "体内力量觉醒。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "找到解决方法，或面临最终抉择。"
+        "desc": "最终战胜危机。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "兽血沸腾：刘震撼孤岛求生，鼻血不止，遭遇魔物，开启冒险旅程。",
-  "chapter_count": 0
+  "summary": "主角刘震撼在孤岛上醒来，发现身体异常，与魔狼搏斗，逐渐适应新环境。",
+  "chapter_count": 3
 }

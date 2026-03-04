@@ -1,39 +1,39 @@
 {
-  "title": "恶魔法则",
-  "author": "跳舞",
+  "title": "仙剑奇侠五：疑难解答",
+  "author": "萧逸",
   "language": "zh",
-  "genre": "玄幻/都市/仙侠",
+  "genre": "都市/游戏",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角被卷入神秘魔法事件。"
+        "desc": "接到第一个游戏任务"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现自己拥有特殊能力。"
+        "desc": "发现游戏漏洞"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "初步掌握并尝试使用能力。"
+        "desc": "获得特殊能力"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "身份或能力被他人窥探。"
+        "desc": "遭遇系统危机"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "面对强大的敌人或危机。"
+        "desc": "最终对决游戏机制"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "成长并最终解决危机。"
+        "desc": "解锁隐藏成就"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "帝国凯旋仪式前的盛大场面与主角被卷入魔法事件的开端。",
-  "chapter_count": 50
+  "summary": "玩家在游戏中遇到各种问题，通过解答获得成长，探索游戏世界奥秘。",
+  "chapter_count": 7
 }

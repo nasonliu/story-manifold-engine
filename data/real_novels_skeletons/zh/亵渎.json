@@ -2,41 +2,47 @@
   "title": "亵渎",
   "author": "烟雨江南",
   "language": "zh",
-  "genre": "都市/奇幻",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "罗格享受暴富生活；"
+        "desc": "红衣主教不安于神殿，察觉供奉异常。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现金币异常与亡灵法师诅咒；"
+        "desc": "探查亡灵法师诅咒根源。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "探索神殿供奉秘密；"
+        "desc": "发现供奉金币被挪用。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "亡灵法师势力威胁浮现；"
+        "desc": "神殿内部权力斗争爆发。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "与亡灵法师及其不死军团决战；"
+        "desc": "红衣主教与幕后黑手正面交锋。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "揭露诅咒真相并化解危机"
+        "desc": "揭露真相，洗刷冤屈。"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "财富过剩的罗格卷入神秘诅咒，揭开供奉金币背后的亡灵法师秘密，展开一场生死交织的奇幻冒险。",
-  "chapter_count": 35
+  "summary": "红衣主教不安于神殿，调查亡灵法师诅咒，揭开供奉金币背后的阴谋。",
+  "chapter_count": 19
 }

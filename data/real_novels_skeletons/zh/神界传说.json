@@ -1,0 +1,45 @@
+{
+  "title": "神界传说",
+  "author": "未知",
+  "language": "zh",
+  "genre": "神话/奇幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "格鲁曼被派往清风平原执行任务。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "与贵族冲突，被迫与重臣结盟。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "重臣们展示各自能力与抱负。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "神明势力介入，局势危机加剧。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "格鲁曼与重臣们面对神明的挑战。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "通过智慧与勇气，解决冲突，确立新的秩序。"
+      }
+    ],
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
+  },
+  "summary": "神明统治下的世界，人类是神明的边角料。主角格鲁曼在清风平原与未来重臣相遇，开启一段关于权力、冒险与可能的反抗的传奇故事。",
+  "chapter_count": 0
+}

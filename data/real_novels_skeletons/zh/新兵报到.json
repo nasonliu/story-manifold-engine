@@ -1,10 +1,41 @@
 {
   "title": "新兵报到",
-  "author": "",
+  "author": "未知",
   "language": "zh",
   "genre": "都市",
   "structure": {
-    "beats": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "插入卡片开始报到；"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "身份验证通过；"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得少尉军衔；"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "高考分数低与家庭阻力；"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "成为元帅的梦想；"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "参军成功"
+      }
+    ],
     "turning_points": [
       0.1,
       0.3,
@@ -26,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "唐龙为实现元帅梦想，克服家庭阻力参军报到，面对新兵营生活，内心充满野心与挑战。",
+  "summary": "唐龙为实现元帅梦想，克服家庭阻力参军，通过身份验证，开始新兵生活。",
   "chapter_count": 1
 }

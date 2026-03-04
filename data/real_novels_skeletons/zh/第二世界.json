@@ -1,24 +1,42 @@
 {
   "title": "第二世界",
-  "author": "未知",
+  "author": "佚名",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "科幻/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "主角开始玩新游戏。"
+        "desc": "主角进入游戏世界。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "决定与朋友一起玩。"
+        "desc": "遇到游戏初期挑战。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "获得初步能力或伙伴。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "游戏出现重大危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "最终对决游戏或外部威胁。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "解决危机，回归现实或达成目标。"
       }
     ],
-    "turning_points": [
-      0.1
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -33,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角生日当天开始玩新虚拟现实游戏，与好友合作，准备进入游戏世界。",
+  "summary": "主角进入虚拟世界\"第二世界\"，与好友合作升级赚钱，探索未知。",
   "chapter_count": 0
 }
