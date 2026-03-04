@@ -2,17 +2,44 @@
   "title": "未知标题",
   "author": "未知作者",
   "language": "zh",
-  "genre": "未知类型",
+  "genre": "科幻",
   "structure": {
-    "beats": [],
-    "turning_points": [
-      0.0
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "无法提取有效内容。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无法提取有效内容。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "无法提取有效内容。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无法提取有效内容。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "无法提取有效内容。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "无法提取有效内容。"
+      }
     ],
-    "climax_position": 0.0,
-    "tension_curve": [
-      0.0
-    ]
+    "turning_points": [],
+    "climax_position": 0.7,
+    "tension_curve": []
   },
-  "summary": "无法提取有效故事内容，文本无法解析。",
+  "summary": "无法提取有效内容，无法生成概要。",
   "chapter_count": 0
 }

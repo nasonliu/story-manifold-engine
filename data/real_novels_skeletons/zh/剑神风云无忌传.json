@@ -1,39 +1,39 @@
 {
-  "title": "天王",
-  "author": "跳舞",
+  "title": "剑神风云无忌传",
+  "author": "百晓生",
   "language": "zh",
-  "genre": "都市/异能",
+  "genre": "玄幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "收到神秘电话获冰柜"
+        "desc": "飞升太古，获得生存机会。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现沉睡女孩"
+        "desc": "老者引导，揭示残酷现实。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "掌握超能力"
+        "desc": "武学突破，达到新境界。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇反派威胁"
+        "desc": "太古时代，生存危机显现。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对决"
+        "desc": "适应环境，寻找生存之道。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "危机解除"
+        "desc": "成功适应，开启新冒险。"
       }
     ],
     "turning_points": [],
@@ -51,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "孤儿陈潇十八岁生日接获神秘电话，收到父母遗留的冰柜，开启都市异能英雄传奇。",
-  "chapter_count": 3
+  "summary": "武道巅峰者突破极限，飞升后发现残酷太古时代，开始生存冒险。",
+  "chapter_count": 10
 }

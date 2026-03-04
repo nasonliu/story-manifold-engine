@@ -2,42 +2,48 @@
   "title": "异界之光脑威龙",
   "author": "苍天白鹤",
   "language": "zh",
-  "genre": "都市/冒险",
+  "genre": "科幻/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "肖恩在麦田发呆被呼唤。"
+        "desc": "肖恩在麦田目睹神秘UFO。"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "肖恩乖巧回家。"
+        "desc": "UFO降落后接触地球。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "父子回忆与现状。"
+        "desc": "肖恩获得特殊能力。"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "父亲担忧儿子性格。"
+        "desc": "外星威胁出现危机。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "暗示外星元素伏笔。"
+        "desc": "与外星人的最终对决。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "故事暂无明确解决。"
+        "desc": "人类与外星人达成和解。"
       }
     ],
-    "turning_points": [],
-    "climax_position": 0.7,
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "climax_position": 0.9,
     "tension_curve": [
       0.1,
       0.2,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "小男孩肖恩在麦田中发呆，父亲呼唤后回家帮忙，回忆亡妻与开垦家园的艰辛，暗藏对儿子不合群的忧虑。",
-  "chapter_count": 1
+  "summary": "少年肖恩在麦田目睹神秘UFO，开启非凡冒险旅程。",
+  "chapter_count": 10
 }

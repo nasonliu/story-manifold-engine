@@ -2,47 +2,41 @@
   "title": "凯旋落魄",
   "author": "",
   "language": "zh",
-  "genre": "奇幻",
+  "genre": "都市",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "魔族溃败，将领们互相指责。"
+        "desc": "罗杰得意魔族溃败引发争论；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "副官找到统帅，发现他在睡觉。"
+        "desc": "紫川秀被叫醒准备应对；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "副官试图叫醒统帅。"
+        "desc": "白川发现大人在睡；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "统帅被吵醒，准备行动。"
+        "desc": "魔族败退可能追击；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "统帅醒来，准备应对。"
+        "desc": "紫川秀即将反击；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "副官确认统帅清醒，准备执行。"
+        "desc": "故事未完成"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "胜利后将领们互相指责，统帅却在睡觉。副官试图叫醒他，最终成功，准备应对后续。",
+  "summary": "魔族溃败，将领争论战果，主角紫川秀昏睡中被唤醒，全军面临未知危机。",
   "chapter_count": 1
 }

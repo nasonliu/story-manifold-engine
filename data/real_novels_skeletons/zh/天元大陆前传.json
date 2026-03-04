@@ -1,0 +1,62 @@
+{
+  "title": "天元大陆前传",
+  "author": "",
+  "language": "zh",
+  "genre": "玄幻",
+  "structure": {
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "暂缺"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "暂缺"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "暂缺"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "暂缺"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "暂缺"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "暂缺"
+      }
+    ],
+    "turning_points": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "climax_position": 0.0,
+    "tension_curve": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "summary": "天元大陆五大势力与神秘教廷的奇幻世界构建，人类与异族共存，光系魔法与神职体系的宏大设定。",
+  "chapter_count": 1
+}

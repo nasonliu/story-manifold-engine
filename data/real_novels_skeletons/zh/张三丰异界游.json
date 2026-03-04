@@ -2,25 +2,44 @@
   "title": "张三丰异界游",
   "author": "写字板",
   "language": "zh",
-  "genre": "玄幻",
+  "genre": "玄幻/冒险",
   "structure": {
-    "beats": [],
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "张三丰功成引太级魂石现，收为关门弟子"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "获神器后云游结识孙悟空"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "遇雅典娜结盟引发神界动荡"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "东西方神族联合剿灭"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "三人性神自爆对抗诸神"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "与诸神同归于尽开启新纪元"
+      }
+    ],
     "turning_points": [],
     "climax_position": 0.7,
-    "tension_curve": [
-      0.1,
-      0.2,
-      0.3,
-      0.4,
-      0.5,
-      0.7,
-      0.9,
-      0.8,
-      0.6,
-      0.4,
-      0.2
-    ]
+    "tension_curve": []
   },
-  "summary": "张三丰携神器入异界，结识孙悟空与雅典娜，引发神战，自爆神力同归于尽，开启后续冒险故事。",
-  "chapter_count": 10
+  "summary": "张三丰携太级魂石等神器，结识孙悟空、雅典娜，引发东西方神战，最终三人自爆同归于尽，开启\"诸神黄昏\"。",
+  "chapter_count": 0
 }

@@ -2,7 +2,7 @@
   "title": "网游之天地",
   "author": "隐为者",
   "language": "zh",
-  "genre": "科幻",
+  "genre": "都市",
   "structure": {
     "beats": [],
     "turning_points": [
@@ -26,6 +26,6 @@
       0.3
     ]
   },
-  "summary": "玩家在虚拟与现实间挣扎，探索生存与身份认同的边界。",
-  "chapter_count": 50
+  "summary": "玩家在虚拟世界中生存冒险，探索真实与虚拟的边界，追求生存与未来。",
+  "chapter_count": 100
 }

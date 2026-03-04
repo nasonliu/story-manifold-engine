@@ -1,42 +1,48 @@
 {
-  "title": "天王",
-  "author": "跳舞",
-  "language": "zh",
-  "genre": "都市/异能",
+  "title": "加密文本分析",
+  "author": "",
+  "language": "en",
+  "genre": "科幻",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "收到神秘电话获冰柜"
+        "desc": "接触加密文本"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "发现沉睡女孩"
+        "desc": "尝试解密"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "掌握超能力"
+        "desc": "理解文本内容"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "遭遇反派威胁"
+        "desc": "面临解密风险"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "最终对决"
+        "desc": "最终解读成功"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "危机解除"
+        "desc": "解密后的应用或结局"
       }
     ],
-    "turning_points": [],
+    "turning_points": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -51,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "孤儿陈潇十八岁生日接获神秘电话，收到父母遗留的冰柜，开启都市异能英雄传奇。",
-  "chapter_count": 3
+  "summary": "一段加密文本的结构分析，揭示了故事的潜在情节和转折点。",
+  "chapter_count": 0
 }

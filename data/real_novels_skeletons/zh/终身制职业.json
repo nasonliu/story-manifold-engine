@@ -1,48 +1,42 @@
 {
   "title": "终身制职业",
-  "author": "佚名",
+  "author": "未知",
   "language": "zh",
-  "genre": "都市",
+  "genre": "都市/冒险",
   "structure": {
     "beats": [
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "传统武术局限性反思"
+        "desc": "主角对格斗技巧产生兴趣；"
       },
       {
         "id": 2,
         "name": "beat_2",
-        "desc": "提出格斗五原则"
+        "desc": "发现传统武术的局限性；"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "详细解析每个原则"
+        "desc": "掌握五项格斗原则；"
       },
       {
         "id": 4,
         "name": "beat_4",
-        "desc": "无危机"
+        "desc": "遭遇实战危机；"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "实战应用总结"
+        "desc": "最终运用技巧反杀；"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "强调技巧训练与实战结合"
+        "desc": "总结经验并继续探索。"
       }
     ],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
-    ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -57,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "探讨实用格斗技巧，强调速效与实战应用，抛弃传统武术花哨动作，注重杀戮效率与生存策略。",
+  "summary": "主角通过格斗技巧探讨提升实战能力，结合环境利用和心理战术，在都市与非日常冲突中寻求生存与突破。",
   "chapter_count": 1
 }

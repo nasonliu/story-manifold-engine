@@ -1,6 +1,6 @@
 {
   "title": "未知故事",
-  "author": "未知",
+  "author": "未知作者",
   "language": "en",
   "genre": "科幻",
   "structure": {
@@ -8,32 +8,32 @@
       {
         "id": 1,
         "name": "beat_1",
-        "desc": "The emergence of strange patterns in"
+        "desc": "无法提取有效信息。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "无法提取有效信息。"
       },
       {
         "id": 3,
         "name": "beat_3",
-        "desc": "The establishment of recurring anomalies in"
+        "desc": "无法提取有效信息。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "无法提取有效信息。"
       },
       {
         "id": 5,
         "name": "beat_5",
-        "desc": "The midpoint where anomalies become more frequent."
+        "desc": "无法提取有效信息。"
       },
       {
         "id": 6,
         "name": "beat_6",
-        "desc": "A significant escalation in"
-      },
-      {
-        "id": 8,
-        "name": "beat_8",
-        "desc": "The climax in 2039 involving major disruptions."
-      },
-      {
-        "id": 9,
-        "name": "beat_9",
-        "desc": "Resolution or adaptation by"
+        "desc": "无法提取有效信息。"
       }
     ],
     "turning_points": [
@@ -57,6 +57,6 @@
       0.3
     ]
   },
-  "summary": "A story with a long time span, featuring repetitive elements and mysterious events unfolding across decades.",
+  "summary": "无法提取有效信息。",
   "chapter_count": 0
 }

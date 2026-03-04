@@ -2,16 +2,41 @@
   "title": "回到三国",
   "author": "佚名",
   "language": "zh",
-  "genre": "历史",
+  "genre": "历史/玄幻",
   "structure": {
-    "beats": [],
-    "turning_points": [
-      0.1,
-      0.3,
-      0.5,
-      0.7,
-      0.9
+    "beats": [
+      {
+        "id": 1,
+        "name": "beat_1",
+        "desc": "主角意外穿越三国时代。"
+      },
+      {
+        "id": 2,
+        "name": "beat_2",
+        "desc": "遭遇当地势力欺压与排挤。"
+      },
+      {
+        "id": 3,
+        "name": "beat_3",
+        "desc": "与牌友建立信任联盟。"
+      },
+      {
+        "id": 4,
+        "name": "beat_4",
+        "desc": "面临敌军围剿与内部叛变危机。"
+      },
+      {
+        "id": 5,
+        "name": "beat_5",
+        "desc": "激烈的守城战高潮。"
+      },
+      {
+        "id": 6,
+        "name": "beat_6",
+        "desc": "成功突围并重建秩序。"
+      }
     ],
+    "turning_points": [],
     "climax_position": 0.7,
     "tension_curve": [
       0.1,
@@ -26,6 +51,6 @@
       0.3
     ]
   },
-  "summary": "主角从现代穿越到三国时代，经历情感挫折后创业成功，现在面临新的挑战。",
-  "chapter_count": 0
+  "summary": "主角意外回到三国时代，凭借现代商业头脑与牌友的智慧，在乱世中寻求生存与发展之路。",
+  "chapter_count": 10
 }
